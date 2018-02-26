@@ -1,0 +1,72 @@
+This list (up to meeting 524b) was compiled from the original minutes
+by Paul Taylor, September 1981.  It was scanned, edited and extended
+by Joseph Myers, November 2002 onwards; the list up to 1981 is
+reproduced from that in the front of the minutes book in REC.11.10 in
+the Wren Library by permission of Paul Taylor and the Wren Library.
+
+From left to right read: meeting number, date, footnotes and other
+societies, speaker, title, venue, page number and attendance.
+
+The other societies with which joint meetings have been held are:
+
+Adams:  St. John's College mathematical society
+M&S:    Magpie and Stump, the Trinity College debating society
+A/M&S:  both Adams and M&S
+MRSTC:  Mathematics research students' T club
+NP:     New Pythagoreans, the mathematical society of Christ's,
+        Downing, Emmanuel, Girton, Caius, Jesus, Sidney Sussex
+        Colleges and Trinity Hall
+TCMS:   Trinity College Music Society
+TCNSS:  Trinity College Natural Sciences Society
+TCSS:   Trinity College Science Society
+
+The footnotes are:
+
+b: business meeting
+c: cricket match or other sporting event (e.g. Punt Race)
+d: dinner
+e: election of officers
+f: debate
+i: inaugural meeting
+m: film night
+n: panel discussion
+o: opera
+p: photograph
+r: recreational (non-sporting, e.g. Call My Bluff, Mornington Crescent)
+t: televised
+v: visit
+
+The venues are as follows; the second letter after an abbreviation for
+one of the College courts indicates the staircase letter and the
+digit(s) the number, where known.
+
+AHSR: Adrian House Seminar Room
+BA,BC,BE: Bishop's Hostel
+BBR: Blue Boar Court
+BBCR: Blue Boar Common Room
+BHPR: Butler House Party Room
+BS: 4A Bridge Street
+CAI: Caius College
+CAM: the river
+CHR: Christ's College
+DAMTP: the Applied Maths dept.
+EMM: Emmanuel College
+GA,GC,GD,GE,GG,GH,GI,GK,GL,GN,GP,GQ,GS: Great Court
+GQ1: the College Bar (1958-1998)
+Hall: Hall
+HA,HB,HD,HF,HI,HL,HM,HO,HY: Whewell's Court
+JCR: Junior Combination Room
+JP: Junior Parlour (T Whewell's)
+KA,KB,KC,KD,KE,KI,KK,KL,KN: New (King's) Court
+LR: the Lecture Rooms (I Great Court)
+LRT: the Lecture-Room Theatre (I Great Court)
+ML: Master's Lodge
+MR: Centre for Mathematical Sciences Meeting Rooms
+NA,NC,ND,NG,NI,NL: Nevile's Court
+OCR: Old Combination Room
+OF: Old Field
+OK: Old Kitchens
+PSR: Private Supply Room
+SJC: St. John's College
+WLT: Winstanley Lecture Theatre
+WPR: Wolfson Party Room

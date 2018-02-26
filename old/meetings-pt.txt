@@ -1,0 +1,773 @@
+[Meetings list scanned and edited from Paul Taylor's list, November
+and December 2002.]
+
+
+VOLUME I
+--------
+mmmxx dd.mm.yy ff joint speaker                    title                                              venue ppp aud
+      15/22.2.19 i                                 discursive meeting (date uncertain)                GA1     1  13
+  1   29. 4.19 i                                   inaugural meeting                                  GI      9  21
+  2    6. 5.19          Mr. E.A. Milne             Gauss' Error Law                                   GI     13  25
+  3   21. 5.19          Mr. G.H. Hardy             The Elementary Theory of Infinite Numbers          ND     17  30
+
+  4   15.10.19          Mr. B.M. Wilson            Diophantine Approximation                          GL     27  25
+  5   29.10.19          Prof. A.S. Eddington       The Equilibrium of a Gaseous Star                  ND     33  30
+  6   12.11.19          Mr. S. Pollard             The Lebesgue Integral                              GM     37  25
+  7    3.12.19          Mr. D.C. Henry             Thermodynamics                                     NA     42  25
+  8   21. 1.20          Mr. W.W. Rouse-Ball        Indigenous Japanese Mathematics                    GK6    47  25
+  9   11. 2.20          Mr. E.S. Pearson           From Pythagoras to Jeans                           GL     51  15
+ 10   18. 2.20          Mr. G.I. Taylor            Statistical Representation of Random Curves        NL     55  24
+ 11    3. 3.20          Mr. A.F. Pullinger         The Elementary Theory of Radiation                 GM     59  16
+ 12   28. 4.20          Mr. E.A. Milne             Vectors and Tensors                                GL     65  30
+ 13   12. 5.20          Mr. T.A. Brown             Cardinal Function                                  NA     71  12
+ 14   26. 5.20 e        Mr. P.W. Burbidge          Atomic Structure                                   GK     75  40+
+
+ 15   20.10.20          Mr. S. Pollard             Jordan's Theorem                                   GM     81  20
+ 16    4.11.20          Mr. E.C. Francis           Ideal Numbers                                      GI     85  30
+ 17   17.11.20          Mr. J.H. Grace             Probability                                        NC     89  40
+ 18    1.12.20          Mr. N.M. Shah              Divergent Series                                   GM     91  20
+ 19   27. 1.21          Mr. F.P. White             The Diffraction of Electric Waves by the Earth     ND     97  30
+ 20   16. 2.21          Mr. T.M. Cherry            Vectorial Mechanics                                GI    101  20
+ 21   23. 2.21          Mr. R.H. Fowler            The Perfect Gas Laws and the Quantum Theory        ND    103  35
+ 22    9. 3.21 b        Mr. J.A. Brown             Singularities of Taylor Series                     KA    107   9
+ 23    4. 5.21          Mr. J.E. Littlewood        Prime Numbers                                      ND    113  25
+ 24   18. 5.21 e        Mr. C.D. Ellis             Fields of Force in the Atom                        GM    117  25
+
+ 25   19.10.21          Mr. C.G. Darwin            Crystals                                           ND    125  38
+ 26    9.11.21          Mr. E.F. Collingwood       Picard's Theorem                                   BA    133  20
+ 27   16.11.21          Mr. L.L. Whyte             X-rays                                             GI    139  28
+ 28   30.11.21          Mr. E. Cunningham          Relativity and the Problem of Measurement          NL    143  40
+ 29    1. 2.22          Mr. W.M. Smart             Navigation                                         NA    149  25
+ 30   15. 2.22          Mr. E.A. Milne             An Integral Equation                               ND    155  25
+ 31    2. 3.22          Mr. H.W. Richmond          Pascal's Mystic Hexagram                           NC    159  25
+ 32    8. 3.22          Mr. A.E. Ingham            Division of the Circle                             KA    165  25
+ 33   10. 5.22          Mr. W.M.H. Greaves         Saturn's Rings                                     JCR   171  17
+ 34   22. 5.22 ef       Mr. S. Pollard (prop)      Applied Maths should be instantly and radically    JCR   175  33
+                        Mr. J.M. Cherry (opp)      revised
+
+ 35   25.10.22          Prof. Sir E. Rutherford    Atomic Collisions                                  JCR   187  35
+ 36    8.11.22          Mr. C.G.F. James           Kummer's Quartic Surface                           GQ    191  14
+ 37   22.11.22 b        Mr. J.C. Burkill           Length and Area                                    ND    193  24
+ 38    5.12.22          Mr. J.S. Bentwich          Equipartitition of Energy                          NA    195  25
+ 39   24. 1.23          Mr. F.G. Maunsell          Magic Squares                                      KB    199  10
+ 40    7. 2.23          Dr. H. Lamb                Theory of Elastic Plates                           NC    201  20
+ 41   21. 2.23          Mr. W.J. Webber            Approximation by Polynomials                       BC    203  17
+ 42    7. 3.23          Sir G. Lenox-Conyngham     Geodetic Methods                                   NL    205  17
+ 43   25. 4.23          Dr. J.E. Jones             Kinetic Theory of a non-uniform Gas                NA    209  18
+ 44    9. 5.23          Mr. A. Berry               Continuous Groups                                  ND    211  18
+ 45   23. 5.23 e        Mr. H.W.B. Skinner         Magnetism                                          GQ    213  23
+
+
+VOLUME II
+---------
+mmmxx dd.mm.yy ff joint speaker                    title                                              venue ppp aud
+ 46   17.10.23 b        Mr. H. Glauert             Aerodynamics                                       NC      1  28
+ 46a  24.10.23 b        Prof. E. Iandau            A Theorem of Minkowski's                           ND      4  35
+ 47   31.10.23 b        Mr. E.C. Francis           Denjoy-Stieltjes' Integral                         NL      6  25
+ 48   14.11.23          Mr. J.B.S. Haldane         Natural Selection                                  JCR     8  30
+ 49   28.11.23          Mr. R. Cooper              Automorphic Functions                              KK      9  25
+ 50   23. 1.24          Prof. J.J. Thomson         Speculations as to the Nature of Light             OCR    11  65
+ 50a   6. 2.24    Adams Prof. H.F. Baker           Our Orderly-Minded Friend                          OCR    13  50
+ 51   13. 2.24          Dr. G.N. Watson            Approximations                                     NG     13  35
+ 52   27. 2.24          Mr. S. Pollard             The Thermionic Valve                               ND     15  30
+ 53   12. 3.24          Mr. W.R. Dean              Elastic Stability                                  GL     16   8
+ 54   14. 5.24          Mr. T.M. Cherry            Celestial Mechanics                                GG     18  25
+ 55   21. 5.24 e        Mr. J. Mercer              Functions of a Positive Type                       NL     20
+
+ 56    5.11.24 b        Mr. G.I. Taylor            The Deformation of Metallic Crystals               NC     22
+ 57   12.11.24          Mr. T.G. Room              Latin Squares                                      GG     25
+ 58   26.11.24          Mr. L.H. Thomas            Krönecker's Theorem                                KB     27
+ 59    3.12.24          Dr. P.A. MacMahon          The Foundations of Repeat Geometry                 NG     29
+ 59a  28. 1.25    Adams Mr. J.E. Littlewood        Prime Numbers                                      SJC    31
+ 60   11. 2.25          Mr. F.S.G. Rawlins         The Degeneration of Gases                          BC     33
+ 61   25. 2.25          Prof. E.W. Hobson          A Classical Theorem in the Theory of Fourier       ND     35
+                                                   Series
+ 62   11. 3.25          Mr. F.G. Maunsell          The Four Colour Problem                            GH     36
+ 63    6. 5.25          Mr. S. Pollard             Report of the Sub-Committee on the Revision        NL     38
+                                                   of Applied Mathematics
+ 64   27. 5.25 be       Prof. G. Polya             Geometrical Properties of the Distribution         ND     42
+                                                   of Zeroes of some Integral Functions
+
+ 65   21.10.25 b        Prof. G.H. Hardy           Some Theorems concerning Series of Positive        ND     45
+                                                   Terms
+ 66    4.11.25          Dr. C.D. Ellis             Conversion of Radiation                            ND     48
+ 67   18.11.25          Mr. H. Jeffreys            The Age of the Earth                               OCR    50
+ 68    2.12.25          Dr. C.D. Broad             Kant's Theory of Space and Geometry                NG     51
+ 68a  27. 1.26    Adams Prof. A.S. Eddington       The Problem of Sub-Atomic Energy                   OCR    54
+ 69   10. 2.26 b        Dr. P. Kapitza             The Gyromagnetic Effect                            GG     55
+ 70   24. 2.26          Mr. R. Cooper              Some Inequalities                                  KA     57
+ 71   10. 3.26          Mr. W.M. Smart             Stellar Clusters                                   GD     58
+ 72    4. 6.26 be       Mr. S. Pollard (prop)      Mathematics is mainly nonsense and commonly               59
+                        Mr. J.W. Brunyate (opp)    dull
+
+ 73   27.10.26          Mr. E.F. Collingwood       Some recent developments in the theory of          GC     63
+                                                   Integral Functions
+ 74    3.11.26          Mr. R.V. Southwell         The Stability Problems in Hydrodynamics            GG     65
+ 75   17.11.26          Mr. L.H. Thomas            The capture and loss of electrons by alpha         NG     68
+                                                   particles
+ 76    1.12.26          Mr. R.H. Fowler            General Forms of Statistical Mechanics             GH     69
+ 77   26. 1.27          Mr. C.T.L. Caton           The Tensor Calculus and Relativity                 KA     71
+ 78    9. 2.27          Dr. J. Chadwick            Atomic Nuclei                                      GD     73
+ 79   23. 2.27    Adams Prof. E.V. Appleton        Some Wireless Problems                             SJC    74
+ 80    9. 3.27          Mr. S. Pollard             What is Mathematics?                               ND     75
+ 81   27. 4.27          Mr. Steen                  Continued Fractions                                GH     76
+ 82   11. 5.27 e        Mr. L.H. Thomas            Some Applications of Mathematics to Wireless       KA     77
+ 82a  10. 6.27 b                                   Business Meeting (Minutes expunged)                       80
+
+ 83   19.10.27          Mr. J.B.S. Haldane         Mathematical Biology                               GM     82
+ 84    2.11.27 b        Mr. J.A. Gaunt             The History of the Quantum Theory                  GG     85
+ 85   16.11.27          Mr. A.S. Besicovitch       Integral Functions of Order less than one          LR3    87
+ 86   30.11.27          Prof. H.F. Baker           Some Applications of the Calculus of Matrices      ND     89
+ 87   25. 1.28          Mr. H.S.M. Coxeter         Regular Polyhedra                                  GG     91
+ 88    8. 2.28          Mr. H.D. Ursell            Veronese's Surface and its Projections             GG     94
+ 88a  27. 2.28    Adams Mr. F.J.M. Stratton        Recent Eclipses                                    LR5    96
+ 89    7. 3.28          Dr. T.M. Cherry            An Application of the Theory of Sets of            NC     97
+                                                   Points to Differential Equations
+ 90    2. 5.28          Mr. H.W. Richmond          Outlines of Geometry                               GG     99
+ 91   16. 5.28 e        Dr. P. Du Val              De Sitter's World                                  NC    101
+
+ 92   17.10.28          Mr. F.P. Ramsey            Mathematical Economics                             GG    104
+ 93   31.10.28          Mr. W.L. Edge              Ruled Surfaces                                     KD    106
+ 94   14.11.28          Mr. M.J. Dean              The History of Elasticity                          GM    108
+ 95   28.11.28          Prof. J.E. Littlewood      Some Problems in the Theory of Numbers             GG    110
+ 96   23. 1.29          Miss M.D. Kennedy          Primitives                                         NC    112
+ 96a   6. 2.29    Adams Dr. P.A.M. Dirac           Principles of Quantum Mechanics                    SJC   113
+ 97   20. 2.29          Mr. W.M. Smart             Stellar Motions                                    ND    114
+ 98   13. 3.29          Mr. F.P. White             The Contact Problem of Clebsch                     GG    116
+ 99    1. 5.29          Mr. L.A. Pars              The Four Colour Problem                            GH    118
+100   15. 5.29          Prof. J.J. Thomson         Some Reminiscences of Cambridge Mathematics        OCR   119
+                                                   and Mathematicians
+101   29. 5.29 e        Dr. T.G. Room              Finite Geometries                                  KK    120
+
+102   23.10.29          Dr. H. Lamb                Mathematical Style                                 ND    123
+103    6.11.29          Prof. A.S. Eddington       The End of the World                               OCR   125
+104   20.11.29          Mr. L.C. Young             Integration in Topological Space                   LR3   127
+105    5.12.29 b        Mr. J.G. Semple            Determinatal Quartic Loci                          KK8   130
+106   29. 1.30          Mr. H.W. Richmond          On Some Musical Properties of Cubes                NL    133
+107   12. 2.30          Dr. J.A. Carroll           The Computation and Observation of Eclipses        OCR   135
+108   19. 2.30          Mr. G.W. Ward              Transfinite Numbers                                GD    137
+109    5. 3.30    Adams Mr. R.H. Fowler            Possible Relationships between alpha, beta         OCR   139
+                                                   and gamma rays of Radium C
+110   14. 5.30          Mr. D. Shoenberg           Constructions with only a compass                  GE6   141
+                        Mr. Todd                   Kirkman's Schoolgirls Problem
+                        Mr. du Val                 Wallpaper
+111   28. 5.30 e        Dr. L. Wittganstein        The Foundations of Mathematics                     OCR   144
+
+112   15.10.30 e        Mr. J.C.P. Miller          Archimedean Solids                                 GC2   146
+113   29.10.30          Mr. J.A. Ratcliffe         The Effective Height of the Heaviside Layer        OCR   149
+114   12.11.30          Mr. P. Du Val              The Rhind Papyrus                                  GC4   152
+115   26.11.30 b        Mr. C.A. Coulson           Gyroscopes                                         HF    155
+116   28. 1.31          Mr. A.E. Ingham            The Sieve of Eratosthenes                          ND4   157
+117   11. 2.31    Adams Dr. A.A. Robb              The Idea of Order as a Foundation of               SJC   158
+                                                   Space-Time Theory
+118   25. 2.31          Mr. J.B.S. Haldane         Some Difference Equations arising out of           OCR   159
+                                                   Biological Problems
+119    4. 3.31          Dr. P. Kapitza             Physical Measurements in Snort Times               KA5   161
+120   13. 5.31          Mr. J.C. Burkill           Non-differentiable Functions                       KN    162
+121   27. 5.31 e        Mr. R.E.A.C. Paley         Contruction with Pencil and Ruler, or,             KI    164
+                                                   Geometry without Circles
+
+
+VOLUME III
+----------
+mmmxx dd.mm.yy ff joint speaker                    title                                              venue ppp aud
+122   14.10.31          Prof. G.H. Hardy           The Theorem of the Arithmetic and                  OCR    32
+                                                   Geometric Mean
+123   28.10.31          Mr. N.F. Mott              Wave Mechanics                                     HI     35
+124    4.11.31          Sir F. Dyson               The Greenwich Observatory                          OCR    38
+125   18.11.31          Mr. H.S.M. Coxeter         Black and White Triangles                          GE     41
+126    3. 2.32          Mr. G.I. Taylor            Air Flow at speeds greater than that               NA     46
+                                                   of Sound
+127   17. 2.32          Prof. Wiener               The Brownian Movement                              OCR    48
+128   24. 2.32          Mr. Wishart                Combinatorial Analysis and Statistics              GC     50
+129    3. 3.32    Adams Mr. W.L. Edge              Properties of Certain Twisted Curves               GC     52
+130   11. 5.32          Mr. A.J.H. Morrell         The Strophoid and the Lemniscate                   GE     55
+131   25. 5.32 be       Mr. M.H.L. Pryce           The Tidal Theory of the Origin of the              BC     57
+                                                   Solar System
+
+132   19.10.32          Prof. A.S. Eddington       The Expanding Universe                             OCR    64
+133   26.10.32 be                                  Business Meeting                                   OCR    67   8
+134    2.11.32 b        Mr. A.S. Besicovitch       Some problems connected with the mean              HA     69
+                                                   value of functions of complex and real
+                                                   variables
+135   17.11.32          Mr. E. Cunningham          Crystal Lattices                                   GN     72
+136   30.11.32 e        Mr. J. Bronowski           The Geometry of One Dimension                      GP     74
+137    1. 2.33          Mr. H.D. Ursell            Two types of non-rectifiable curves                BC     77
+138   15. 2.33    Adams Prof. P.A.M. Dirac         Half-Vectors                                       SJC    77
+139   28. 2.33 b                                   Business Meeting                                   BC     78
+140    1. 3.33          Mr. S.S.P. Steen           Functions of an infinite number of variables       KL     78
+141    8. 3.33          Dr. F.P. White             Differential Geometry- Metrical, Affine            KE     79
+                                                   and Projective
+142   10. 5.33          Mr. W.R. Dean              Photo-Elasticity                                   HO     82
+143   24. 5.33 e        Mr. J.H. Pearse            A Problem in Number Arrangement                    HD2    83
+                        Mr. M. Hall                Diophantine Equations
+
+144   21.10.33 b        Dr. Spencer-Jones          The Structure of Space                             NC2    92  37
+145    1.11.33          Mr. C.A. Coulson           Mathematics and Chemistry                          HM1    96  20
+146   15.11.33 b        Mr. H.S.M. Coxeter         Reflections                                        HL1    99  20
+147   29.11.33 e        Mr. P. Du Val              The Surfaces of Veronese and Steiner               BE1   102  25
+148   31. 1.34          Prof. Courant              Some Problems in the Calculus of Variations        OCR   107  30
+149   14. 2.34    Adams Prof. G.H. Hardy           Fermat's and Mersenne's Numbers                    OCR   109  50
+150   21. 2.34          Prof. Lord E. Rutherford   The Transmutation of Matter                        OCR   112  50
+151    7. 3.34 b        Prof. H.F. Baker           A Differential Equation of the Third               GI3   115  21
+                                                   Order associated with a familiar Group
+152    9. 5.34          Dr. Chandrasakar           Polytropic Distributions                           GC2   118  18
+153   23. 5.34 e        Mr. G.W. Morgan            The Growth of Functions                                  120  24
+
+154   17.10.34          Prof. E.A. Milne                                                              OCR   123  49
+155   31.10.34          Mr. M. Born                Some Fundamental Conceptions of Physics            OCR   124  41
+156   14.11.34          Mr. T.G. Room              Freedom in Geometry                                OCR   126
+157   28.11.34 e        Mr. M.H.L. Pryce           The Gamma Function                                       127
+158   30. 1.35          Mr. L.A. Pars              Pfaffian Forms                                     OCR   129
+159   14. 2.35    Adams Mr. H. Jeffreys            Scientific Method                                  SJC   131
+160   27. 2.35          Dr. R. Rado                Some Combinatorial Problems                        BE2   132
+161    6. 3.35 b        Mr. H. Davenport           Greek Mathematics                                  OCR   132
+162   15. 5.35          Mr. H.M. Cundy             Knots                                              HL1   134  19
+163   22. 5.35                                     Discussion, "Does it Matter?"                      GC4   136
+164    5. 6.35 be       Mr. J.H. Pearse            Some Elementary Theorems of Integral Functions     KI4   137
+
+165   23.10.35          Dr. H.M. Taylor            A New Theory of Relativity                         OCR   141  25
+166    6.11.35          Prof. G.I. Taylor          Turbulence                                         OCR   143
+167   27.11.35          Dr. H.S.M. Coxeter         The Fifty Nine Icosahedra                          GI3   145
+168    4.12.35 e        Mr. W.R. Dean              Biharmonic Analysis                                OCR   147
+169   12. 2.36          Mr. P. Hall                Fields of Numbers                                  OCR   151
+170   19. 2.36          Mr. A.S. Besicovitch       Geometrical Entities from the point of view        KI4   153
+                                                   of the General Theory of Aggregates
+171   27. 2.36    Adams Mr. W.M. Smart             Variable Stars                                     OCR   156  43
+172   11. 3.36          Dr. E.F. Collingwood       Integral Equations                                 OCR   158
+173   30. 4.36          Mr. E. Cunningham          Some aspects of Mathematical teaching and          OCR   160
+                                                   examinations at Cambridge
+174   20. 5.36 e        Mr. A. Green               Gliding on the Surface of Water                    HD8   162
+
+175   21.10.36          Mr. F.P. White             Eggs                                               OCR   165
+176   11.11.36          Mr. M.H.A. Newman          Finitist Mathematics                               OCR   168
+177   25.11.36          Mr. H. Rottenberg          Graphical and Mechanical Calculations in           OCR   170
+                                                   Engineering
+178    2.12.36 e        Mr. Leggett                Certain Thin Plate Problems in the theory          OCR   173
+                                                   of Elastic Stability
+179   27. 1.37          Mr. J. Wishart             Statistics                                         OCR   175
+180   18. 2.37    Adams Dr. S. Goldstein           The Motion of Fluids                               SJC   176
+181   24. 2.37          Mr. H.A. Heilbronn         The Distribution of Primes                         OCR   178
+182   13. 5.37 v        Prof. M.L.E. Oliphant      Visit to the High Voltage Laboratory                     181
+183   19. 5.37 be       Mr. H.J.H. Sisson          Ideals                                             OCR   182
+
+184   20.10.37          Mr. A.E. Ingham            A Little about Numbers                             OCR   186
+185   27.10.37          Dr. H. Jeffreys            Earthquakes                                        OCR   189
+186   17.11.37          Dr. G.F.C. Searle          The Dynamics of Electrified Bodies                 OCR   192
+187    1.12.37 e        Prof. G.H. Hardy           Partitions                                         OCR   195
+188   19. 1.38          Mr. W.T. Tutte             Bosh(x) and Allied Functions                       OCR   198
+189    2. 2.38          Dr. J.A. Todd              Pascal's Hexagram                                  OCR   200
+190   16. 2.38    Adams Mr. W.R. Dean              The Biharmonic Equation                            LR3   201
+190a  19. 2.38 v                                   Visit to the Solar Physics Observatory                   203
+190b  26. 2.38 d  TCNSS                            Dinner                                                   203  50
+191    2. 3.38          Dr. C.A. Coulson           Killing Germs                                      OCR   204
+192   17. 3.38 v                                   Visit to Differential Analyser                           206  20
+193   27. 4.38          Dr. N.A. de Bruyne         Building an Aeroplane                              LR3   207
+194   11. 5.38 e        Dr. R. v.d.R. Wooley       Eclipses                                           OCR   210
+194a  25. 5.38 p                                   Society Photograph                                       213  40
+
+195   17.10.38          Prof. F.J.M. Stratton      New Stars                                          OCR   215
+196   31.10.38 b        Mr. F.C. Strachan          Telephone Repeater Stations                        OCR   218
+197    7.11.38          Mr. C.A.B. Smith           Fish Functions                                     OCR   225
+198   14.11.38          Dr. M.L. Cartwright        Convex Regions                                     OCR   228
+199   28.11.38 e        Prof. E.V. Appleton        Solar Radiation Changes during the                 OCR   230
+                                                   Sunspot cycle
+200   27. 1.39          Prof. E.A. Milne           Inventing a Theory to fit the Facts                OCR   237  60
+201   13. 2.39          Dr. H.J. Bhabha            The Theory of Cosmic Ray Showers                   OCR   240
+202   23. 2.39    Adams Mr. E. Cunningham          Discussion                                         SJC   242
+202a  25. 2.39 d  TCNSS                            Dinner                                                   243  35
+203   23. 3.39          Mr. A.H. Stone             Squaring the Square                                OCR   244
+204   24. 4.39          Dr. M.S. Bartlett          Mathematics and Human Genetics                     OCR   248
+205   15. 5.39 e        Dr. A.F. Devonshire        Mathematics and Molecules                          OCR   250
+
+206   16.10.39          Prof. A.S. Eddington       Why is the Universe Mathematical?                  OCR   253
+207   30.10.39          Dr. A.D. Thackeray         The Structure of the Galaxy                        OCR   256
+208   27.11.39 e        Dr. B. Swirles             Precession                                         OCR   258
+209    5. 2.40          Mr. M.H.A. Newman          The Ham Sandwich Theorem                           OCR   262
+210   12. 2.40    MRSTC Mr. F.J. Anscombe          What Statistics is About                           GP1   265
+211   19. 2.40    Adams Prof. L. Wittgenstein      The Descent of Mathematics                         OCR   267
+211a  24. 2.40 d  TCNSS                            Dinner                                             OCR   269
+212    4. 3.40          Dr. R. Stoneley            Earthquake Waves                                   OCR   270
+213   29. 4.40          Mr. A.S. Besicovitch       Normal Sequences of Numbers                        OCR   272
+214   13. 5.40    MRSTC Mr. I.J. Good              Infinite Regressions                                     277
+
+215   21.10.40 e        Mr. W.T. Tutte             Bosh(x)                                            OCR   282
+216    4.11.40          Mr. P. Hall                Something about Galois                             OCR   285
+217   13.11.40       NP Prof. P.A.M. Dirac         The Interior of an Electron                        OCR   288
+218    2.12.40 e     NP Prof. G.H. Hardy           Ramanujan                                          OCR   291
+219    3. 3.41          Mr. H. Jeffreys            Mathematics as a Substitute for Thought            OCR   296
+220   17. 2.41          Mr. W.R. Dean              The Biharmonic Equation                            OCR   298
+221   27. 2.41    Adams Prof. W.V.D. Hodge         Unexplored Fields in Geometry                      SJC   300
+222   10. 3.41          Dr. J.O. Irwin             Statistical Studies of the Personal                OCR   302
+                                                   Factor in Accidents
+222a  12. 3.41 v        Dr. J.O. Irwin             Visit to Psychological Laboratory                        304
+223   28. 4.41          Mr. A.H. Wilson            The History of the Elementary Physical             OCR   309
+                                                   Particles, 1926-40
+224   12. 5.41          Dr. J.A. Todd              Morley's Trisection Theorem                        OCR   312
+
+225   20.10.41       NP Prof. J.E. Littlewood      Some Applications of Analysis                      OCR   318
+226    3.11.41       NP Mr. A.E. Ingham            Conjecture and Proof in the Theory of              CAI   322
+                                                   Numbers
+227   17.11.41       NP Prof. A.S. Eddington       The Size of the Universe                           OCR   325
+228   27.11.41       NP Mr. M.H.A. Newman          Axiomatics                                         CHR   330
+
+VOLUME IV
+---------
+mmmxx dd.mm.yy ff joint speaker                    title                                              venue ppp aud
+229   23. 1.42       NP Dr. D. Shoenberg           Small Particles at Low Temperatures                OCR    14
+230   29. 2.42       NP Dr. J.A. Todd              The Elements of Euclid                             CAI    16
+231   25. 2.42       NP Prof. Sir E.V. Appleton    Some Unsolved Radio Problems                       CAI    18
+232    9. 3.42       NP Mr. A.S. Besicovitch       Mean Values of Functions                           OCR    20
+(the Society did not meet during Easter 1942)
+
+233   19.10.42 be                                  Business Meeting                                   GP3    26
+234   26.10.42       NP Dr. J.C. Burkill           The Area of a Surface                              OCR    28
+235    9.11.42       NP Mr. L.A. Pars              The Differential Equations of Dynamics             OCR    31
+236   23.11.42       NP Dr. C.A.B. Smith           Growing Fish from Seed                             EMM    33
+237   22. 2.43       NP Mr. W.T. Tutte             Squaring the Square                                EMM    35
+(the Society did not meet during Easter 1943)
+
+238   28.10.43 e        Mr. F. Ursell              Prime Numbers                                      OCR    41
+239    6.11.43          Mr. A.S. Besicovitch       Monotonic Functions                                LR5    44
+240   11.11.43          Mr. N. Aronszain                                                              LR5    45
+241   18.11.43          Prof. A.S. Eddington       From Nucleus to Nebula                             LR5    47
+242   25.11.43          Prof. G.H. Hardy           The Theorem of the Arithmetic and                  LR5    49
+                                                   Geometric Means
+243    2.12.43 e        Dr. M.L. Cartwright        Forty days or forty years                          OCR    51
+244   20. 1.44          Mr. J. Wisdom              Proof                                              LR5    57
+245   27. 1.44          Prof. J.E. Littlewood      Some Applications of Mathematical Analysis         LR5    59
+246   10. 2.44          Dr. F.C. Powell            Atomic Theory                                      LR5    61
+247    2. 3.44          Miss S. Edmonds            Fourier Series                                     OCR    63
+248    9. 3.44          Mr. A.E. Ingham            Theory of Numbers                                  OCR    65
+249   18. 5.44 e                                   Business Meeting                                   GP3    69
+250    1. 6.44 d                                   Dinner                                             Hall   71  24
+
+251    2.11.44          Prof. C.D. Broad           Dunne's Theory of Time                             OCR    77
+252    9.11.44          Hon. B. Russell            Is Mathematics Superstitious?                      OCR    79
+253   16.11.44          Mrs. B. Jeffreys           Atomic Wave Functions                              OCR    82
+254   23.11.44          Dr. J.C. Burkill           Sixth Form Mathematics                             OCR    84
+255    1. 2.45          Prof. Sir G.I. Taylor      Explosives                                         OCR    89
+256    8. 2.45          Mr. A.H. Wilson            Theory of Elementary Physical Particles            LR5    91
+257   15. 2.45          Mr. R.B. Braithwaite       Gödel's Theorem                                    LR5    94
+258    1. 3.45          Prof. W.V.D. Hodge         Invariant Matrices                                 OCR    95
+259    8. 3.45          Mr. S.W.P. Steen           Random Sequences                                   LR5    97
+260   26. 4.45          Prof. J.E. Littlewood      Large Numbers                                      LR5   103
+261   10. 5.45          Dr. J.A. Todd              The Elements of Euclid                             LR5   105
+262   18. 5.45 e                                   Business Meeting                                   GN6   107
+
+263   18.10.45          Sir G.P. Lenox-Conyngham   The Figure of the Earth and Deflections            OCR   111
+                                                   of the Plumb-Line
+264    1.11.45          Mr. A.S. Besicovitch       Area of Surfaces                                   OCR   114
+265   15.11.45          Mrs. O.H.T. Rishbeth       String Figures                                     OCR   117
+266   22.11.45          Mr. W.R. Dean              Sir Isaac Newton                                   OCR   119
+267   29.11.45 e        Dr. D. Shoenberg           Superconductivity                                  LR5   121
+268   31. 1.45          Mr. S. Wylie               The Ham Sandwich Theorem                           OCR   127
+269   14. 2.45          Mr. W.T. Tutte             Hamilton's Unicursal Problem                       OCR   131
+270   28. 2.46          Mr. M.H.L. Pryce           Atomic Energy                                      OCR   134
+271    7. 3.46          Dr. M.S. Bartlett          The Mathematics of Population Changes              OCR   137
+272    2. 5.46          Mr. R.V. Baron             Symbols                                            OCR   143
+273   13. 5.46 e        Mr. A.H. Stone             Regular Polygons                                   OCR   146
+
+274   17.10.46          Prof. J.E. Littlewood      Mathematical Study and Research                    OCR   154
+275   31.10.46          Dr. W.A.H. Rushton         Recurring Decimals                                 OCR   156
+276   14.11.46          Mr. H.A. Thurston          Lattices                                           GP3   158
+277   28.11.46 e        Dr. H.A. Brück             Star Counts and the Structure of the               OCR   160
+                                                   Galaxy
+278   27. 1.47          Mr. P. Hall                Galois and his Work                                OCR   166
+279   10. 2.47          Mr. P.M. Cohn              Divergent Series                                   NA4   168
+280   24. 2.47    Adams Dr. F. Smithies            The Notion of Rigour in Mathematics                SJC   169
+281    5. 5.47          Mr. N. Kemmer              The Role of Hyper-Complex Numbers in               JP    174
+                                                   Relativistic Mechanics
+282   19. 5.47          Dr. A.J. Ward              Partially Ordered Sets                             JP    176
+283    7. 6.47 e                                   Business Meeting                                         177
+
+284   27.10.47          Mr. A.S. Besicovitch       Sets of Distances between points                   LR5   180
+                                                   on a curve
+285   10.11.47          Dr. C.A.B. Smith           What Function has a Function of a                  JP    181
+                                                   Function?
+286   24.11.47          Dr. H.G. Booker            Propagation of Radio Waves in the                  JP    182
+                                                   Troposphere
+287   19. 1.48          Prof. A.E. Taylor          A Geometric Theorem                                JP    185
+288    2. 2.48          Mr. S. Wylie               Knots                                              JP    186
+289   17. 5.48          Dr. H. Bondi               Cosmology                                          JP    192
+
+290   18.10.48          Dr. J.A. Todd              Invariants                                         JP    196
+291    1.11.48          Mr. R.B. Braithwaite       The Logic of Probability                           JP    198
+292    8.11.48          Prof. J.E. Littlewood      Newton and the Attraction of a Sphere              JP    200
+293   22.11.48          Mr. P.M. Cohn              What is Geometry, or, the Erlange                  JP    202
+                                                   Programm
+294   17. 1.49          Prof. W.V.D. Hodge         Some Problems in Enumerative Geometry              JP    206
+295   31. 1.49          Prof. O. Frisch            Probability and Chain Reactions                    JP    208
+296   21. 2.49                                     Discussion on Geometry                             JP    210
+297   25. 4.49          Mr. E.H. Sondheimer        An Integral Equation in Mathematical               JP    214
+                                                   Physics
+297a   8. 6.49 d                                   Dinner
+
+298   17.10.49          Dr. F. Smithies            Abstract Analysis                                  JP    220
+299    7.11.49          Mr. D.V. Lindley           How to Play Games                                  JP    223
+300   21.11.49          Mr. L. Mestel              The White Dwarfs                                   JP    225
+301   23. 1.50          Mr. E.S. Barnes            Minkowski's Geometry of Numbers                          228
+302    6. 2.50          Mr. J. Leech               Geometry (Mod 2)                                   JP    231
+303   13. 2.50          Mr. D.G. Ashwell           Relaxation Methods                                       233
+304   27. 2.50          Dr. M.V. Wilkes            Electronic Calculating Machines                    JP    235
+305    1. 5.50          Prof. J.E. Littlewood      More Odds and Ends                                       240
+
+306   23.10.50          Prof. A.S. Besicovitch     The Sequence of Squares                                  244
+307    6.11.50          Mr. N. Kemmer              Recent Developments in Quantum Field                     246
+                                                   Theory
+308   20.11.50 e        Dr. M.L. Cartwright        Rotation Numbers                                         249
+309   15. 1.51          Mr. F. Ursell              Infinite Determinants                              JP    254
+
+VOLUME V
+--------
+mmmxx dd.mm.yy ff joint speaker                    title                                              venue ppp aud
+310   29. 1.51          Prof. C.D. Broad           Kant's Arguments from the Existence                JP     17
+                                                   of Incongruent Counterparts
+311   12. 2.51          Mr. E.J. Watson            The Splash of a Jet                                JP     21
+312   26. 2.51          Dr. D.W. Babbage           Covariants of Binary Forms                         JP     23
+313   30. 4.51 be       Prof. O. Frisch            The Four Colour Problem                            JP     25
+
+314   15.10.51          Dr. H. Bondi               The Formation of Clouds                            JP     29
+315   29.10.51 e        Mr. E.S. Barnes            The Euclidean Algorithm                            JP     33
+316   12.11.51          Dr. F. Smithies            Continuous Geometry                                JP     35
+317   26.11.51          Dr. W.L. Edge              Felix Klein                                        LR3    37
+318   28. 1.52          Mr. F.P. White             Some Geometrical Maxima and Minima                 JP     39
+319   11. 2.52          Mr. P. Hall                The Life and Work of Galois                        JP     41
+320   25. 2.52          Mr. S. Wylie               The Plaster Theorem                                JP     43
+321   28. 4.52          Prof. L.J. Mordell         Ramanujan, the Indian Mathematician                JP     47
+321a  28. 4.52 be                                  Business Meeting                                   JP     48
+322    2. 5.52 b                                   Business Meeting                                   HY1    50
+
+323   13.10.52          Mr. F.J. Anscombe          Codes                                              JP     53
+324   27.10.52          Prof. J.E. Littlewood      Odds and Ends                                      JP     56
+325   10.11.52          Dr. D.R. Taunt             Algebras at your Service                           JP     59
+325a  20.11.52 b                                   Business Meeting                                   JP     61
+326   24.11.52          Dr. G.K. Batchelor         Cavitation in Water                                JP     62
+326a  24.11.52 b                                   Business Meeting                                   JP     65  11
+327   26. 1.53          Prof. J. Wisdom            The Accidental and the Inevitable                         67
+327a  26. 1.53 b                                   Business Meeting                                          70  21
+328   16. 2.53          Prof. D.R. Hartree         Railway Signal Interlocking                               72
+329    2. 3.53          Prof. W.V.D. Hodge         Moving Axes                                               74
+329a   4. 3.53 d                                   Dinner
+330   27. 4.53          Sir C. Darwin              The Way Discoveries are Made                              75
+330a  27. 4.53 be                                  Business Meeting                                          77
+330b  12. 8.53 c  Adams                            Cricket Match (victorious)                         OF     78
+
+331   13.10.53          Prof. Sir G.I. Taylor      How Animals Swim                                          79
+332    2.11.53          Dr. H.G. Eggleston         A Problem of L. Euler                                     81
+333   16.11.53 e        Dr. K.V. Roberts           The Scattering of Waves by a Sphere                       83
+334   25. 1.54          Prof. R.B. Braithwaite     The Theory of Games and its                               86
+                                                   application to Inductive Logic
+335   14. 2.54          Prof. O.R. Frisch          The Map-Colouring Problem                                 87
+336   26. 4.54 be       Prof. F.J.M. Stratton      Expanding Stellar Shells                                  89
+
+337   11.10.54          Prof. N.F. Mott            Mathematics and Physics                            LR1    92
+338   25.10.54          Dr. P.J. Hilton            The Nature of Mathematics                          JP     94
+339   15.11.54          Dr. I. Proudman            Aerodynamic Noise                                  JP     96
+339a  15.11.54 be                                  Business Meeting                                   JP     98
+340   24. 1.55          Prof. J. Wisdom            Metaphysics                                        JP    100
+341   14. 2.55 v                                   Visit to the Mathematical Laboratory                     102
+341a   7. 3.55 d                                   Annual Dinner
+342   25. 4.55 be       Dr. R.H. Thouless          Extrasensory Perception                                  103
+
+343   20.10.55          Prof. A.S. Besicovitch     On the Rearrangement of Terms of a                 LR1   106
+                                                   Conditionally Convergent Series
+344   24.10.55          Dr. F.G. Friedlander       A Mathematical Exercise on a Violin                JP    108
+                                                   String
+345   14.11.55 be       Dr. J.A. Todd              e²=0                                               JP    110
+346   23. 1.56          Dr. J.F. Thomson           The Logical Paradoxes                              JP    113
+346a  23. 1.56 b                                   Business Meeting                                   JP    114
+347   13. 2.56          Dr. E.R. Lapwood           The Torsion Problem                                JP    115
+348   23. 4.56          Dr. R.H. Macmillan         Automatic Control                                  JP    116
+348a  23. 4.56 be                                  Business Meeting                                   JP    117
+
+349   15.10.56          Dr. E.C. Zeeman            Knotting a Sphere in five dimensions               LR1   119  80+
+350   29.10.56          Dr. W.L. Edge              Conics in a Finite Plane                           JP    122
+351   16.11.56 b        Mr. D.V. Lindley           The Theory of Games                                JP    123
+352   21. 1.57          Mr. S.W.P. Steen           Degrees of Insolvability                           JP    125
+353   18. 2.57          H.P.F. Swinnerton-Dyer     Automatic Computing                                JP    126
+354    6. 5.57          Dr. G.K. Batchelor         Non-linearity in Hydrodynamics                     JP    128
+354a   6. 5.57 be                                  Annual General Meeting                             JP    129
+
+355   14.10.57          Dr. D.W.S. Sciama          The Irreversibility of Time                        LR2   137
+356    4.11.57 b        Dr. M.F. Atiyah            Omar Khayyam: Poet & Mathematician                 JP    138
+357   27. 1.58          Mr. S. Wylie               Orientable Manifolds                               JP    141
+358   24. 2.58          Dr. I. Proudman            Rotating Fluids                                    JP    143
+359    5. 5.58          Dr. J.C.P. Miller          Recurring Decimals                                 JP    145
+359a   6. 5.58 be                                  Annual General Meeting                                   147
+359b  29. 5.58 c  Adams                            Cricket Match (abandonned)                         SJC   146
+
+360   20.10.58          Prof. H. Davenport         The Nature of Mathematics                          LR2   150
+361    5. 5.58          Dr. G.K. Batchelor         Magnetohydrodynamics                               JP    153
+362   17.10.58          Prof. O.R. Frisch          The Four Colour Problem                            JP    155
+363   19. 1.59          Dr. L. Mestel              Star Building                                      JP    157
+364   23. 2.59          Dr. J.F. Adams             No More Division Algebras?                         JP    159
+364a  23. 2.59 be                                  Business Meeting                                   JP    161
+365    4. 5.59          Dr. J.W.S. Cassels         Pi(e) in the Sky                                   JP    163
+365a   4. 5.59 b                                   Annual General Meeting                             JP    165
+365b   5. 6.59 c  Adams                            Cricket Match (victorious)                         OF    167
+
+366   19.10.59          Prof. R.B. Braithwaite     How, in theory, to play games                      LR2   168
+367    2.11.59          Dr. D.R. Taunt             Is Mathematics Reasonable?                         JP    171
+368   16.11.59          Dr. B.J. Birch             Diophantine Equations                              JP    178
+369   25. 1.60          Dr. P.G. Saffman           Superaerodynamics                                  JP    180
+370   22. 2.60          Prof. C.D. Broad           Charge, Continuity and Discontinuity               JP    182
+370a  22. 2.60 be                                  Business Meeting                                   JP    184
+371    2. 5.60          H.P.F. Swinnerton-Dyer     Machines that Think?                               JP    187
+371a   2. 5.60 b                                   Annual General Meeting                             JP    189
+371b   3. 6.60 c  Adams                            Cricket Match (victorious)                         SJC   191
+
+VOLUME VI
+---------
+mmmxx dd.mm.yy ff joint speaker                    title                                              venue ppp aud
+372   18.10.60          Prof. Sir G.I. Taylor      Thin Sheets of Fluid                               LR2    19
+373   31.10.60          Dr. M.F. Atiyah            A Survey of Modern Geometry                        JP     21
+374   14.11.60          Dr. J.C. Polkinghorne      Elementary Particles                               JP     22
+375   23. 1.61          Dr. F.G. Friedlander       Partial Differential Equations                     GS2    24
+376   20. 2.61          Dr. F. Smithies            Rigour in Mathematics                              GS2    25
+376a  20. 2.61 be                                  Business Meeting                                   GS2    27
+377    1. 5.61          Dr. J.A. Todd              Pascal's Theorem                                   JP     30
+377a   1. 5.61 b                                   Annual General Meeting                             JP     32
+377b   1. 6.61 b                                   Business Meeting                                   GI2    34
+377c   2. 6.61 c  Adams                            Cricket Match (victorious)                         SJC    35
+
+378   16.10.61          Prof. N.F. Mott            Unsolved Problems in Solid State Physics           JP     37
+379   30.10.61          Dr. J.C.P. Miller          Polyhedra                                          JP     39
+380   13.11.61          Dr. G.K. Batchelor         How to Pinch Plasmas                               JP     41
+381   22. 1.62          Dr. J.W.S. Cassels         Factorisation of Polynomials                       JP     42
+382   19. 2.62          Dr. P.C. Clemmow           Expanding Waves                                    JP     43
+382a  19. 2.62 be                                  Business Meeting                                   JP     44
+383    7. 5.62          Dr. B.J. Birch             Putting Chairs on Mountains                        JP     47
+383a   7. 5.62 b                                   Annual General Meeting                             JP     48
+383b   7. 6.62 c  Adams                            Cricket Match (defeated)                           SJC    50
+
+384   29.10.62          Dr. J.H. Williamson        Asymptotics                                        JP     52
+385   12.11.62          Dr. L. Mestel              The Rotation of the Galaxy                         JP     53
+386   29.11.62                                                                                        JP     54
+387   18. 2.63          H.P.F. Swinnerton-Dyer     The Theory of Games                                JP     54
+387a  18. 2.63 be                                  Business Meeting                                   JP     55
+388    6. 5.63          Dr. A.R.G. Owen            Quadratic Forms in Population Theory               JP     56
+388a   6. 5.63 b                                   Annual General Meeting                             JP     58
+388b  18. 5.63 c  Adams                            Cricket Match (victorious)                         SJC    60
+
+389   14.10.63          Prof. H. Davenport         Some recent developments in the Theory             LR1    61
+                                                   of Numbers
+390   28.10.63          Dr. S.G. Hooker            The Future of Aerospace in Civil and               JP     62
+                                                   Military Fields
+391   11.11.63          Dr. H.K. Moffatt           The Dynamo Problem                                 JP     65
+392   20. 1.64          Mr. A.E. Ingham            Prime Numbers                                      JP     66
+393   17. 2.64 e        Mr. J.F.C. Kingman         Why a Family Tree Dies                             JP     67
+394    4. 5.64          Dr. J. Goldstone           Quantum Logic                                      JP     68
+394a   4. 5.64 b                                   Annual General Meeting                             JP     69
+
+395   12.10.64          Prof. W.V.D. Hodge         Mathematical Studies in some British               LR1    71  60
+                                                   and America Universities
+396   26.10.64          Dr. M.V. Wilkes            Modern Developments in Digital Computing           JP     75  50
+397    9.11.64          Dr. D.R. Taunt             Marriage and other Combinatorial Problems          JP     79
+398   18. 1.65          Prof. D.G. Kendall         How to spread a rumour                             JP     80
+399   15. 2.65 e        Dr. F.P. Bretherton        The Wind Bloweth...                                JP     82
+400    3. 5.65          Dr. F. Smithies            Approximation to Continuous Functions              LR1    84
+400a   3. 5.65 b                                   Annual General Meeting                             LR1    86
+
+401   11.10.65          Dr. J.C. Polkinghorne      Elementary Particles                               LR1    89 100
+402   25.10.65          Dr. D.W.S. Sciama          Quasi-Stellar Radio Sources                        JP     90  80
+403    8.11.65 b        Prof. G.K. Batchelor       Bubbles and Clouds                                 JP     92  30
+404   17. 1.66          Dr. J.P. Dougherty         Counting Electrons by Radar                        JP     94
+405   14. 2.66 e        Dr. J.W.S. Cassels         The Third Man                                      JP     96
+406    2. 5.66          Dr. E.A. Maxwell           We Have Erred and Strayed...                       JP     98
+406a   2. 5.66 b                                   Annual General Meeting                             JP    100
+
+407   10.10.66          H.P.F. Swinnerton-Dyer     How to Play Games                                  JP    103
+408   24.10.66          Dr. M.L. Cartwright        Should Mathematics be Modernised?                  JP    104  40
+409    7.11.66 b        Dr. J.E. Roseblade         Dancing Partners                                   JP    105  40
+410   23. 1.67          Dr. D.T. Whiteside         Isaac Newton: Undergraduate Mathematician          JP    111  36
+411   20. 2.67          Dr. E.R. Lapwood           The Age of the Earth                               JP    113  30
+411a  20. 2.67 be                                  Business Meeting                                   JP    115  10
+412    1. 5.67          Dr. V.E. Cosslett          Monte-Carlo methods in Electron Scattering         JP    118  24
+412a   1. 5.67 be                                  Annual General Meeting                             JP    120
+
+413   16.10.67          Dr. H.K. Moffatt           The Dynamo Problem                                 JP    124
+414   30.10.67          Dr. H.T. Croft             On a Metrical Furry Ball Problem                   JP    129  30
+415   13. 1.68          Dr. J.H. Conway            Miserable Games                                    JP    130
+416   22. 1.68          Dr. D. Barden              On some Infinite-Dimensional Surfaces              JP    132  30
+417   19. 2.68 be       Mr. W.G. Kellaway          What is Happenning to School Geometry?             JP    137
+418   29. 4.68          Dr. J. Goldstone           i is Real                                          JP    140  30
+418a  29. 4.68 b                                   Annual General Meeting                             JP    142
+418b   6. 6.68 c  Adams                            Cricket Match (victorious)                               146
+
+419   14.10.68 b        Dr. P.V. Landshoff         Quarks and other particles                         LR    147  90
+420   28.10.68 b        Dr. D.W. Sciama            The Structure of the Universe                      LR    156 120
+421   11.11.68          Dr. D. Williams            Getting Positively Nowhere Infinitely Past         LR    160  80
+422   20. 1.69          Prof. J.C. Polkinghorne    Oliver Heaviside                                   LR1   165
+423   17. 2.69 e        Dr. D.J.H. Garling         Spaces of Continuous Dimension                     JP    168  40
+424   28. 4.69          Dr. J.T. Knight                                                               JP    173
+424a  28. 4.69 b                                   Annual General Meeting                             JP    174  31
+424b   2. 6.69 d                                   Fiftieth Anniversary Dinner                        OK    175
+
+425   13.10.69          H.P.F. Swinnerton-Dyer     Decision Making and other games                    LRT   176  90
+426   27.10.69 b        Prof. A.B. Pippard         Real Electrons in Real metal                       LRT   178  20
+427   10.11.69          Dr. G.A. Reid              Ultrafilters                                       LRT   181
+
+VOLUME VII
+----------
+mmmxx dd.mm.yy ff joint speaker                    title                                              venue ppp aud
+428   20. 1.70          Dr. I.T. Drummond          Quantum Mechanics and Quantum non-mechanics        JP     21
+429    2. 2.70          Dr. A.C. Duncan            Bones and Red Powder                               JP     23
+430   16. 2.70          Prof. M.J. Lighthill       How do Fishes Swim?                                JP     25
+430a  16. 2.70 be                                  Business Meeting                                   JP     26
+431   27. 4.70          Dr. A. Rae                 Minimal Conditions in Algebra                      JP     28
+431a  27. 4.70 b                                   Annual General Meeting                             JP     29
+
+432   12.10.70          Dr. J.P. Dougherty         Two for the price of one                           LRT    33
+433   26.10.70          Dr. J.H. Conway            From balls to codes in n-space                     LRT    35 133
+434    9.11.70          Sir G.I. Taylor            Some interactions between mathematics and          OCR    37
+                                                   experiment
+435   18. 1.71          Prof. J.W.S. Cassels       Cyclotomy                                          JP     39
+436    1. 2.71          Dr. V. Heine               Exact Mathematics and Real Physics                 JP     41
+436a   1. 2.71 b                                   Business Meeting                                   JP     43
+437   15. 2.71 e        Dr. A.F. Beardon           Sets of nonintegral dimension                      JP     44
+438   26. 4.71 b        Dr. A.W.F. Edwards         Gliding Sums                                       JP     46
+
+439   11.10.71          Dr. H.K. Moffatt           Knotted Vortex Lines-the clue to                   LRT    50
+                                                   dynamo action
+440   25.10.71          Mr. A.J. Casson            Infinite Prodeucts and Topology                    LRT    52
+441    8.11.71 b        Prof. D.G. Kendall         Mathematical aids for the Medieval Historian       JP     56
+442   17. 1.72          Dr. D.R. Taunt             Loops and other Groupoids                          JP     60
+443   31. 1.72          Dr. J.R. Willis            Some Integral Equations in Elasticity Theory       JP     63
+444   14. 2.72 e        Dr. C.R.F. Maunder         Wild Arcs and Dogbones                             JP     66
+444b   2. 3.72 e                                   Business Meeting                                   HO3    72
+445   24. 4.72          Dr. F.G. Friedlander       Dirichlet's Problem & Dirichlet's Principle        JP     72
+445a  24. 4.72 b                                   Annual General Meeting                             JP     75
+
+446    9.10.72          H.P.F. Swinnerton-Dyer     Games of Pursuit and Evasion                       LRT    79
+447   23.10.72          Dr. B. Bollobás            A Characterisation of the Circle and its           JP     82
+                                                   connection with Entire Functions
+448    6.11.72          Dr. G.F.R. Ellis           The Edges of Space-Time                            JP     87 100
+449   22. 1.73          Dr. P.M.E. Altham          Some Problems in Applied Statistics                JP     89
+450    5. 2.73          Prof. Sir J. Lighthill     Ocean Science                                      JP     94
+451   19. 2.73          Dr. J.E. Roseblade         A Theorem of Hall's                                JP    101
+451a  14. 2.73 e                                   Business Meeting                                   JP    107
+452   30. 4.73 b        Dr. N.O. Weiss             Stirring up Stars                                  JP    111
+
+453   15.10.73          Prof. J.W.S. Cassels       Eisenstein: the Man and his Work                   LRT   117
+454   29.10.73          Dr. J.H. Conway            Dots and Boxes                                     LRT   122
+455   21.11.73          Dr. H. Osborn              Topics in High Energy Physics                      JP    127
+456   21. 1.74          Prof. P. Whittle           Optimal Stopping                                   JP    130  20
+457    4. 2.74          Prof. Sir M. Ryle          The 5km Telescope                                  LRT   133  50
+458   18. 2.74 e        Dr. A.F. Beardon           Hyperbolic Tessellations                           JP    137
+458b  11. 3.74 e                                   Business Meeting                                   GI4   140
+459   29. 4.74          Dr. J.P. Dougherty         World Energy Supplies and Fusion                   JP    141
+459a  29. 4.74 b                                   Annual General Meeting                             JP    143
+459b   4. 6.74 c                                   Punt Race                                          CAM   145
+
+460   14.10.74          Dr. F.G. Friedlander       Geometrical Optics and Partial Differential        OCR   150  45
+                                                   Equations
+461   28.10.74 b        Dr. A.D. Barbour           Modelling Bilharzia                                JP    153
+461a  13.11.74 d                                   Triennial Dinner                                   OK    158  29
+462   25.11.74 b        Dr. R.M. Needham           Protection of Data in Computers                    JP    159
+463   20. 1.75 b        Dr. D.J.H. Garling         Its Probably True: Brow ian Motion and             JP    162
+                                                   Classical Analysis
+464    3. 2.75 b        Dr. H.K. Moffatt           On the Maximum Load of Treacle that can            JP    166
+                                                   be supported on a Rotating Ideal Knife
+465   17. 2.75          Mr. F.P. Kelly             Markov Population Processes                        JP    171
+466    3. 3.75          Dr. G.A. Reid              How to Park a Car                                  JP    174
+466a   3. 3.75 e                                   Business Meeting                                   JP    176
+467   21. 4.75          Dr. E.J. Hinch             Venus' Dashing Veil                                JP    180
+467a  21. 4.75 b                                   Annual General Meeting                             JP    182
+
+VOLUME VIII
+-----------
+mmmxx dd.mm.yy ff joint speaker                    title                                              venue ppp aud
+468   13.10.75          Dr. D.O. Gough             Sweet and Sour Fluid Dynamics                      LRT    24
+469   27.10.75          Dr. A. Mees                Control Engineering                                JP     26
+470   10.11.75          Prof. M.V. Wilkes          Finite Element Methods                             JP     30
+471   24.11.75 f  A/M&S Mr. N. Black (prop)        This House does not believe in the                 OCR    34
+                        Mr. H.J. Pearson (opp)     existence of Trinity College.
+472   19. 1.76          Dr. J.C.R. Hunt            Applications of Simple Topology to                 JP     41
+                                                   Fluid Mechanics
+473    2. 2.76 b        Prof. M.J. Rees            The Early Universe                                 JP     45
+474   16. 2.76          Mr. D.J. Benson            Category Theory                                    JP     53
+                        Mr. H.J. Pearson           Working for ICI Plastics Division
+475    1. 3.76 e        Mr. H.J. Pearson           Funny Fluids                                       JP     64
+476   26. 4.76          H.P.F. Swinnerton-Dyer     The Three-Body Problem                             JP     69
+476a   6. 6.76 c  Adams                            Punt Race                                          CAM    70
+
+477   11.10.76          Prof. Sir M.J. Lighthill   Mathematics and the Weather                        LRT    73
+478   25.10.76          Prof. J.W.S. Cassels       The Greatest Happiness of the                      JP     77
+                                                   Greatest Number
+478a  25.10.76 b                                   Business Meeting                                   JP     81
+479    8.11.76          Dr. J. Goldstone           High-energy Particles and Massless                 JP     83
+                                                   Strings
+480   11.11.76 f    M&S Mr. Logan (prop)           Let them eat \pi                                   OCR    88
+                        Mr. H.J. Pearson (opp)
+481   22.11.76          Dr. E.J. Hinch             Research Opportunities                             LRT    94
+                        Dr. D.P. Kennedy
+                        Mr. D.J. Goto
+482   17. 1.77          Dr. J.K.M. Moody           String Processing and Computational                OCR    98
+                                                   Theory
+483   31. 1.77          Dr. J.A. Hudson            Moonquakes                                         JP    101
+484   14. 2.77          Dr. S.M. Edmonds           Wobbles                                            JP    106
+485   28. 2.77 e        Dr. D.P. Kennedy           Multi-armed Bandits                                JP    111
+486   25. 4.77          Prof. M.S. Longuet-Higgins Clifford's Chain                                   JP    116
+
+487   10.10.77          Dr. T.W. Körner            Sod's Law in the Service of Mankind                LRT   121 100
+488   24.10.77          Prof. M.V. Wilkes          Early Computers in Cambridge                       LRT   126
+489    7.11.77          Prof. J.F. Adams           Whatever happened to Geometry?                     OCR   129
+490   30. 1.78          Dr. B.J. Carr              Black Pinholes and the First Second                DAMTP 134
+                                                   of the Universe
+491   13. 2.78          Prof. V. Heine             The Beauty of Eaxact Mathematics versus            LRT   139
+                                                   the Reality of Approximate Physics
+492   27. 2.78          Dr. J.H. Conway            Sunflowers, Pineapples and                         LRT   142
+                                                   Fibbonacci Numbers
+493   13. 3.78 e        Prof. E. Cockayne          When Greed is not a Vice                           OCR   150  23
+494   24. 4.78          Prof. A. Needleman         The Shapes of a Spherical Baloon                   JP    160  19
+494a   6. 6.78 c  Adams                            Cricket Match (victorious)                         OF    167
+
+495    9.10.78          Prof. Sir S. Edwards       The Topology of Chain Molecules                    OCR   168  50
+496   23.10.78          Dr. A. Mees                Deterministic Chaos                                JP    174  20
+497    6.11.78          Dr. R. Williams            Mathematics and Sexual Reproduction                JP    178  25
+
+VOLUME IX
+---------
+mmmxx dd.mm.yy ff joint speaker                    title                                              venue ppp aud
+498½  20.11.78          Dr. B. Bollobás            Research Opportunities                             OCR    16
+                        Dr. M.R.E. Proctor
+                        Mr. J.R. Partington
+499½  29. 1.79          Mrs. M. Batchelor          Supergeometry                                      OCR    18
+500½  12. 2.79          Prof. A. Baker             A Diophantine Conjecture                           OCR    22
+501½  26. 2.79          Prof. Goldberg             The Distance-decreasing properties                 OCR    25  15
+                                                   of a class of mappings
+502½  12. 3.79 e        Dr. B. Whiting             The anomalous propagation of VHF                   OCR    29
+                                                   radiation in the troposphere
+503½  23. 4.79          Mr. R.H. Lupton            Recitation of three verses of Carrol's             GQ1    32
+                                                   "The Hunting of the Snark"
+503½a  4. 6.79 c  Adams                            Cricket Match (defeated)                           OF     32
+
+504½  15.10.79          H.P.F. Swinnerton-Dyer     Games of Pursuit and Evasion                       OCR    33  60
+505   29.10.79          Dr. J.H. Stewart           The Cosmic Censor                                  LRT    38  50
+506   12.11.79          Dr. J.C. Taylor            Why is it that Gauge Invariance seems              JP     45  55
+                                                   to be an important idea in Physics?
+507   26.11.79          Dr. J.H. Conway            Big Groups                                         JP     51  71
+508   28. 1.80          Dr. B. Bollobás            Some applications of combinatorics                 JP     57  27
+509   25. 2.80          Mr. A.J. Casson            Conjectures in Group theory and Topolgy            JP     60  28
+510   12. 3.80 e        Mr. A.J. Baddeley          Infertility and other twisted topics               JP     67  17
+511   21. 4.80          Dr. E.J. Hinch             Long slender drops                                 JP     73  18
+512   23. 4.80 d                                   Dinner                                             OK     83  24
+512a   1. 6.80 c  Adams                            Cricket Match (defeated)                           SJC    84
+
+513   13.10.80          Prof. D. Lynden-Bell       Isocirculationality                                JP     85  29
+514   20.10.80          Dr. H. Osborn              Infinite Determinants                              WPR    92  30
+515   27.10.80          Dr. D.B. Singmaster        Pythagorean Triangles from Plimpton                LRT    97  56
+                                                   322 to the Present Day
+516   10.11.80          Prof. J.F. Adams           Local and Global Problems in Toplogy               LRT   104  27
+517   17.11.80          Dr. J. Rallison            Funny Fluids                                       JP    108  15
+518   24.11.80          Prof. P.M. Cohn            From codes to FIRs                                 OCR   111  24
+519   26. 1.81 be       Prof. H.K. Moffatt         Stange Attractors                                  LRT   118  21
+520    4. 2.81 d                                   Dinner                                             OK    122  20
+521    9. 2.81          Dr. B. Thwaites            A Confoundedly Curious Conjecture                  OCR   124  10
+522   23. 2.81          Prof. G.K. Batchelor       Extraction of Oil from Underground                 OCR   128   9
+523    9. 3.81          Dr. C. Isenberg            Geometrical Properties and Shapes                  WPR   131  18
+                                                   of Soapfilms and Soapbubbles
+524   27. 4.81          Prof. D.G. Kendall         Mathematics in Medieval Theology                   OCR   135  33
+524a  27. 4.81 be                                  Annual General Meeting                             OCR   139   8
+524b  10. 6.81 c  Adams                            Cricket Match (victorious)                         OF    148

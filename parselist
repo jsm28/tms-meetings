@@ -1,0 +1,398 @@
+#!/usr/bin/perl -w
+
+use Getopt::Long qw(:config gnu_getopt);
+use POSIX qw(floor strftime);
+use strict;
+use vars '@meetings';
+
+use constant REPORT_NOTHING => 0;
+use constant REPORT_HTML => 1;
+use constant REPORT_COUNTS => 2;
+use constant REPORT_RANGES => 3;
+
+@meetings = ();
+
+my %joint = (
+    "Adams" => "Adams Society",
+    "M&S" => "Magpie and Stump",
+    "A/M&S" => "Adams Society and Magpie and Stump",
+    "MRSTC" => "Mathematics Research Students&rsquo; Tea Club",
+    "NP" => "New Pythagoreans",
+    "TCNSS" => "Trinity College Natural Sciences Society",
+    "TCMS" => "Trinity College Music Society",
+    "TCSS" => "Trinity College Science Society" );
+
+# Each meeting has one number, date, flags, joint, venue, page, audience.
+# If there are multiple lines they give _either_ multiple speakers and titles
+# _or_ multiple speakers for one title.  (The two could be combined, but
+# haven't been yet.)
+# Thus: a meeting has a series of talks (possibly one); a talk has a title
+# and a series of speakers (possibly one).
+# Array of meetings.  Each is a hash, elements {number} {date} {flags}
+# {joint} {venue} {page} {audience} {talks}.  The entry {talks} is an array,
+# each element of which is a hash, {speakers} being an array of speakers
+# and {title} being a string.  Each speaker is a string.
+
+# Load list of meetings from named file.
+sub load_meetings ( $ ) {
+    my($file) = @_;
+    open(MEETINGS, "<$file") || die("open $file for reading: $!\n");
+    my $continuing;
+    while (<MEETINGS>) {
+	chomp;
+	if (/^$/ || /^VOLUME/ || /^------/ || /^mmmxx/ || /^\(/) {
+	    next;
+	}
+	if (/(^.{5}) (.{10}) (.{3}) (.{5}) (.{1,32})(.*)$/) {
+	    my($number, $date, $flags, $joint, $speaker, $rest) = ($1, $2, $3, $4, $5, $6);
+	    $number =~ s/ //g;
+	    $flags =~ s/ //g;
+	    $joint =~ s/ //g;
+	    $speaker =~ s/\s*$//;
+	    if ($date eq "          " && $number eq "") {
+		$continuing = 1;
+		if ($flags ne "" || $joint ne "") {
+		    die "bad line $_";
+		}
+	    } else {
+		$continuing = 0;
+	    }
+	    if ($flags !~ /^[bcdefimnoprtv]*$/) {
+		die "bad line $_";
+	    }
+	    if ($joint ne "" && !defined($joint{$joint})) {
+		die "bad line $_";
+	    }
+	    my($title, $venue, $page, $audience) = ("", "", "", "");
+	    if ($rest ne "") {
+		die "bad line $_" if $rest !~ /^ (.{1,103})(.*)$/;
+		$title = $1;
+		$rest = $2;
+		$title =~ s/\s*$//;
+		if ($rest ne "") {
+		    die "bad line $_" if $continuing;
+		    die "bad line $_" if $rest !~ /^ (.{5}) (.{3})(.*)/;
+		    $venue = $1;
+		    $page = $2;
+		    $audience = $3;
+		    $venue =~ s/ //g;
+		    $page =~ s/ //g;
+		    $audience =~ s/ //g;
+		}
+	    }
+	    # Now store the decoded structure.
+	    if ($continuing) {
+		my($otalks) = $meetings[$#meetings]{talks};
+		if ($title) {
+		    # New title (and so new speaker).
+		    push(@{$otalks}, { speakers => [ $speaker ],
+				       title => $title });
+		} else {
+		    # New speaker for the previous title.
+		    push(@{$otalks->[$#{$otalks}]{speakers}}, $speaker);
+		}
+	    } else {
+		push(@meetings, { number => $number,
+				  date => $date,
+				  flags => $flags,
+				  joint => $joint,
+				  venue => $venue,
+				  page => $page,
+				  audience => $audience,
+				  talks => [ { speakers => [ $speaker ],
+					       title => $title } ] });
+	    }
+	} else {
+	    die "bad line $_";
+	}
+    }
+}
+
+# Decode a speaker into title, initials, surname and description.
+sub decode_speaker ( $ ) {
+    my($speaker) = @_;
+    if ($speaker eq "" || $speaker eq "unminuted") {
+	return { title => "",
+		 initials => "",
+		 surname => $speaker,
+		 description => "" };
+    }
+    my($stitle, $sinits, $ssurname, $sdescr, $stmp) = ("", "", "", "");
+    $stmp = $speaker;
+    $stmp =~ s/^Prof\. //;
+    $stmp =~ s/^Rev\. //;
+    $stmp =~ s/^Dr\. //;
+    $stmp =~ s/^Hon\. //;
+    $stmp =~ s/^Col\. //;
+    $stmp =~ s/^Sir //;
+    $stmp =~ s/^Lord //;
+    $stmp =~ s/^(Mr\.|Mrs\.|Ms\.|Miss) //;
+    if ($speaker =~ /^(.*) \Q$stmp\E$/) {
+	$stitle = $1;
+    } else {
+	die "bad speaker reduction for $speaker ($stmp)";
+    }
+    if ($stmp =~ s/ \((prop|opp|author|producer)\)$//) {
+	$sdescr = " ($1)";
+    }
+    if ($stmp =~ /^(.*\.) ([^.]*)$/) {
+	$sinits = $1;
+	$ssurname = $2;
+    } else {
+	die "bad speaker $stmp";
+    }
+    return { title => $stitle,
+	     initials => $sinits,
+	     surname => $ssurname,
+	     description => $sdescr };
+}
+
+# Convert a date into a number of days since an arbitrary epoch.
+sub decode_date ( $ ) {
+    my($ds) = @_;
+    $ds =~ /^(....)-(..)-(..)$/;
+    my $year = $1;
+    my $month = $2;
+    my $day = $3;
+    # Computation algorithm from Calendrical Calculations.
+    my $ym1 = $year - 1;
+    my $epoch = 0;
+    my $ydays = 365 * $ym1 + floor($ym1 / 4) - floor($ym1 / 100)
+	+ floor($ym1 / 400);
+    my $mdays = floor((367 * $month - 362) / 12);
+    my $isleap = (($year % 4 == 0)
+		  && (($year % 100 != 0) || ($year % 400 == 0)));
+    my $leapadj = (($month <= 2) ? 0 : ($isleap ? -1 : -2));
+    return ($epoch + $ydays + $mdays + $leapadj + $day);
+}
+
+# Return details of a meeting in a compressed string form.  For debugging.
+sub display_meeting_debug ( $ ) {
+    my($meeting) = @_;
+    my($ret) = "";
+    $ret .= "meeting<$meeting->{number}><$meeting->{date}><$meeting->{flags}><$meeting->{joint}><$meeting->{page}><$meeting->{audience}>\n";
+    my($talks) = $meeting->{talks};
+    foreach my $talk (@$talks) {
+	$ret .= "talk<$talk->{title}>by";
+	foreach my $speaker (@{$talk->{speakers}}) {
+	    $ret .= "<$speaker>";
+	}
+	$ret .= "\n";
+    }
+    return $ret;
+}
+
+# Return details of a meeting in HTML form.
+sub display_meeting_html ( $ ) {
+    my($meeting) = @_;
+    my($ret) = "";
+    if ($meeting->{date} eq "          ") {
+	$ret .= "  <li>(unminuted meeting, no details available)</li>\n";
+	return $ret;
+    }
+    my($date) = $meeting->{date};
+    $date =~ /^(....)-(..)-(..)$/;
+    my($year, $month, $day) = ($1, $2, $3);
+    $day =~ s/^0//g;
+    $ret .= "  <li>$day ".strftime("%B", 0, 0, 0, $day, $month - 1, $year, -1, -1, -1)." $year";
+    if ($meeting->{joint}) {
+	$ret .= " (joint with $joint{$meeting->{joint}})";
+    }
+    $ret .= ": ";
+    my($talks) = $meeting->{talks};
+    if ($#{$talks} > 0) {
+	$ret .= "\n    <ul>\n";
+    }
+    foreach my $talk (@$talks) {
+	if ($#{$talks} > 0) {
+	    $ret .= "      <li>";
+	}
+	if ($#{$talk->{speakers}} > 0 || $talk->{speakers}->[0]) {
+	    for (my $i = 0; $i <= $#{$talk->{speakers}}; $i++) {
+		my($speaker) = $talk->{speakers}->[$i];
+		my($sdec) = decode_speaker($speaker);
+		$sdec->{title} =~ s/(Mr|Mrs|Ms|Dr)\./$1/;
+		while ($sdec->{initials} =~ /[A-Z]\.[A-Z]/) {
+		    $sdec->{initials} =~ s/([A-Z])\.([A-Z])/$1. $2/;
+		}
+		$sdec->{initials} =~ s/ /&nbsp;/g;
+		$ret .= "$sdec->{title}&nbsp;$sdec->{initials}&nbsp;$sdec->{surname}$sdec->{description}";
+		if ($i < $#{$talk->{speakers}}) {
+		    $ret .= " and ";
+		}
+	    }
+	    $ret .= ", ";
+	}
+	if ($meeting->{flags} =~ /f/) {
+	    $ret .= "debate ";
+	}
+	my($htitle) = $talk->{title};
+	$htitle =~ s/&/&amp;/g;
+	$htitle =~ s/</&lt;/g;
+	$htitle =~ s/>/&gt;/g;
+	$htitle =~ s/\\pi/&pi;/g;
+	$htitle =~ s/\'/&rsquo;/g;
+	while ($htitle =~ /\"/) {
+	    $htitle =~ s/^([^\"]*)\"(.*)\"/$1&ldquo;$2&rdquo;/;
+	}
+	$htitle =~ s/ - /&mdash;/g;
+	$htitle =~ s/(\d)-/$1&ndash;/g;
+	$ret .= "$htitle";
+	if ($#{$talks} > 0) {
+	    $ret .= "</li>\n";
+	}
+    }
+    if ($#{$talks} > 0) {
+	$ret .= "    </ul>\n  ";
+    }
+    $ret .= "</li>\n";
+    return $ret;
+}
+
+# List meetings "of interest" in HTML form.  First argument is types of
+# meetings to exclude (even if speakers listed), in addition to those
+# excluded as pure business or having the speaker absent.  Second argument
+# is whether to use id rather than name attributes for anchors.
+sub display_all_meetings ( $ $ ) {
+    my($exclude, $anchor_id) = @_;
+    my($prevyear) = 0;
+    my($ret) = "";
+    foreach my $meeting (@meetings) {
+	if ($meeting->{flags} =~ /[$exclude]/) {
+	    next;
+	}
+	my($talks) = $meeting->{talks};
+	if ($#{$talks} == 0 && $talks->[0]->{title} =~ /^Business Meeting|Annual General Meeting|\(no speaker present\)/) {
+	    next;
+	}
+	$meeting->{date} =~ /^(....)-(..)-(..)$/;
+	my($year, $month) = ($1, $2);
+	if ($year >= $prevyear + 2 || ($year == $prevyear + 1 && $month >= 10)) {
+	    if ($prevyear) {
+		$ret .= "</ul>\n\n\n";
+	    }
+	    $prevyear = ($month >= 10 ? $year : $year - 1);
+	    my($nyear) = $prevyear + 1;
+	    if ($anchor_id) {
+		$ret .= "<h2 id=\"y$prevyear\">$prevyear&ndash;$nyear</h2>\n\n";
+	    } else {
+		$ret .= "<h2><a name=\"y$prevyear\">$prevyear&ndash;$nyear</a></h2>\n\n";
+	    }
+	    if ($prevyear == 1994) {
+		$ret .= "<p><strong>If you can improve or add to the information here on talks in 1994&ndash;1995, please let us know.</strong></p>\n\n";
+	    }
+	    $ret .= "<ul>\n";
+	}
+	$ret .= display_meeting_html($meeting);
+    }
+    $ret .= "</ul>\n";
+    return $ret;
+}
+
+# Return hash with speaker statistics, mapping name to a hash, elements
+# {num_talks} {first_date} {last_date} {first_date_num} {last_date_num}
+# {days_range}.  Argument is types of meetings
+# to exclude, as for display_all_meetings.
+sub compute_speaker_stats ( $ ) {
+    my($exclude) = @_;
+    my($ret) = { };
+    foreach my $meeting (@meetings) {
+	if ($meeting->{flags} =~ /[$exclude]/) {
+	    next;
+	}
+	my($talks) = $meeting->{talks};
+	my($date) = $meeting->{date};
+	if ($date eq "          ") {
+	    next;
+	}
+	if ($#{$talks} == 0 && $talks->[0]->{title} =~ /^Business Meeting|Annual General Meeting|\(no speaker present\)/) {
+	    next;
+	}
+	my($ddate) = decode_date($date);
+	foreach my $talk (@$talks) {
+	    if ($#{$talk->{speakers}} > 0 || $talk->{speakers}->[0]) {
+		for (my $i = 0; $i <= $#{$talk->{speakers}}; $i++) {
+		    my($speaker) = $talk->{speakers}->[$i];
+		    my($sdec) = decode_speaker($speaker);
+		    my($name) = "$sdec->{surname}, $sdec->{initials}";
+		    if (defined($ret->{$name})) {
+			$ret->{$name}->{num_talks}++;
+		    } else {
+			$ret->{$name} = { num_talks => 1,
+					  first_date => $date,
+					  first_date_num => $ddate };
+		    }
+		    $ret->{$name}->{last_date} = $date;
+		    $ret->{$name}->{last_date_num} = $ddate;
+		}
+	    }
+	}
+    }
+    foreach my $speaker (keys %$ret) {
+	$ret->{$speaker}->{days_range} = $ret->{$speaker}->{last_date_num} - $ret->{$speaker}->{first_date_num};
+    }
+    return $ret;
+}
+
+# Return text list of counts of numbers of talks by each speaker.
+# Argument is the hash from compute_speaker_stats.
+sub display_talk_counts ( $ ) {
+    my($stats) = @_;
+    foreach my $speaker (sort { my($t) = ($stats->{$a}->{num_talks} <=> $stats->{$b}->{num_talks}); $t ? $t : ($a cmp $b); } keys %$stats) {
+	printf "%7d %s\n", $stats->{$speaker}->{num_talks}, $speaker;
+    }
+}
+
+# Return text list of ranges of dates of talks by each speaker.
+# Argument is the hash from compute_speaker_stats.
+sub display_talk_ranges ( $ ) {
+    my($stats) = @_;
+    foreach my $speaker (sort { my($t) = ($stats->{$a}->{days_range} <=> $stats->{$b}->{days_range}); $t ? $t : ($a cmp $b); } keys %$stats) {
+	printf "%7d %-23s %s - %s\n", $stats->{$speaker}->{days_range}, $speaker, $stats->{$speaker}->{first_date}, $stats->{$speaker}->{last_date};
+    }
+}
+
+my($default_exclude) = "cdip";
+my($exclude) = $default_exclude;
+my($report_type) = REPORT_NOTHING;
+my($default_input_file) = "meetings.txt";
+my($input_file) = $default_input_file;
+my($anchor_id) = '';
+my($help) = '';
+
+GetOptions("exclude|x" => \$exclude,
+	   "html|H" => sub { $report_type = REPORT_HTML },
+	   "counts|c" => sub { $report_type = REPORT_COUNTS },
+	   "ranges|r" => sub { $report_type = REPORT_RANGES },
+	   "input|i=s" => \$input_file,
+	   "anchor-id|a" => \$anchor_id,
+	   "help|h" => \$help);
+
+load_meetings($input_file);
+if ($help) {
+    $report_type = REPORT_NOTHING;
+}
+if ($report_type == REPORT_HTML) {
+    print display_all_meetings($exclude, $anchor_id);
+} elsif ($report_type == REPORT_COUNTS) {
+    my $stats = compute_speaker_stats($exclude);
+    print display_talk_counts($stats);
+} elsif ($report_type == REPORT_RANGES) {
+    my $stats = compute_speaker_stats($exclude);
+    print display_talk_ranges($stats);
+} else {
+    print <<EOF;
+Usage: parselist [OPTION]...
+
+  -x, --exclude=TYPES  Exclude given TYPES of meetings, as in notes.txt
+                         (default: $default_exclude)
+  -i, --input=FILE     Take input from FILE (default: $default_input_file)
+  -H, --html           Generate HTML list of meetings
+  -c, --counts         Generate counts of number of talks by each speaker
+  -r, --ranges         Generate report on range of time over which each
+                         speaker has spoken
+  -a, --anchor-id      Use id rather than name attributes in HTML output,
+                         for XHTML 1.1 compatibility
+  -h, --help           Print this help, then exit
+EOF
+}

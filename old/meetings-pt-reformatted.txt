@@ -1,0 +1,716 @@
+[Meetings list scanned and edited from Paul Taylor's list, November
+and December 2002.]
+
+
+VOLUME I
+--------
+mmmxx yyyy-mm-dd fff joint speaker                          title                                                                                                 venue ppp aud
+      1919-02-15/22 i                                       discursive meeting (date uncertain)                                                                   GA1     1  13
+  1   1919-04-29 i                                          inaugural meeting                                                                                     GI      9  21
+  2   1919-05-06           Mr. E.A. Milne                   "Gauss' Error Law"                                                                                    GI     13  25
+  3   1919-05-21           Mr. G.H. Hardy                   "The Elementary Theory of Infinite Numbers"                                                           ND     17  30
+
+  4   1919-10-15           Mr. B.M. Wilson                  "Diophantine Approximation"                                                                           GL     27  25
+  5   1919-10-29           Prof. A.S. Eddington             "The Equilibrium of a Gaseous Star"                                                                   ND     33  30
+  6   1919-11-12           Mr. S. Pollard                   "The Lebesgue Integral"                                                                               GM     37  25
+  7   1919-12-03           Mr. D.C. Henry                   "Thermodynamics"                                                                                      NA     42  25
+  8   1920-01-21           Mr. W.W. Rouse-Ball              "Indigenous Japanese Mathematics"                                                                     GK6    47  25
+  9   1920-02-11           Mr. E.S. Pearson                 "From Pythagoras to Jeans"                                                                            GL     51  15
+ 10   1920-02-18           Mr. G.I. Taylor                  "Statistical Representation of Random Curves"                                                         NL     55  24
+ 11   1920-03-03           Mr. A.F. Pullinger               "The Elementary Theory of Radiation"                                                                  GM     59  16
+ 12   1920-04-28           Mr. E.A. Milne                   "Vectors and Tensors"                                                                                 GL     65  30
+ 13   1920-05-12           Mr. T.A. Brown                   "Cardinal Function"                                                                                   NA     71  12
+ 14   1920-05-26 e         Mr. P.W. Burbidge                "Atomic Structure"                                                                                    GK     75  40+
+
+ 15   1920-10-20           Mr. S. Pollard                   "Jordan's Theorem"                                                                                    GM     81  20
+ 16   1920-11-04           Mr. E.C. Francis                 "Ideal Numbers"                                                                                       GI     85  30
+ 17   1920-11-17           Mr. J.H. Grace                   "Probability"                                                                                         NC     89  40
+ 18   1920-12-01           Mr. N.M. Shah                    "Divergent Series"                                                                                    GM     91  20
+ 19   1921-01-27           Mr. F.P. White                   "The Diffraction of Electric Waves by the Earth"                                                      ND     97  30
+ 20   1921-02-16           Mr. T.M. Cherry                  "Vectorial Mechanics"                                                                                 GI    101  20
+ 21   1921-02-23           Mr. R.H. Fowler                  "The Perfect Gas Laws and the Quantum Theory"                                                         ND    103  35
+ 22   1921-03-09 b         Mr. J.A. Brown                   "Singularities of Taylor Series"                                                                      KA    107   9
+ 23   1921-05-04           Mr. J.E. Littlewood              "Prime Numbers"                                                                                       ND    113  25
+ 24   1921-05-18 e         Mr. C.D. Ellis                   "Fields of Force in the Atom"                                                                         GM    117  25
+
+ 25   1921-10-19           Mr. C.G. Darwin                  "Crystals"                                                                                            ND    125  38
+ 26   1921-11-09           Mr. E.F. Collingwood             "Picard's Theorem"                                                                                    BA    133  20
+ 27   1921-11-16           Mr. L.L. Whyte                   "X-rays"                                                                                              GI    139  28
+ 28   1921-11-30           Mr. E. Cunningham                "Relativity and the Problem of Measurement"                                                           NL    143  40
+ 29   1922-02-01           Mr. W.M. Smart                   "Navigation"                                                                                          NA    149  25
+ 30   1922-02-15           Mr. E.A. Milne                   "An Integral Equation"                                                                                ND    155  25
+ 31   1922-03-02           Mr. H.W. Richmond                "Pascal's Mystic Hexagram"                                                                            NC    159  25
+ 32   1922-03-08           Mr. A.E. Ingham                  "Division of the Circle"                                                                              KA    165  25
+ 33   1922-05-10           Mr. W.M.H. Greaves               "Saturn's Rings"                                                                                      JCR   171  17
+ 34   1922-05-22 ef        Mr. S. Pollard (prop)            "Applied Maths should be instantly and radically revised"                                             JCR   175  33
+                           Mr. J.M. Cherry (opp)
+
+ 35   1922-10-25           Prof. Sir E. Rutherford          "Atomic Collisions"                                                                                   JCR   187  35
+ 36   1922-11-08           Mr. C.G.F. James                 "Kummer's Quartic Surface"                                                                            GQ    191  14
+ 37   1922-11-22 b         Mr. J.C. Burkill                 "Length and Area"                                                                                     ND    193  24
+ 38   1922-12-05           Mr. J.S. Bentwich                "Equipartitition of Energy"                                                                           NA    195  25
+ 39   1923-01-24           Mr. F.G. Maunsell                "Magic Squares"                                                                                       KB    199  10
+ 40   1923-02-07           Dr. H. Lamb                      "Theory of Elastic Plates"                                                                            NC    201  20
+ 41   1923-02-21           Mr. W.J. Webber                  "Approximation by Polynomials"                                                                        BC    203  17
+ 42   1923-03-07           Sir G. Lenox-Conyngham           "Geodetic Methods"                                                                                    NL    205  17
+ 43   1923-04-25           Dr. J.E. Jones                   "Kinetic Theory of a non-uniform Gas"                                                                 NA    209  18
+ 44   1923-05-09           Mr. A. Berry                     "Continuous Groups"                                                                                   ND    211  18
+ 45   1923-05-23 e         Mr. H.W.B. Skinner               "Magnetism"                                                                                           GQ    213  23
+
+
+VOLUME II
+---------
+mmmxx yyyy-mm-dd fff joint speaker                          title                                                                                                 venue ppp aud
+ 46   1923-10-17 b         Mr. H. Glauert                   "Aerodynamics"                                                                                        NC      1  28
+ 46a  1923-10-24 b         Prof. E. Iandau                  "A Theorem of Minkowski's"                                                                            ND      4  35
+ 47   1923-10-31 b         Mr. E.C. Francis                 "Denjoy-Stieltjes' Integral"                                                                          NL      6  25
+ 48   1923-11-14           Mr. J.B.S. Haldane               "Natural Selection"                                                                                   JCR     8  30
+ 49   1923-11-28           Mr. R. Cooper                    "Automorphic Functions"                                                                               KK      9  25
+ 50   1924-01-23           Prof. J.J. Thomson               "Speculations as to the Nature of Light"                                                              OCR    11  65
+ 50a  1924-02-06     Adams Prof. H.F. Baker                 "Our Orderly-Minded Friend"                                                                           OCR    13  50
+ 51   1924-02-13           Dr. G.N. Watson                  "Approximations"                                                                                      NG     13  35
+ 52   1924-02-27           Mr. S. Pollard                   "The Thermionic Valve"                                                                                ND     15  30
+ 53   1924-03-12           Mr. W.R. Dean                    "Elastic Stability"                                                                                   GL     16   8
+ 54   1924-05-14           Mr. T.M. Cherry                  "Celestial Mechanics"                                                                                 GG     18  25
+ 55   1924-05-21 e         Mr. J. Mercer                    "Functions of a Positive Type"                                                                        NL     20
+
+ 56   1924-11-05 b         Mr. G.I. Taylor                  "The Deformation of Metallic Crystals"                                                                NC     22
+ 57   1924-11-12           Mr. T.G. Room                    "Latin Squares"                                                                                       GG     25
+ 58   1924-11-26           Mr. L.H. Thomas                  "Krönecker's Theorem"                                                                                 KB     27
+ 59   1924-12-03           Dr. P.A. MacMahon                "The Foundations of Repeat Geometry"                                                                  NG     29
+ 59a  1925-01-28     Adams Mr. J.E. Littlewood              "Prime Numbers"                                                                                       SJC    31
+ 60   1925-02-11           Mr. F.S.G. Rawlins               "The Degeneration of Gases"                                                                           BC     33
+ 61   1925-02-25           Prof. E.W. Hobson                "A Classical Theorem in the Theory of Fourier Series"                                                 ND     35
+ 62   1925-03-11           Mr. F.G. Maunsell                "The Four Colour Problem"                                                                             GH     36
+ 63   1925-05-06           Mr. S. Pollard                   "Report of the Sub-Committee on the Revision of Applied Mathematics"                                  NL     38
+ 64   1925-05-27 be        Prof. G. Polya                   "Geometrical Properties of the Distribution of Zeroes of some Integral Functions"                     ND     42
+
+ 65   1925-10-21 b         Prof. G.H. Hardy                 "Some Theorems concerning Series of Positive Terms"                                                   ND     45
+ 66   1925-11-04           Dr. C.D. Ellis                   "Conversion of Radiation"                                                                             ND     48
+ 67   1925-11-18           Mr. H. Jeffreys                  "The Age of the Earth"                                                                                OCR    50
+ 68   1925-12-02           Dr. C.D. Broad                   "Kant's Theory of Space and Geometry"                                                                 NG     51
+ 68a  1926-01-27     Adams Prof. A.S. Eddington             "The Problem of Sub-Atomic Energy"                                                                    OCR    54
+ 69   1926-02-10 b         Dr. P. Kapitza                   "The Gyromagnetic Effect"                                                                             GG     55
+ 70   1926-02-24           Mr. R. Cooper                    "Some Inequalities"                                                                                   KA     57
+ 71   1926-03-10           Mr. W.M. Smart                   "Stellar Clusters"                                                                                    GD     58
+ 72   1926-06-04 be        Mr. S. Pollard (prop)            "Mathematics is mainly nonsense and commonly dull"                                                           59
+                           Mr. J.W. Brunyate (opp)
+
+ 73   1926-10-27           Mr. E.F. Collingwood             "Some recent developments in the theory of Integral Functions"                                        GC     63
+ 74   1926-11-03           Mr. R.V. Southwell               "The Stability Problems in Hydrodynamics"                                                             GG     65
+ 75   1926-11-17           Mr. L.H. Thomas                  "The capture and loss of electrons by alpha particles"                                                NG     68
+ 76   1926-12-01           Mr. R.H. Fowler                  "General Forms of Statistical Mechanics"                                                              GH     69
+ 77   1927-01-26           Mr. C.T.L. Caton                 "The Tensor Calculus and Relativity"                                                                  KA     71
+ 78   1927-02-09           Dr. J. Chadwick                  "Atomic Nuclei"                                                                                       GD     73
+ 79   1927-02-23     Adams Prof. E.V. Appleton              "Some Wireless Problems"                                                                              SJC    74
+ 80   1927-03-09           Mr. S. Pollard                   "What is Mathematics?"                                                                                ND     75
+ 81   1927-04-27           Mr. Steen                        "Continued Fractions"                                                                                 GH     76
+ 82   1927-05-11 e         Mr. L.H. Thomas                  "Some Applications of Mathematics to Wireless"                                                        KA     77
+ 82a  1927-06-10 b                                          Business Meeting (Minutes expunged)                                                                          80
+
+ 83   1927-10-19           Mr. J.B.S. Haldane               "Mathematical Biology"                                                                                GM     82
+ 84   1927-11-02 b         Mr. J.A. Gaunt                   "The History of the Quantum Theory"                                                                   GG     85
+ 85   1927-11-16           Mr. A.S. Besicovitch             "Integral Functions of Order less than one"                                                           LR3    87
+ 86   1927-11-30           Prof. H.F. Baker                 "Some Applications of the Calculus of Matrices"                                                       ND     89
+ 87   1928-01-25           Mr. H.S.M. Coxeter               "Regular Polyhedra"                                                                                   GG     91
+ 88   1928-02-08           Mr. H.D. Ursell                  "Veronese's Surface and its Projections"                                                              GG     94
+ 88a  1928-02-27     Adams Mr. F.J.M. Stratton              "Recent Eclipses"                                                                                     LR5    96
+ 89   1928-03-07           Dr. T.M. Cherry                  "An Application of the Theory of Sets of Points to Differential Equations"                            NC     97
+ 90   1928-05-02           Mr. H.W. Richmond                "Outlines of Geometry"                                                                                GG     99
+ 91   1928-05-16 e         Dr. P. Du Val                    "De Sitter's World"                                                                                   NC    101
+
+ 92   1928-10-17           Mr. F.P. Ramsey                  "Mathematical Economics"                                                                              GG    104
+ 93   1928-10-31           Mr. W.L. Edge                    "Ruled Surfaces"                                                                                      KD    106
+ 94   1928-11-14           Mr. M.J. Dean                    "The History of Elasticity"                                                                           GM    108
+ 95   1928-11-28           Prof. J.E. Littlewood            "Some Problems in the Theory of Numbers"                                                              GG    110
+ 96   1929-01-23           Miss M.D. Kennedy                "Primitives"                                                                                          NC    112
+ 96a  1929-02-06     Adams Dr. P.A.M. Dirac                 "Principles of Quantum Mechanics"                                                                     SJC   113
+ 97   1929-02-20           Mr. W.M. Smart                   "Stellar Motions"                                                                                     ND    114
+ 98   1929-03-13           Mr. F.P. White                   "The Contact Problem of Clebsch"                                                                      GG    116
+ 99   1929-05-01           Mr. L.A. Pars                    "The Four Colour Problem"                                                                             GH    118
+100   1929-05-15           Prof. J.J. Thomson               "Some Reminiscences of Cambridge Mathematics and Mathematicians"                                      OCR   119
+101   1929-05-29 e         Dr. T.G. Room                    "Finite Geometries"                                                                                   KK    120
+
+102   1929-10-23           Dr. H. Lamb                      "Mathematical Style"                                                                                  ND    123
+103   1929-11-06           Prof. A.S. Eddington             "The End of the World"                                                                                OCR   125
+104   1929-11-20           Mr. L.C. Young                   "Integration in Topological Space"                                                                    LR3   127
+105   1929-12-05 b         Mr. J.G. Semple                  "Determinatal Quartic Loci"                                                                           KK8   130
+106   1930-01-29           Mr. H.W. Richmond                "On Some Musical Properties of Cubes"                                                                 NL    133
+107   1930-02-12           Dr. J.A. Carroll                 "The Computation and Observation of Eclipses"                                                         OCR   135
+108   1930-02-19           Mr. G.W. Ward                    "Transfinite Numbers"                                                                                 GD    137
+109   1930-03-05     Adams Mr. R.H. Fowler                  "Possible Relationships between alpha, beta and gamma rays of Radium C"                               OCR   139
+110   1930-05-14           Mr. D. Shoenberg                 "Constructions with only a compass"                                                                   GE6   141
+                           Mr. Todd                         "Kirkman's Schoolgirls Problem"
+                           Mr. du Val                       "Wallpaper"
+111   1930-05-28 e         Dr. L. Wittganstein              "The Foundations of Mathematics"                                                                      OCR   144
+
+112   1930-10-15 e         Mr. J.C.P. Miller                "Archimedean Solids"                                                                                  GC2   146
+113   1930-10-29           Mr. J.A. Ratcliffe               "The Effective Height of the Heaviside Layer"                                                         OCR   149
+114   1930-11-12           Mr. P. Du Val                    "The Rhind Papyrus"                                                                                   GC4   152
+115   1930-11-26 b         Mr. C.A. Coulson                 "Gyroscopes"                                                                                          HF    155
+116   1931-01-28           Mr. A.E. Ingham                  "The Sieve of Eratosthenes"                                                                           ND4   157
+117   1931-02-11     Adams Dr. A.A. Robb                    "The Idea of Order as a Foundation of Space-Time Theory"                                              SJC   158
+118   1931-02-25           Mr. J.B.S. Haldane               "Some Difference Equations arising out of Biological Problems"                                        OCR   159
+119   1931-03-04           Dr. P. Kapitza                   "Physical Measurements in Snort Times"                                                                KA5   161
+120   1931-05-13           Mr. J.C. Burkill                 "Non-differentiable Functions"                                                                        KN    162
+121   1931-05-27 e         Mr. R.E.A.C. Paley               "Contruction with Pencil and Ruler, or, Geometry without Circles"                                     KI    164
+
+
+VOLUME III
+----------
+mmmxx yyyy-mm-dd fff joint speaker                          title                                                                                                 venue ppp aud
+122   1931-10-14           Prof. G.H. Hardy                 "The Theorem of the Arithmetic and Geometric Mean"                                                    OCR    32
+123   1931-10-28           Mr. N.F. Mott                    "Wave Mechanics"                                                                                      HI     35
+124   1931-11-04           Sir F. Dyson                     "The Greenwich Observatory"                                                                           OCR    38
+125   1931-11-18           Mr. H.S.M. Coxeter               "Black and White Triangles"                                                                           GE     41
+126   1932-02-03           Mr. G.I. Taylor                  "Air Flow at speeds greater than that of Sound"                                                       NA     46
+127   1932-02-17           Prof. Wiener                     "The Brownian Movement"                                                                               OCR    48
+128   1932-02-24           Mr. Wishart                      "Combinatorial Analysis and Statistics"                                                               GC     50
+129   1932-03-03     Adams Mr. W.L. Edge                    "Properties of Certain Twisted Curves"                                                                GC     52
+130   1932-05-11           Mr. A.J.H. Morrell               "The Strophoid and the Lemniscate"                                                                    GE     55
+131   1932-05-25 be        Mr. M.H.L. Pryce                 "The Tidal Theory of the Origin of the Solar System"                                                  BC     57
+
+132   1932-10-19           Prof. A.S. Eddington             "The Expanding Universe"                                                                              OCR    64
+133   1932-10-26 be                                         Business Meeting                                                                                      OCR    67   8
+134   1932-11-02 b         Mr. A.S. Besicovitch             "Some problems connected with the mean value of functions of complex and real variables"              HA     69
+135   1932-11-17           Mr. E. Cunningham                "Crystal Lattices"                                                                                    GN     72
+136   1932-11-30 e         Mr. J. Bronowski                 "The Geometry of One Dimension"                                                                       GP     74
+137   1933-02-01           Mr. H.D. Ursell                  "Two types of non-rectifiable curves"                                                                 BC     77
+138   1933-02-15     Adams Prof. P.A.M. Dirac               "Half-Vectors"                                                                                        SJC    77
+139   1933-02-28 b                                          Business Meeting                                                                                      BC     78
+140   1933-03-01           Mr. S.S.P. Steen                 "Functions of an infinite number of variables"                                                        KL     78
+141   1933-03-08           Dr. F.P. White                   "Differential Geometry- Metrical, Affine and Projective"                                              KE     79
+142   1933-05-10           Mr. W.R. Dean                    "Photo-Elasticity"                                                                                    HO     82
+143   1933-05-24 e         Mr. J.H. Pearse                  "A Problem in Number Arrangement"                                                                     HD2    83
+                           Mr. M. Hall                      "Diophantine Equations"
+
+144   1933-10-21 b         Dr. Spencer-Jones                "The Structure of Space"                                                                              NC2    92  37
+145   1933-11-01           Mr. C.A. Coulson                 "Mathematics and Chemistry"                                                                           HM1    96  20
+146   1933-11-15 b         Mr. H.S.M. Coxeter               "Reflections"                                                                                         HL1    99  20
+147   1933-11-29 e         Mr. P. Du Val                    "The Surfaces of Veronese and Steiner"                                                                BE1   102  25
+148   1934-01-31           Prof. Courant                    "Some Problems in the Calculus of Variations"                                                         OCR   107  30
+149   1934-02-14     Adams Prof. G.H. Hardy                 "Fermat's and Mersenne's Numbers"                                                                     OCR   109  50
+150   1934-02-21           Prof. Lord E. Rutherford         "The Transmutation of Matter"                                                                         OCR   112  50
+151   1934-03-07 b         Prof. H.F. Baker                 "A Differential Equation of the Third Order associated with a familiar Group"                         GI3   115  21
+152   1934-05-09           Dr. Chandrasakar                 "Polytropic Distributions"                                                                            GC2   118  18
+153   1934-05-23 e         Mr. G.W. Morgan                  "The Growth of Functions"                                                                                   120  24
+
+154   1934-10-17           Prof. E.A. Milne                                                                                                                       OCR   123  49
+155   1934-10-31           Mr. M. Born                      "Some Fundamental Conceptions of Physics"                                                             OCR   124  41
+156   1934-11-14           Mr. T.G. Room                    "Freedom in Geometry"                                                                                 OCR   126
+157   1934-11-28 e         Mr. M.H.L. Pryce                 "The Gamma Function"                                                                                        127
+158   1935-01-30           Mr. L.A. Pars                    "Pfaffian Forms"                                                                                      OCR   129
+159   1935-02-14     Adams Mr. H. Jeffreys                  "Scientific Method"                                                                                   SJC   131
+160   1935-02-27           Dr. R. Rado                      "Some Combinatorial Problems"                                                                         BE2   132
+161   1935-03-06 b         Mr. H. Davenport                 "Greek Mathematics"                                                                                   OCR   132
+162   1935-05-15           Mr. H.M. Cundy                   "Knots"                                                                                               HL1   134  19
+163   1935-05-22                                            Discussion, "Does it Matter?"                                                                         GC4   136
+164   1935-06-05 be        Mr. J.H. Pearse                  "Some Elementary Theorems of Integral Functions"                                                      KI4   137
+
+165   1935-10-23           Dr. H.M. Taylor                  "A New Theory of Relativity"                                                                          OCR   141  25
+166   1935-11-06           Prof. G.I. Taylor                "Turbulence"                                                                                          OCR   143
+167   1935-11-27           Dr. H.S.M. Coxeter               "The Fifty Nine Icosahedra"                                                                           GI3   145
+168   1935-12-04 e         Mr. W.R. Dean                    "Biharmonic Analysis"                                                                                 OCR   147
+169   1936-02-12           Mr. P. Hall                      "Fields of Numbers"                                                                                   OCR   151
+170   1936-02-19           Mr. A.S. Besicovitch             "Geometrical Entities from the point of view of the General Theory of Aggregates"                     KI4   153
+171   1936-02-27     Adams Mr. W.M. Smart                   "Variable Stars"                                                                                      OCR   156  43
+172   1936-03-11           Dr. E.F. Collingwood             "Integral Equations"                                                                                  OCR   158
+173   1936-04-30           Mr. E. Cunningham                "Some aspects of Mathematical teaching and examinations at Cambridge"                                 OCR   160
+174   1936-05-20 e         Mr. A. Green                     "Gliding on the Surface of Water"                                                                     HD8   162
+
+175   1936-10-21           Mr. F.P. White                   "Eggs"                                                                                                OCR   165
+176   1936-11-11           Mr. M.H.A. Newman                "Finitist Mathematics"                                                                                OCR   168
+177   1936-11-25           Mr. H. Rottenberg                "Graphical and Mechanical Calculations in Engineering"                                                OCR   170
+178   1936-12-02 e         Mr. Leggett                      "Certain Thin Plate Problems in the theory of Elastic Stability"                                      OCR   173
+179   1937-01-27           Mr. J. Wishart                   "Statistics"                                                                                          OCR   175
+180   1937-02-18     Adams Dr. S. Goldstein                 "The Motion of Fluids"                                                                                SJC   176
+181   1937-02-24           Mr. H.A. Heilbronn               "The Distribution of Primes"                                                                          OCR   178
+182   1937-05-13 v         Prof. M.L.E. Oliphant            Visit to the High Voltage Laboratory                                                                        181
+183   1937-05-19 be        Mr. H.J.H. Sisson                "Ideals"                                                                                              OCR   182
+
+184   1937-10-20           Mr. A.E. Ingham                  "A Little about Numbers"                                                                              OCR   186
+185   1937-10-27           Dr. H. Jeffreys                  "Earthquakes"                                                                                         OCR   189
+186   1937-11-17           Dr. G.F.C. Searle                "The Dynamics of Electrified Bodies"                                                                  OCR   192
+187   1937-12-01 e         Prof. G.H. Hardy                 "Partitions"                                                                                          OCR   195
+188   1938-01-19           Mr. W.T. Tutte                   "Bosh(x) and Allied Functions"                                                                        OCR   198
+189   1938-02-02           Dr. J.A. Todd                    "Pascal's Hexagram"                                                                                   OCR   200
+190   1938-02-16     Adams Mr. W.R. Dean                    "The Biharmonic Equation"                                                                             LR3   201
+190a  1938-02-19 v                                          Visit to the Solar Physics Observatory                                                                      203
+190b  1938-02-26 d   TCNSS                                  Dinner                                                                                                      203  50
+191   1938-03-02           Dr. C.A. Coulson                 "Killing Germs"                                                                                       OCR   204
+192   1938-03-17 v                                          Visit to Differential Analyser                                                                              206  20
+193   1938-04-27           Dr. N.A. de Bruyne               "Building an Aeroplane"                                                                               LR3   207
+194   1938-05-11 e         Dr. R. v.d.R. Wooley             "Eclipses"                                                                                            OCR   210
+194a  1938-05-25 p                                          Society Photograph                                                                                          213  40
+
+195   1938-10-17           Prof. F.J.M. Stratton            "New Stars"                                                                                           OCR   215
+196   1938-10-31 b         Mr. F.C. Strachan                "Telephone Repeater Stations"                                                                         OCR   218
+197   1938-11-07           Mr. C.A.B. Smith                 "Fish Functions"                                                                                      OCR   225
+198   1938-11-14           Dr. M.L. Cartwright              "Convex Regions"                                                                                      OCR   228
+199   1938-11-28 e         Prof. E.V. Appleton              "Solar Radiation Changes during the Sunspot cycle"                                                    OCR   230
+200   1939-01-27           Prof. E.A. Milne                 "Inventing a Theory to fit the Facts"                                                                 OCR   237  60
+201   1939-02-13           Dr. H.J. Bhabha                  "The Theory of Cosmic Ray Showers"                                                                    OCR   240
+202   1939-02-23     Adams Mr. E. Cunningham                Discussion                                                                                            SJC   242
+202a  1939-02-25 d   TCNSS                                  Dinner                                                                                                      243  35
+203   1939-03-23           Mr. A.H. Stone                   "Squaring the Square"                                                                                 OCR   244
+204   1939-04-24           Dr. M.S. Bartlett                "Mathematics and Human Genetics"                                                                      OCR   248
+205   1939-05-15 e         Dr. A.F. Devonshire              "Mathematics and Molecules"                                                                           OCR   250
+
+206   1939-10-16           Prof. A.S. Eddington             "Why is the Universe Mathematical?"                                                                   OCR   253
+207   1939-10-30           Dr. A.D. Thackeray               "The Structure of the Galaxy"                                                                         OCR   256
+208   1939-11-27 e         Dr. B. Swirles                   "Precession"                                                                                          OCR   258
+209   1940-02-05           Mr. M.H.A. Newman                "The Ham Sandwich Theorem"                                                                            OCR   262
+210   1940-02-12     MRSTC Mr. F.J. Anscombe                "What Statistics is About"                                                                            GP1   265
+211   1940-02-19     Adams Prof. L. Wittgenstein            "The Descent of Mathematics"                                                                          OCR   267
+211a  1940-02-24 d   TCNSS                                  Dinner                                                                                                OCR   269
+212   1940-03-04           Dr. R. Stoneley                  "Earthquake Waves"                                                                                    OCR   270
+213   1940-04-29           Mr. A.S. Besicovitch             "Normal Sequences of Numbers"                                                                         OCR   272
+214   1940-05-13     MRSTC Mr. I.J. Good                    "Infinite Regressions"                                                                                      277
+
+215   1940-10-21 e         Mr. W.T. Tutte                   "Bosh(x)"                                                                                             OCR   282
+216   1940-11-04           Mr. P. Hall                      "Something about Galois"                                                                              OCR   285
+217   1940-11-13        NP Prof. P.A.M. Dirac               "The Interior of an Electron"                                                                         OCR   288
+218   1940-12-02 e      NP Prof. G.H. Hardy                 "Ramanujan"                                                                                           OCR   291
+219   1941-03-03           Mr. H. Jeffreys                  "Mathematics as a Substitute for Thought"                                                             OCR   296
+220   1941-02-17           Mr. W.R. Dean                    "The Biharmonic Equation"                                                                             OCR   298
+221   1941-02-27     Adams Prof. W.V.D. Hodge               "Unexplored Fields in Geometry"                                                                       SJC   300
+222   1941-03-10           Dr. J.O. Irwin                   "Statistical Studies of the Personal Factor in Accidents"                                             OCR   302
+222a  1941-03-12 v         Dr. J.O. Irwin                   Visit to Psychological Laboratory                                                                           304
+223   1941-04-28           Mr. A.H. Wilson                  "The History of the Elementary Physical Particles, 1926-40"                                           OCR   309
+224   1941-05-12           Dr. J.A. Todd                    "Morley's Trisection Theorem"                                                                         OCR   312
+
+225   1941-10-20        NP Prof. J.E. Littlewood            "Some Applications of Analysis"                                                                       OCR   318
+226   1941-11-03        NP Mr. A.E. Ingham                  "Conjecture and Proof in the Theory of Numbers"                                                       CAI   322
+227   1941-11-17        NP Prof. A.S. Eddington             "The Size of the Universe"                                                                            OCR   325
+228   1941-11-27        NP Mr. M.H.A. Newman                "Axiomatics"                                                                                          CHR   330
+
+
+VOLUME IV
+---------
+mmmxx yyyy-mm-dd fff joint speaker                          title                                                                                                 venue ppp aud
+229   1942-01-23        NP Dr. D. Shoenberg                 "Small Particles at Low Temperatures"                                                                 OCR    14
+230   1942-02-29        NP Dr. J.A. Todd                    "The Elements of Euclid"                                                                              CAI    16
+231   1942-02-25        NP Prof. Sir E.V. Appleton          "Some Unsolved Radio Problems"                                                                        CAI    18
+232   1942-03-09        NP Mr. A.S. Besicovitch             "Mean Values of Functions"                                                                            OCR    20
+(the Society did not meet during Easter 1942)
+
+233   1942-10-19 be                                         Business Meeting                                                                                      GP3    26
+234   1942-10-26        NP Dr. J.C. Burkill                 "The Area of a Surface"                                                                               OCR    28
+235   1942-11-09        NP Mr. L.A. Pars                    "The Differential Equations of Dynamics"                                                              OCR    31
+236   1942-11-23        NP Dr. C.A.B. Smith                 "Growing Fish from Seed"                                                                              EMM    33
+237   1943-02-22        NP Mr. W.T. Tutte                   "Squaring the Square"                                                                                 EMM    35
+(the Society did not meet during Easter 1943)
+
+238   1943-10-28 e         Mr. F. Ursell                    "Prime Numbers"                                                                                       OCR    41
+239   1943-11-06           Mr. A.S. Besicovitch             "Monotonic Functions"                                                                                 LR5    44
+240   1943-11-11           Mr. N. Aronszain                                                                                                                       LR5    45
+241   1943-11-18           Prof. A.S. Eddington             "From Nucleus to Nebula"                                                                              LR5    47
+242   1943-11-25           Prof. G.H. Hardy                 "The Theorem of the Arithmetic and Geometric Means"                                                   LR5    49
+243   1943-12-02 e         Dr. M.L. Cartwright              "Forty days or forty years"                                                                           OCR    51
+244   1944-01-20           Mr. J. Wisdom                    "Proof"                                                                                               LR5    57
+245   1944-01-27           Prof. J.E. Littlewood            "Some Applications of Mathematical Analysis"                                                          LR5    59
+246   1944-02-10           Dr. F.C. Powell                  "Atomic Theory"                                                                                       LR5    61
+247   1944-03-02           Miss S. Edmonds                  "Fourier Series"                                                                                      OCR    63
+248   1944-03-09           Mr. A.E. Ingham                  "Theory of Numbers"                                                                                   OCR    65
+249   1944-05-18 e                                          Business Meeting                                                                                      GP3    69
+250   1944-06-01 d                                          Dinner                                                                                                Hall   71  24
+
+251   1944-11-02           Prof. C.D. Broad                 "Dunne's Theory of Time"                                                                              OCR    77
+252   1944-11-09           Hon. B. Russell                  "Is Mathematics Superstitious?"                                                                       OCR    79
+253   1944-11-16           Mrs. B. Jeffreys                 "Atomic Wave Functions"                                                                               OCR    82
+254   1944-11-23           Dr. J.C. Burkill                 "Sixth Form Mathematics"                                                                              OCR    84
+255   1945-02-01           Prof. Sir G.I. Taylor            "Explosives"                                                                                          OCR    89
+256   1945-02-08           Mr. A.H. Wilson                  "Theory of Elementary Physical Particles"                                                             LR5    91
+257   1945-02-15           Mr. R.B. Braithwaite             "Gödel's Theorem"                                                                                     LR5    94
+258   1945-03-01           Prof. W.V.D. Hodge               "Invariant Matrices"                                                                                  OCR    95
+259   1945-03-08           Mr. S.W.P. Steen                 "Random Sequences"                                                                                    LR5    97
+260   1945-04-26           Prof. J.E. Littlewood            "Large Numbers"                                                                                       LR5   103
+261   1945-05-10           Dr. J.A. Todd                    "The Elements of Euclid"                                                                              LR5   105
+262   1945-05-18 e                                          Business Meeting                                                                                      GN6   107
+
+263   1945-10-18           Sir G.P. Lenox-Conyngham         "The Figure of the Earth and Deflections of the Plumb-Line"                                           OCR   111
+264   1945-11-01           Mr. A.S. Besicovitch             "Area of Surfaces"                                                                                    OCR   114
+265   1945-11-15           Mrs. O.H.T. Rishbeth             "String Figures"                                                                                      OCR   117
+266   1945-11-22           Mr. W.R. Dean                    "Sir Isaac Newton"                                                                                    OCR   119
+267   1945-11-29 e         Dr. D. Shoenberg                 "Superconductivity"                                                                                   LR5   121
+268   1945-01-31           Mr. S. Wylie                     "The Ham Sandwich Theorem"                                                                            OCR   127
+269   1945-02-14           Mr. W.T. Tutte                   "Hamilton's Unicursal Problem"                                                                        OCR   131
+270   1946-02-28           Mr. M.H.L. Pryce                 "Atomic Energy"                                                                                       OCR   134
+271   1946-03-07           Dr. M.S. Bartlett                "The Mathematics of Population Changes"                                                               OCR   137
+272   1946-05-02           Mr. R.V. Baron                   "Symbols"                                                                                             OCR   143
+273   1946-05-13 e         Mr. A.H. Stone                   "Regular Polygons"                                                                                    OCR   146
+
+274   1946-10-17           Prof. J.E. Littlewood            "Mathematical Study and Research"                                                                     OCR   154
+275   1946-10-31           Dr. W.A.H. Rushton               "Recurring Decimals"                                                                                  OCR   156
+276   1946-11-14           Mr. H.A. Thurston                "Lattices"                                                                                            GP3   158
+277   1946-11-28 e         Dr. H.A. Brück                   "Star Counts and the Structure of the Galaxy"                                                         OCR   160
+278   1947-01-27           Mr. P. Hall                      "Galois and his Work"                                                                                 OCR   166
+279   1947-02-10           Mr. P.M. Cohn                    "Divergent Series"                                                                                    NA4   168
+280   1947-02-24     Adams Dr. F. Smithies                  "The Notion of Rigour in Mathematics"                                                                 SJC   169
+281   1947-05-05           Mr. N. Kemmer                    "The Role of Hyper-Complex Numbers in Relativistic Mechanics"                                         JP    174
+282   1947-05-19           Dr. A.J. Ward                    "Partially Ordered Sets"                                                                              JP    176
+283   1947-06-07 e                                          Business Meeting                                                                                            177
+
+284   1947-10-27           Mr. A.S. Besicovitch             "Sets of Distances between points on a curve"                                                         LR5   180
+285   1947-11-10           Dr. C.A.B. Smith                 "What Function has a Function of a Function?"                                                         JP    181
+286   1947-11-24           Dr. H.G. Booker                  "Propagation of Radio Waves in the Troposphere"                                                       JP    182
+287   1948-01-19           Prof. A.E. Taylor                "A Geometric Theorem"                                                                                 JP    185
+288   1948-02-02           Mr. S. Wylie                     "Knots"                                                                                               JP    186
+289   1948-05-17           Dr. H. Bondi                     "Cosmology"                                                                                           JP    192
+
+290   1948-10-18           Dr. J.A. Todd                    "Invariants"                                                                                          JP    196
+291   1948-11-01           Mr. R.B. Braithwaite             "The Logic of Probability"                                                                            JP    198
+292   1948-11-08           Prof. J.E. Littlewood            "Newton and the Attraction of a Sphere"                                                               JP    200
+293   1948-11-22           Mr. P.M. Cohn                    "What is Geometry, or, the Erlange Programm"                                                          JP    202
+294   1949-01-17           Prof. W.V.D. Hodge               "Some Problems in Enumerative Geometry"                                                               JP    206
+295   1949-01-31           Prof. O. Frisch                  "Probability and Chain Reactions"                                                                     JP    208
+296   1949-02-21                                            Discussion on Geometry                                                                                JP    210
+297   1949-04-25           Mr. E.H. Sondheimer              "An Integral Equation in Mathematical Physics"                                                        JP    214
+297a  1949-06-08 d                                          Dinner
+
+298   1949-10-17           Dr. F. Smithies                  "Abstract Analysis"                                                                                   JP    220
+299   1949-11-07           Mr. D.V. Lindley                 "How to Play Games"                                                                                   JP    223
+300   1949-11-21           Mr. L. Mestel                    "The White Dwarfs"                                                                                    JP    225
+301   1950-01-23           Mr. E.S. Barnes                  "Minkowski's Geometry of Numbers"                                                                           228
+302   1950-02-06           Mr. J. Leech                     "Geometry (Mod 2)"                                                                                    JP    231
+303   1950-02-13           Mr. D.G. Ashwell                 "Relaxation Methods"                                                                                        233
+304   1950-02-27           Dr. M.V. Wilkes                  "Electronic Calculating Machines"                                                                     JP    235
+305   1950-05-01           Prof. J.E. Littlewood            "More Odds and Ends"                                                                                        240
+
+306   1950-10-23           Prof. A.S. Besicovitch           "The Sequence of Squares"                                                                                   244
+307   1950-11-06           Mr. N. Kemmer                    "Recent Developments in Quantum Field Theory"                                                               246
+308   1950-11-20 e         Dr. M.L. Cartwright              "Rotation Numbers"                                                                                          249
+309   1951-01-15           Mr. F. Ursell                    "Infinite Determinants"                                                                               JP    254
+
+
+VOLUME V
+--------
+mmmxx yyyy-mm-dd fff joint speaker                          title                                                                                                 venue ppp aud
+310   1951-01-29           Prof. C.D. Broad                 "Kant's Arguments from the Existence of Incongruent Counterparts"                                     JP     17
+311   1951-02-12           Mr. E.J. Watson                  "The Splash of a Jet"                                                                                 JP     21
+312   1951-02-26           Dr. D.W. Babbage                 "Covariants of Binary Forms"                                                                          JP     23
+313   1951-04-30 be        Prof. O. Frisch                  "The Four Colour Problem"                                                                             JP     25
+
+314   1951-10-15           Dr. H. Bondi                     "The Formation of Clouds"                                                                             JP     29
+315   1951-10-29 e         Mr. E.S. Barnes                  "The Euclidean Algorithm"                                                                             JP     33
+316   1951-11-12           Dr. F. Smithies                  "Continuous Geometry"                                                                                 JP     35
+317   1951-11-26           Dr. W.L. Edge                    "Felix Klein"                                                                                         LR3    37
+318   1952-01-28           Mr. F.P. White                   "Some Geometrical Maxima and Minima"                                                                  JP     39
+319   1952-02-11           Mr. P. Hall                      "The Life and Work of Galois"                                                                         JP     41
+320   1952-02-25           Mr. S. Wylie                     "The Plaster Theorem"                                                                                 JP     43
+321   1952-04-28           Prof. L.J. Mordell               "Ramanujan, the Indian Mathematician"                                                                 JP     47
+321a  1952-04-28 be                                         Business Meeting                                                                                      JP     48
+322   1952-05-02 b                                          Business Meeting                                                                                      HY1    50
+
+323   1952-10-13           Mr. F.J. Anscombe                "Codes"                                                                                               JP     53
+324   1952-10-27           Prof. J.E. Littlewood            "Odds and Ends"                                                                                       JP     56
+325   1952-11-10           Dr. D.R. Taunt                   "Algebras at your Service"                                                                            JP     59
+325a  1952-11-20 b                                          Business Meeting                                                                                      JP     61
+326   1952-11-24           Dr. G.K. Batchelor               "Cavitation in Water"                                                                                 JP     62
+326a  1952-11-24 b                                          Business Meeting                                                                                      JP     65  11
+327   1953-01-26           Prof. J. Wisdom                  "The Accidental and the Inevitable"                                                                          67
+327a  1953-01-26 b                                          Business Meeting                                                                                             70  21
+328   1953-02-16           Prof. D.R. Hartree               "Railway Signal Interlocking"                                                                                72
+329   1953-03-02           Prof. W.V.D. Hodge               "Moving Axes"                                                                                                74
+329a  1953-03-04 d                                          Dinner
+330   1953-04-27           Sir C. Darwin                    "The Way Discoveries are Made"                                                                               75
+330a  1953-04-27 be                                         Business Meeting                                                                                             77
+330b  1953-08-12 c   Adams                                  Cricket Match (victorious)                                                                            OF     78
+
+331   1953-10-13           Prof. Sir G.I. Taylor            "How Animals Swim"                                                                                           79
+332   1953-11-02           Dr. H.G. Eggleston               "A Problem of L. Euler"                                                                                      81
+333   1953-11-16 e         Dr. K.V. Roberts                 "The Scattering of Waves by a Sphere"                                                                        83
+334   1954-01-25           Prof. R.B. Braithwaite           "The Theory of Games and its application to Inductive Logic"                                                 86
+335   1954-02-14           Prof. O.R. Frisch                "The Map-Colouring Problem"                                                                                  87
+336   1954-04-26 be        Prof. F.J.M. Stratton            "Expanding Stellar Shells"                                                                                   89
+
+337   1954-10-11           Prof. N.F. Mott                  "Mathematics and Physics"                                                                             LR1    92
+338   1954-10-25           Dr. P.J. Hilton                  "The Nature of Mathematics"                                                                           JP     94
+339   1954-11-15           Dr. I. Proudman                  "Aerodynamic Noise"                                                                                   JP     96
+339a  1954-11-15 be                                         Business Meeting                                                                                      JP     98
+340   1955-01-24           Prof. J. Wisdom                  "Metaphysics"                                                                                         JP    100
+341   1955-02-14 v                                          Visit to the Mathematical Laboratory                                                                        102
+341a  1955-03-07 d                                          Annual Dinner
+342   1955-04-25 be        Dr. R.H. Thouless                "Extrasensory Perception"                                                                                   103
+
+343   1955-10-20           Prof. A.S. Besicovitch           "On the Rearrangement of Terms of a Conditionally Convergent Series"                                  LR1   106
+344   1955-10-24           Dr. F.G. Friedlander             "A Mathematical Exercise on a Violin String"                                                          JP    108
+345   1955-11-14 be        Dr. J.A. Todd                    "e²=0"                                                                                                JP    110
+346   1956-01-23           Dr. J.F. Thomson                 "The Logical Paradoxes"                                                                               JP    113
+346a  1956-01-23 b                                          Business Meeting                                                                                      JP    114
+347   1956-02-13           Dr. E.R. Lapwood                 "The Torsion Problem"                                                                                 JP    115
+348   1956-04-23           Dr. R.H. Macmillan               "Automatic Control"                                                                                   JP    116
+348a  1956-04-23 be                                         Business Meeting                                                                                      JP    117
+
+349   1956-10-15           Dr. E.C. Zeeman                  "Knotting a Sphere in five dimensions"                                                                LR1   119  80+
+350   1956-10-29           Dr. W.L. Edge                    "Conics in a Finite Plane"                                                                            JP    122
+351   1956-11-16 b         Mr. D.V. Lindley                 "The Theory of Games"                                                                                 JP    123
+352   1957-01-21           Mr. S.W.P. Steen                 "Degrees of Insolvability"                                                                            JP    125
+353   1957-02-18           H.P.F. Swinnerton-Dyer           "Automatic Computing"                                                                                 JP    126
+354   1957-05-06           Dr. G.K. Batchelor               "Non-linearity in Hydrodynamics"                                                                      JP    128
+354a  1957-05-06 be                                         Annual General Meeting                                                                                JP    129
+
+355   1957-10-14           Dr. D.W.S. Sciama                "The Irreversibility of Time"                                                                         LR2   137
+356   1957-11-04 b         Dr. M.F. Atiyah                  "Omar Khayyam: Poet & Mathematician"                                                                  JP    138
+357   1958-01-27           Mr. S. Wylie                     "Orientable Manifolds"                                                                                JP    141
+358   1958-02-24           Dr. I. Proudman                  "Rotating Fluids"                                                                                     JP    143
+359   1958-05-05           Dr. J.C.P. Miller                "Recurring Decimals"                                                                                  JP    145
+359a  1958-05-06 be                                         Annual General Meeting                                                                                      147
+359b  1958-05-29 c   Adams                                  Cricket Match (abandonned)                                                                            SJC   146
+
+360   1958-10-20           Prof. H. Davenport               "The Nature of Mathematics"                                                                           LR2   150
+361   1958-05-05           Dr. G.K. Batchelor               "Magnetohydrodynamics"                                                                                JP    153
+362   1958-10-17           Prof. O.R. Frisch                "The Four Colour Problem"                                                                             JP    155
+363   1959-01-19           Dr. L. Mestel                    "Star Building"                                                                                       JP    157
+364   1959-02-23           Dr. J.F. Adams                   "No More Division Algebras?"                                                                          JP    159
+364a  1959-02-23 be                                         Business Meeting                                                                                      JP    161
+365   1959-05-04           Dr. J.W.S. Cassels               "Pi(e) in the Sky"                                                                                    JP    163
+365a  1959-05-04 b                                          Annual General Meeting                                                                                JP    165
+365b  1959-06-05 c   Adams                                  Cricket Match (victorious)                                                                            OF    167
+
+366   1959-10-19           Prof. R.B. Braithwaite           "How, in theory, to play games"                                                                       LR2   168
+367   1959-11-02           Dr. D.R. Taunt                   "Is Mathematics Reasonable?"                                                                          JP    171
+368   1959-11-16           Dr. B.J. Birch                   "Diophantine Equations"                                                                               JP    178
+369   1960-01-25           Dr. P.G. Saffman                 "Superaerodynamics"                                                                                   JP    180
+370   1960-02-22           Prof. C.D. Broad                 "Charge, Continuity and Discontinuity"                                                                JP    182
+370a  1960-02-22 be                                         Business Meeting                                                                                      JP    184
+371   1960-05-02           H.P.F. Swinnerton-Dyer           "Machines that Think?"                                                                                JP    187
+371a  1960-05-02 b                                          Annual General Meeting                                                                                JP    189
+371b  1960-06-03 c   Adams                                  Cricket Match (victorious)                                                                            SJC   191
+
+
+VOLUME VI
+---------
+mmmxx yyyy-mm-dd fff joint speaker                          title                                                                                                 venue ppp aud
+372   1960-10-18           Prof. Sir G.I. Taylor            "Thin Sheets of Fluid"                                                                                LR2    19
+373   1960-10-31           Dr. M.F. Atiyah                  "A Survey of Modern Geometry"                                                                         JP     21
+374   1960-11-14           Dr. J.C. Polkinghorne            "Elementary Particles"                                                                                JP     22
+375   1961-01-23           Dr. F.G. Friedlander             "Partial Differential Equations"                                                                      GS2    24
+376   1961-02-20           Dr. F. Smithies                  "Rigour in Mathematics"                                                                               GS2    25
+376a  1961-02-20 be                                         Business Meeting                                                                                      GS2    27
+377   1961-05-01           Dr. J.A. Todd                    "Pascal's Theorem"                                                                                    JP     30
+377a  1961-05-01 b                                          Annual General Meeting                                                                                JP     32
+377b  1961-06-01 b                                          Business Meeting                                                                                      GI2    34
+377c  1961-06-02 c   Adams                                  Cricket Match (victorious)                                                                            SJC    35
+
+378   1961-10-16           Prof. N.F. Mott                  "Unsolved Problems in Solid State Physics"                                                            JP     37
+379   1961-10-30           Dr. J.C.P. Miller                "Polyhedra"                                                                                           JP     39
+380   1961-11-13           Dr. G.K. Batchelor               "How to Pinch Plasmas"                                                                                JP     41
+381   1962-01-22           Dr. J.W.S. Cassels               "Factorisation of Polynomials"                                                                        JP     42
+382   1962-02-19           Dr. P.C. Clemmow                 "Expanding Waves"                                                                                     JP     43
+382a  1962-02-19 be                                         Business Meeting                                                                                      JP     44
+383   1962-05-07           Dr. B.J. Birch                   "Putting Chairs on Mountains"                                                                         JP     47
+383a  1962-05-07 b                                          Annual General Meeting                                                                                JP     48
+383b  1962-06-07 c   Adams                                  Cricket Match (defeated)                                                                              SJC    50
+
+384   1962-10-29           Dr. J.H. Williamson              "Asymptotics"                                                                                         JP     52
+385   1962-11-12           Dr. L. Mestel                    "The Rotation of the Galaxy"                                                                          JP     53
+386   1962-11-29                                                                                                                                                  JP     54
+387   1963-02-18           H.P.F. Swinnerton-Dyer           "The Theory of Games"                                                                                 JP     54
+387a  1963-02-18 be                                         Business Meeting                                                                                      JP     55
+388   1963-05-06           Dr. A.R.G. Owen                  "Quadratic Forms in Population Theory"                                                                JP     56
+388a  1963-05-06 b                                          Annual General Meeting                                                                                JP     58
+388b  1963-05-18 c   Adams                                  Cricket Match (victorious)                                                                            SJC    60
+
+389   1963-10-14           Prof. H. Davenport               "Some recent developments in the Theory of Numbers"                                                   LR1    61
+390   1963-10-28           Dr. S.G. Hooker                  "The Future of Aerospace in Civil and Military Fields"                                                JP     62
+391   1963-11-11           Dr. H.K. Moffatt                 "The Dynamo Problem"                                                                                  JP     65
+392   1964-01-20           Mr. A.E. Ingham                  "Prime Numbers"                                                                                       JP     66
+393   1964-02-17 e         Mr. J.F.C. Kingman               "Why a Family Tree Dies"                                                                              JP     67
+394   1964-05-04           Dr. J. Goldstone                 "Quantum Logic"                                                                                       JP     68
+394a  1964-05-04 b                                          Annual General Meeting                                                                                JP     69
+
+395   1964-10-12           Prof. W.V.D. Hodge               "Mathematical Studies in some British and America Universities"                                       LR1    71  60
+396   1964-10-26           Dr. M.V. Wilkes                  "Modern Developments in Digital Computing"                                                            JP     75  50
+397   1964-11-09           Dr. D.R. Taunt                   "Marriage and other Combinatorial Problems"                                                           JP     79
+398   1965-01-18           Prof. D.G. Kendall               "How to spread a rumour"                                                                              JP     80
+399   1965-02-15 e         Dr. F.P. Bretherton              "The Wind Bloweth..."                                                                                 JP     82
+400   1965-05-03           Dr. F. Smithies                  "Approximation to Continuous Functions"                                                               LR1    84
+400a  1965-05-03 b                                          Annual General Meeting                                                                                LR1    86
+
+401   1965-10-11           Dr. J.C. Polkinghorne            "Elementary Particles"                                                                                LR1    89 100
+402   1965-10-25           Dr. D.W.S. Sciama                "Quasi-Stellar Radio Sources"                                                                         JP     90  80
+403   1965-11-08 b         Prof. G.K. Batchelor             "Bubbles and Clouds"                                                                                  JP     92  30
+404   1966-01-17           Dr. J.P. Dougherty               "Counting Electrons by Radar"                                                                         JP     94
+405   1966-02-14 e         Dr. J.W.S. Cassels               "The Third Man"                                                                                       JP     96
+406   1966-05-02           Dr. E.A. Maxwell                 "We Have Erred and Strayed..."                                                                        JP     98
+406a  1966-05-02 b                                          Annual General Meeting                                                                                JP    100
+
+407   1966-10-10           H.P.F. Swinnerton-Dyer           "How to Play Games"                                                                                   JP    103
+408   1966-10-24           Dr. M.L. Cartwright              "Should Mathematics be Modernised?"                                                                   JP    104  40
+409   1966-11-07 b         Dr. J.E. Roseblade               "Dancing Partners"                                                                                    JP    105  40
+410   1967-01-23           Dr. D.T. Whiteside               "Isaac Newton: Undergraduate Mathematician"                                                           JP    111  36
+411   1967-02-20           Dr. E.R. Lapwood                 "The Age of the Earth"                                                                                JP    113  30
+411a  1967-02-20 be                                         Business Meeting                                                                                      JP    115  10
+412   1967-05-01           Dr. V.E. Cosslett                "Monte-Carlo methods in Electron Scattering"                                                          JP    118  24
+412a  1967-05-01 be                                         Annual General Meeting                                                                                JP    120
+
+413   1967-10-16           Dr. H.K. Moffatt                 "The Dynamo Problem"                                                                                  JP    124
+414   1967-10-30           Dr. H.T. Croft                   "On a Metrical Furry Ball Problem"                                                                    JP    129  30
+415   1968-01-13           Dr. J.H. Conway                  "Miserable Games"                                                                                     JP    130
+416   1968-01-22           Dr. D. Barden                    "On some Infinite-Dimensional Surfaces"                                                               JP    132  30
+417   1968-02-19 be        Mr. W.G. Kellaway                "What is Happenning to School Geometry?"                                                              JP    137
+418   1968-04-29           Dr. J. Goldstone                 "i is Real"                                                                                           JP    140  30
+418a  1968-04-29 b                                          Annual General Meeting                                                                                JP    142
+418b  1968-06-06 c   Adams                                  Cricket Match (victorious)                                                                                  146
+
+419   1968-10-14 b         Dr. P.V. Landshoff               "Quarks and other particles"                                                                          LR    147  90
+420   1968-10-28 b         Dr. D.W. Sciama                  "The Structure of the Universe"                                                                       LR    156 120
+421   1968-11-11           Dr. D. Williams                  "Getting Positively Nowhere Infinitely Past"                                                          LR    160  80
+422   1969-01-20           Prof. J.C. Polkinghorne          "Oliver Heaviside"                                                                                    LR1   165
+423   1969-02-17 e         Dr. D.J.H. Garling               "Spaces of Continuous Dimension"                                                                      JP    168  40
+424   1969-04-28           Dr. J.T. Knight                                                                                                                        JP    173
+424a  1969-04-28 b                                          Annual General Meeting                                                                                JP    174  31
+424b  1969-06-02 d                                          Fiftieth Anniversary Dinner                                                                           OK    175
+
+425   1969-10-13           H.P.F. Swinnerton-Dyer           "Decision Making and other games"                                                                     LRT   176  90
+426   1969-10-27 b         Prof. A.B. Pippard               "Real Electrons in Real metal"                                                                        LRT   178  20
+427   1969-11-10           Dr. G.A. Reid                    "Ultrafilters"                                                                                        LRT   181
+
+
+VOLUME VII
+----------
+mmmxx yyyy-mm-dd fff joint speaker                          title                                                                                                 venue ppp aud
+428   1970-01-20           Dr. I.T. Drummond                "Quantum Mechanics and Quantum non-mechanics"                                                         JP     21
+429   1970-02-02           Dr. A.C. Duncan                  "Bones and Red Powder"                                                                                JP     23
+430   1970-02-16           Prof. M.J. Lighthill             "How do Fishes Swim?"                                                                                 JP     25
+430a  1970-02-16 be                                         Business Meeting                                                                                      JP     26
+431   1970-04-27           Dr. A. Rae                       "Minimal Conditions in Algebra"                                                                       JP     28
+431a  1970-04-27 b                                          Annual General Meeting                                                                                JP     29
+
+432   1970-10-12           Dr. J.P. Dougherty               "Two for the price of one"                                                                            LRT    33
+433   1970-10-26           Dr. J.H. Conway                  "From balls to codes in n-space"                                                                      LRT    35 133
+434   1970-11-09           Sir G.I. Taylor                  "Some interactions between mathematics and experiment"                                                OCR    37
+435   1971-01-18           Prof. J.W.S. Cassels             "Cyclotomy"                                                                                           JP     39
+436   1971-02-01           Dr. V. Heine                     "Exact Mathematics and Real Physics"                                                                  JP     41
+436a  1971-02-01 b                                          Business Meeting                                                                                      JP     43
+437   1971-02-15 e         Dr. A.F. Beardon                 "Sets of nonintegral dimension"                                                                       JP     44
+438   1971-04-26 b         Dr. A.W.F. Edwards               "Gliding Sums"                                                                                        JP     46
+
+439   1971-10-11           Dr. H.K. Moffatt                 "Knotted Vortex Lines-the clue to dynamo action"                                                      LRT    50
+440   1971-10-25           Mr. A.J. Casson                  "Infinite Prodeucts and Topology"                                                                     LRT    52
+441   1971-11-08 b         Prof. D.G. Kendall               "Mathematical aids for the Medieval Historian"                                                        JP     56
+442   1972-01-17           Dr. D.R. Taunt                   "Loops and other Groupoids"                                                                           JP     60
+443   1972-01-31           Dr. J.R. Willis                  "Some Integral Equations in Elasticity Theory"                                                        JP     63
+444   1972-02-14 e         Dr. C.R.F. Maunder               "Wild Arcs and Dogbones"                                                                              JP     66
+444b  1972-03-02 e                                          Business Meeting                                                                                      HO3    72
+445   1972-04-24           Dr. F.G. Friedlander             "Dirichlet's Problem & Dirichlet's Principle"                                                         JP     72
+445a  1972-04-24 b                                          Annual General Meeting                                                                                JP     75
+
+446   1972-10-09           H.P.F. Swinnerton-Dyer           "Games of Pursuit and Evasion"                                                                        LRT    79
+447   1972-10-23           Dr. B. Bollobás                  "A Characterisation of the Circle and its connection with Entire Functions"                           JP     82
+448   1972-11-06           Dr. G.F.R. Ellis                 "The Edges of Space-Time"                                                                             JP     87 100
+449   1973-01-22           Dr. P.M.E. Altham                "Some Problems in Applied Statistics"                                                                 JP     89
+450   1973-02-05           Prof. Sir J. Lighthill           "Ocean Science"                                                                                       JP     94
+451   1973-02-19           Dr. J.E. Roseblade               "A Theorem of Hall's"                                                                                 JP    101
+451a  1973-02-14 e                                          Business Meeting                                                                                      JP    107
+452   1973-04-30 b         Dr. N.O. Weiss                   "Stirring up Stars"                                                                                   JP    111
+
+453   1973-10-15           Prof. J.W.S. Cassels             "Eisenstein: the Man and his Work"                                                                    LRT   117
+454   1973-10-29           Dr. J.H. Conway                  "Dots and Boxes"                                                                                      LRT   122
+455   1973-11-21           Dr. H. Osborn                    "Topics in High Energy Physics"                                                                       JP    127
+456   1974-01-21           Prof. P. Whittle                 "Optimal Stopping"                                                                                    JP    130  20
+457   1974-02-04           Prof. Sir M. Ryle                "The 5km Telescope"                                                                                   LRT   133  50
+458   1974-02-18 e         Dr. A.F. Beardon                 "Hyperbolic Tessellations"                                                                            JP    137
+458b  1974-03-11 e                                          Business Meeting                                                                                      GI4   140
+459   1974-04-29           Dr. J.P. Dougherty               "World Energy Supplies and Fusion"                                                                    JP    141
+459a  1974-04-29 b                                          Annual General Meeting                                                                                JP    143
+459b  1974-06-04 c                                          Punt Race                                                                                             CAM   145
+
+460   1974-10-14           Dr. F.G. Friedlander             "Geometrical Optics and Partial Differential Equations"                                               OCR   150  45
+461   1974-10-28 b         Dr. A.D. Barbour                 "Modelling Bilharzia"                                                                                 JP    153
+461a  1974-11-13 d                                          Triennial Dinner                                                                                      OK    158  29
+462   1974-11-25 b         Dr. R.M. Needham                 "Protection of Data in Computers"                                                                     JP    159
+463   1975-01-20 b         Dr. D.J.H. Garling               "Its Probably True: Brow ian Motion and Classical Analysis"                                           JP    162
+464   1975-02-03 b         Dr. H.K. Moffatt                 "On the Maximum Load of Treacle that can be supported on a Rotating Ideal Knife"                      JP    166
+465   1975-02-17           Mr. F.P. Kelly                   "Markov Population Processes"                                                                         JP    171
+466   1975-03-03           Dr. G.A. Reid                    "How to Park a Car"                                                                                   JP    174
+466a  1975-03-03 e                                          Business Meeting                                                                                      JP    176
+467   1975-04-21           Dr. E.J. Hinch                   "Venus' Dashing Veil"                                                                                 JP    180
+467a  1975-04-21 b                                          Annual General Meeting                                                                                JP    182
+
+
+VOLUME VIII
+-----------
+mmmxx yyyy-mm-dd fff joint speaker                          title                                                                                                 venue ppp aud
+468   1975-10-13           Dr. D.O. Gough                   "Sweet and Sour Fluid Dynamics"                                                                       LRT    24
+469   1975-10-27           Dr. A. Mees                      "Control Engineering"                                                                                 JP     26
+470   1975-11-10           Prof. M.V. Wilkes                "Finite Element Methods"                                                                              JP     30
+471   1975-11-24 f   A/M&S Mr. N. Black (prop)              "This House does not believe in the existence of Trinity College."                                    OCR    34
+                           Mr. H.J. Pearson (opp)
+472   1976-01-19           Dr. J.C.R. Hunt                  "Applications of Simple Topology to Fluid Mechanics"                                                  JP     41
+473   1976-02-02 b         Prof. M.J. Rees                  "The Early Universe"                                                                                  JP     45
+474   1976-02-16           Mr. D.J. Benson                  "Category Theory"                                                                                     JP     53
+                           Mr. H.J. Pearson                 "Working for ICI Plastics Division"
+475   1976-03-01 e         Mr. H.J. Pearson                 "Funny Fluids"                                                                                        JP     64
+476   1976-04-26           H.P.F. Swinnerton-Dyer           "The Three-Body Problem"                                                                              JP     69
+476a  1976-06-06 c   Adams                                  "Punt Race"                                                                                           CAM    70
+
+477   1976-10-11           Prof. Sir M.J. Lighthill         "Mathematics and the Weather"                                                                         LRT    73
+478   1976-10-25           Prof. J.W.S. Cassels             "The Greatest Happiness of the Greatest Number"                                                       JP     77
+478a  1976-10-25 b                                          Business Meeting                                                                                      JP     81
+479   1976-11-08           Dr. J. Goldstone                 "High-energy Particles and Massless Strings"                                                          JP     83
+480   1976-11-11 f     M&S Mr. Logan (prop)                 "Let them eat \pi"                                                                                    OCR    88
+                           Mr. H.J. Pearson (opp)
+481   1976-11-22           Dr. E.J. Hinch                   "Research Opportunities"                                                                              LRT    94
+                           Dr. D.P. Kennedy
+                           Mr. D.J. Goto
+482   1977-01-17           Dr. J.K.M. Moody                 "String Processing and Computational Theory"                                                          OCR    98
+483   1977-01-31           Dr. J.A. Hudson                  "Moonquakes"                                                                                          JP    101
+484   1977-02-14           Dr. S.M. Edmonds                 "Wobbles"                                                                                             JP    106
+485   1977-02-28 e         Dr. D.P. Kennedy                 "Multi-armed Bandits"                                                                                 JP    111
+486   1977-04-25           Prof. M.S. Longuet-Higgins       "Clifford's Chain"                                                                                    JP    116
+
+487   1977-10-10           Dr. T.W. Körner                  "Sod's Law in the Service of Mankind"                                                                 LRT   121 100
+488   1977-10-24           Prof. M.V. Wilkes                "Early Computers in Cambridge"                                                                        LRT   126
+489   1977-11-07           Prof. J.F. Adams                 "Whatever happened to Geometry?"                                                                      OCR   129
+490   1978-01-30           Dr. B.J. Carr                    "Black Pinholes and the First Second of the Universe"                                                 DAMTP 134
+491   1978-02-13           Prof. V. Heine                   "The Beauty of Eaxact Mathematics versus the Reality of Approximate Physics"                          LRT   139
+492   1978-02-27           Dr. J.H. Conway                  "Sunflowers, Pineapples and Fibbonacci Numbers"                                                       LRT   142
+493   1978-03-13 e         Prof. E. Cockayne                "When Greed is not a Vice"                                                                            OCR   150  23
+494   1978-04-24           Prof. A. Needleman               "The Shapes of a Spherical Baloon"                                                                    JP    160  19
+494a  1978-06-06 c   Adams                                  Cricket Match (victorious)                                                                            OF    167
+
+495   1978-10-09           Prof. Sir S. Edwards             "The Topology of Chain Molecules"                                                                     OCR   168  50
+496   1978-10-23           Dr. A. Mees                      "Deterministic Chaos"                                                                                 JP    174  20
+497   1978-11-06           Dr. R. Williams                  "Mathematics and Sexual Reproduction"                                                                 JP    178  25
+
+
+VOLUME IX
+---------
+mmmxx yyyy-mm-dd fff joint speaker                          title                                                                                                 venue ppp aud
+498½  1978-11-20           Dr. B. Bollobás                  "Research Opportunities"                                                                              OCR    16
+                           Dr. M.R.E. Proctor
+                           Mr. J.R. Partington
+499½  1979-01-29           Mrs. M. Batchelor                "Supergeometry"                                                                                       OCR    18
+500½  1979-02-12           Prof. A. Baker                   "A Diophantine Conjecture"                                                                            OCR    22
+501½  1979-02-26           Prof. Goldberg                   "The Distance-decreasing properties of a class of mappings"                                           OCR    25  15
+502½  1979-03-12 e         Dr. B. Whiting                   "The anomalous propagation of VHF radiation in the troposphere"                                       OCR    29
+503½  1979-04-23           Mr. R.H. Lupton                  Recitation of three verses of Carrol's "The Hunting of the Snark"                                     GQ1    32
+503½a 1979-06-04 c   Adams                                  Cricket Match (defeated)                                                                              OF     32
+
+504½  1979-10-15           H.P.F. Swinnerton-Dyer           "Games of Pursuit and Evasion"                                                                        OCR    33  60
+505   1979-10-29           Dr. J.H. Stewart                 "The Cosmic Censor"                                                                                   LRT    38  50
+506   1979-11-12           Dr. J.C. Taylor                  "Why is it that Gauge Invariance seems to be an important idea in Physics?"                           JP     45  55
+507   1979-11-26           Dr. J.H. Conway                  "Big Groups"                                                                                          JP     51  71
+508   1980-01-28           Dr. B. Bollobás                  "Some applications of combinatorics"                                                                  JP     57  27
+509   1980-02-25           Mr. A.J. Casson                  "Conjectures in Group theory and Topolgy"                                                             JP     60  28
+510   1980-03-12 e         Mr. A.J. Baddeley                "Infertility and other twisted topics"                                                                JP     67  17
+511   1980-04-21           Dr. E.J. Hinch                   "Long slender drops"                                                                                  JP     73  18
+512   1980-04-23 d                                          Dinner                                                                                                OK     83  24
+512a  1980-06-01 c   Adams                                  Cricket Match (defeated)                                                                              SJC    84
+
+513   1980-10-13           Prof. D. Lynden-Bell             "Isocirculationality"                                                                                 JP     85  29
+514   1980-10-20           Dr. H. Osborn                    "Infinite Determinants"                                                                               WPR    92  30
+515   1980-10-27           Dr. D.B. Singmaster              "Pythagorean Triangles from Plimpton 322 to the Present Day"                                          LRT    97  56
+516   1980-11-10           Prof. J.F. Adams                 "Local and Global Problems in Toplogy"                                                                LRT   104  27
+517   1980-11-17           Dr. J. Rallison                  "Funny Fluids"                                                                                        JP    108  15
+518   1980-11-24           Prof. P.M. Cohn                  "From codes to FIRs"                                                                                  OCR   111  24
+519   1981-01-26 be        Prof. H.K. Moffatt               "Stange Attractors"                                                                                   LRT   118  21
+520   1981-02-04 d                                          Dinner                                                                                                OK    122  20
+521   1981-02-09           Dr. B. Thwaites                  "A Confoundedly Curious Conjecture"                                                                   OCR   124  10
+522   1981-02-23           Prof. G.K. Batchelor             "Extraction of Oil from Underground"                                                                  OCR   128   9
+523   1981-03-09           Dr. C. Isenberg                  "Geometrical Properties and Shapes of Soapfilms and Soapbubbles"                                      WPR   131  18
+524   1981-04-27           Prof. D.G. Kendall               "Mathematics in Medieval Theology"                                                                    OCR   135  33
+524a  1981-04-27 be                                         Annual General Meeting                                                                                OCR   139   8
+524b  1981-06-10 c   Adams                                  Cricket Match (victorious)                                                                            OF    148
