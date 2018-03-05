@@ -1310,3 +1310,4 @@ mmmxx yyyy-mm-dd fff joint speaker                          title               
                            Dr. A. Beskos                    "Exact Solution on Non-Linear Stochastic Differential Equations"
                            Prof. R. Cont                    "Taming roughness - the calculus of irregular functions"
 926a  2018-02-25 d                                          Annual Dinner                                                                                           OK    ???  ??
+927   2018-03-05           Prof. C.P. Caulfield             "The Mathematics of Spin"                                                                               WLT   ???  ??
