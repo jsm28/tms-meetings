@@ -1311,3 +1311,4 @@ mmmxx yyyy-mm-dd fff joint speaker                          title               
                            Prof. R. Cont                    "Taming roughness - the calculus of irregular functions"
 926a  2018-02-25 d                                          Annual Dinner                                                                                           OK    ???  ??
 927   2018-03-05           Prof. C.P. Caulfield             "The Mathematics of Spin"                                                                               WLT   ???  ??
+928   2018-03-08 e                                          Annual General Meeting                                                                                  BBCR  ???  ??
