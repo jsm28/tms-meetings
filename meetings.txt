@@ -783,7 +783,7 @@ mmmxx yyyy-mm-dd fff joint speaker                          title               
 573   1986-10-27           Dr. L.C.G. Rogers                "Constructing a Continuous Strictly Increasing Function with Zero Derivative Almost Everywhere"         OCR   264  37
 574   1986-11-10           Dr. J.R. Partington              "Mathematical Puzzles in Fantasy Games"                                                                 OCR   268  49
 575   1986-11-24           Prof. P. Whittle                 "Random Bonding & Colouring in Graphs: the beginnings of a selforganising system"                       OCR   272  29
-576   1987-01-19           Prof. J.F. Adams                 "Topology: Whis is Elementary isn't Obvious and What is Obvious isn't Elementary"                       LRT   275  39
+576   1987-01-19           Prof. J.F. Adams                 "Topology: What is Elementary isn't Obvious and What is Obvious isn't Elementary"                       LRT   275  39
 
 
 VOLUME XI
