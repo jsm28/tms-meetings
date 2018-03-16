@@ -1177,7 +1177,7 @@ mmmxx yyyy-mm-dd fff joint speaker                          title               
 855   2014-01-20           Prof. B. Bollobás                "Ancient Problems Today"                                                                                MR2   ???  ??
 855a  2014-01-24      TCSS Prof. I.B. Leader                CUSU Shadowing Scheme: "Think of a Number"                                                              WLT   ???  ??
 856   2014-01-27           Prof. R.E. Goldstein             "Synchronization of Cilia"                                                                              WLT   ???  ??
-857   2014-02-03           Prof. Sir M.F. Aityah            "Mathematicians I have known"                                                                           WLT   ???  ??
+857   2014-02-03           Prof. Sir M.F. Atiyah            "Mathematicians I have known"                                                                           WLT   ???  ??
 858   2014-02-10           Prof. D. Tong                    "Magnetic Monopoles"                                                                                    WLT   ???  ??
 859   2014-02-17           Dr. H.E. Mason                   "Our Active Sun"                                                                                        WLT   ???  ??
 860   2014-02-23           Prof. P.H. Haynes                "Some Mathematical problems in Climate Science"                                                         WLT   ???  ??
