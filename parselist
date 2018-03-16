@@ -360,7 +360,7 @@ my($input_file) = $default_input_file;
 my($anchor_id) = '';
 my($help) = '';
 
-GetOptions("exclude|x" => \$exclude,
+GetOptions("exclude|x=s" => \$exclude,
 	   "html|H" => sub { $report_type = REPORT_HTML },
 	   "counts|c" => sub { $report_type = REPORT_COUNTS },
 	   "ranges|r" => sub { $report_type = REPORT_RANGES },
