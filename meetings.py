@@ -2,6 +2,7 @@
 
 import argparse
 import collections
+import datetime
 import html
 import re
 import xml.etree.ElementTree
@@ -619,6 +620,42 @@ def action_speaker_counts(args):
         f.write(sorted_text)
 
 
+def action_speaker_dates(args):
+    """List speakers by the range of dates over which they have spoken."""
+    meeting_list = meetings_from_xml('meetings.xml')
+    exclude = args.exclude
+    if exclude is None:
+        exclude = []
+    dates = {}
+    for m in meeting_list:
+        if not isinstance(m, Meeting):
+            continue
+        if m.type in exclude:
+            continue
+        if m.date == '' or '?' in m.date:
+            continue
+        year = int(m.date[0:4])
+        month = int(m.date[5:7])
+        day = int(m.date[8:])
+        date = datetime.date(year, month, day)
+        for sub in m.sub:
+            for sp in sub.speakers:
+                name = '%s, %s' % (sp.last, sp.first)
+                if name in dates:
+                    details = (dates[name][0], dates[name][1], m.date,
+                               (date - dates[name][1]).days)
+                else:
+                    details = (m.date, date, m.date, 0)
+                dates[name] = details
+    sorted_speakers = sorted(dates.keys(), key=lambda s:(dates[s][3], s))
+    sorted_list = [('%7d %-25s %s - %s'
+                    % (dates[s][3], s, dates[s][0], dates[s][2]))
+                   for s in sorted_speakers]
+    sorted_text = '\n'.join(sorted_list) + '\n'
+    with open('speaker-dates.txt', 'w', encoding='utf-8') as f:
+        f.write(sorted_text)
+
+
 def main():
     """Main program."""
     parser = argparse.ArgumentParser(description='Process list of meetings')
@@ -628,11 +665,12 @@ def main():
     parser.add_argument('action',
                         help='What to do',
                         choices=('text-to-xml', 'reformat-xml',
-                                 'speaker-counts'))
+                                 'speaker-counts', 'speaker-dates'))
     args = parser.parse_args()
     action_map = { 'text-to-xml': action_text_to_xml,
                    'reformat-xml': action_reformat_xml,
-                   'speaker-counts': action_speaker_counts }
+                   'speaker-counts': action_speaker_counts,
+                   'speaker-dates': action_speaker_dates }
     action_map[args.action](args)
 
 
