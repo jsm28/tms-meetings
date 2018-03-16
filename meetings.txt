@@ -1077,7 +1077,7 @@ mmmxx yyyy-mm-dd fff joint speaker                          title               
                            Ms. N. Goldberg
 797a  2009-06-18 c   Adams                                  Cricket Match (victorious)                                                                              OF    ???
 
-798   2009-10-12           Dr. M.R. Tehranchi               "What is Brownian motion?                                                                               WLT   ???  ??
+798   2009-10-12           Dr. M.R. Tehranchi               "What is Brownian motion?"                                                                              WLT   ???  ??
 799   2009-10-26           Dr. C.P. Caulfield               "Dimensional analysis and similarity solutions: How to get physics to do mathematics for you"           WLT   ???  ??
 799a  2009-11-03 n    TCSS Dr. T.E. Forster                 Panel Discussion "Logic and Mathematics"                                                                AHSR  ???  ??
                            Prof. J.M.E. Hyland
