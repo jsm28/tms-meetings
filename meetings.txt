@@ -1014,7 +1014,7 @@ mmmxx yyyy-mm-dd fff joint speaker                          title               
 745   2005-01-24           Mr. S.L. Webster                 "Unanswered Questions in Cosmology"                                                                     OCR   ???  ??
 746   2005-02-07           Dr. M.J. Perry                   "M Theory"                                                                                              OCR   ???  ??
 747   2005-02-21           Dr. T.A. Fisher                  "The Geometry of Numbers"                                                                               OCR   ???  ??
-748   2005-03-07           Prof. A.C. Davis                 "Exploring Extra Dimensions through Cosmology"                                                          OCR   ???  ??
+748   2005-03-07           Prof. A.-C. Davis                "Exploring Extra Dimensions through Cosmology"                                                          OCR   ???  ??
 749   2005-03-15 d         Prof. Sir M.J. Rees              Annual Dinner                                                                                           ML    ???  ??
 750   2005-03-16 be                                         Annual General Meeting                                                                                  GQ1   ???   8
 751   2005-04-28 e                                          General Meeting                                                                                         GQ1   ???   8
