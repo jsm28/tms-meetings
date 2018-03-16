@@ -578,7 +578,7 @@ def meetings_to_xml(meeting_list):
             % '\n'.join([m.xml_text() for m in meeting_list]))
 
 
-def action_text_to_xml():
+def action_text_to_xml(args):
     """Convert the text list of meetings to XML."""
     mlist = meetings_from_text('meetings.txt')
     xml_text = meetings_to_xml(mlist)
@@ -586,7 +586,7 @@ def action_text_to_xml():
         f.write(xml_text)
 
 
-def action_reformat_xml():
+def action_reformat_xml(args):
     """Read the XML list of meetings and write it out again."""
     mlist = meetings_from_xml('meetings.xml')
     xml_text = meetings_to_xml(mlist)
@@ -594,16 +594,46 @@ def action_reformat_xml():
         f.write(xml_text)
 
 
+def action_speaker_counts(args):
+    """Count the number of talks by each speaker."""
+    meeting_list = meetings_from_xml('meetings.xml')
+    exclude = args.exclude
+    if exclude is None:
+        exclude = []
+    counts = {}
+    for m in meeting_list:
+        if not isinstance(m, Meeting):
+            continue
+        if m.type in exclude:
+            continue
+        for sub in m.sub:
+            for sp in sub.speakers:
+                name = '%s, %s' % (sp.last, sp.first)
+                if name not in counts:
+                    counts[name] = 0
+                counts[name] += 1
+    sorted_speakers = sorted(counts.keys(), key=lambda s:(counts[s], s))
+    sorted_list = ['%7d %s' % (counts[s], s) for s in sorted_speakers]
+    sorted_text = '\n'.join(sorted_list) + '\n'
+    with open('speaker-counts.txt', 'w', encoding='utf-8') as f:
+        f.write(sorted_text)
+
+
 def main():
     """Main program."""
     parser = argparse.ArgumentParser(description='Process list of meetings')
+    parser.add_argument('--exclude',
+                        action='append',
+                        help='Types of meetings to ignore for statistics')
     parser.add_argument('action',
                         help='What to do',
-                        choices=('text-to-xml', 'reformat-xml'))
+                        choices=('text-to-xml', 'reformat-xml',
+                                 'speaker-counts'))
     args = parser.parse_args()
     action_map = { 'text-to-xml': action_text_to_xml,
-                   'reformat-xml': action_reformat_xml }
-    action_map[args.action]()
+                   'reformat-xml': action_reformat_xml,
+                   'speaker-counts': action_speaker_counts }
+    action_map[args.action](args)
 
 
 if __name__ == '__main__':
