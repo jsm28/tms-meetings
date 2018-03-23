@@ -17,7 +17,7 @@ ldquo = '\u201c'
 rdquo = '\u201d'
 hellip = '\u2026'
 joint_societies = ('Adams Society', 'Magpie and Stump',
-                   'Mathematics research students'+rsquo+' tea club',
+                   'Mathematics Research Students'+rsquo+' Tea Club',
                    'New Pythagoreans', 'Trinity College Music Society',
                    'Trinity College Natural Sciences Society',
                    'Trinity College Science Society')
@@ -328,7 +328,7 @@ def meetings_from_text(name):
                   'Adams': ('Adams Society',),
                   'M&S': ('Magpie and Stump',),
                   'A/M&S': ('Adams Society', 'Magpie and Stump'),
-                  'MRSTC': ('Mathematics research students'+rsquo+' tea club',),
+                  'MRSTC': ('Mathematics Research Students'+rsquo+' Tea Club',),
                   'NP': ('New Pythagoreans',),
                   'TCMS': ('Trinity College Music Society',),
                   'TCNSS': ('Trinity College Natural Sciences Society',),
