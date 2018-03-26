@@ -288,14 +288,14 @@ mmmxx yyyy-mm-dd fff joint speaker                          title               
 230   1942-02-09        NP Dr. J.A. Todd                    "The Elements of Euclid"                                                                                CAI    16
 231   1942-02-25        NP Prof. Sir E.V. Appleton          "Some Unsolved Radio Problems"                                                                          CAI    18
 232   1942-03-09        NP Mr. A.S. Besicovitch             "Mean Values of Functions"                                                                              OCR    20
-(the Society did not meet during Easter 1942)
+(The Society did not meet during Easter 1942.)
 
 233   1942-10-19 be                                         Business Meeting                                                                                        GP3    26
 234   1942-10-26        NP Dr. J.C. Burkill                 "The Area of a Surface"                                                                                 OCR    28
 235   1942-11-09        NP Mr. L.A. Pars                    "The Differential Equations of Dynamics"                                                                OCR    31
 236   1942-11-23        NP Dr. C.A.B. Smith                 "Growing Fish from Seed"                                                                                EMM    33
 237   1943-02-22        NP Mr. W.T. Tutte                   "Squaring the Square"                                                                                   EMM    35
-(the Society did not meet during Easter 1943)
+(The Society did not meet during Easter 1943.)
 
 238   1943-10-28 e         Mr. F. Ursell                    "Prime Numbers"                                                                                         OCR    41
 239   1943-11-06           Mr. A.S. Besicovitch             "Monotonic Functions"                                                                                   LR5    44
@@ -860,7 +860,7 @@ mmmxx yyyy-mm-dd fff joint speaker                          title               
 631a  1992-??-?? e                                          Annual General Meeting                                                                                        232
 632   1992-05-11           Prof. B.D. Josephson             "What's wrong with reductionism"                                                                        OCR   233  18
 
-(details of unminuted cricket matches from 1993 to 2002 provided by Robin Bhattacharyya)
+(Details of unminuted cricket matches from 1993 to 2002 provided by Robin Bhattacharyya.)
 633   1992-10-12 e         Dr. R.G.E. Pinch                 "Primes and Pseudoprimes"                                                                               OCR   237  25
 634   1992-10-26           Dr. B. Bollobás                  "The Fall of Some Famous Conjectures in Elementary Geometry"                                            OCR   242  45
 635   1992-11-09           Prof. H.K. Moffatt               "The Energy of Knots"                                                                                   LRT   246  14
@@ -870,7 +870,7 @@ mmmxx yyyy-mm-dd fff joint speaker                          title               
 639   1993-03-08           Prof. J.C. Taylor                "Temperature and the Imaginary Time Cycle"                                                              OCR   263
 639a  1993-??-?? c   Adams                                  Cricket Match (rained off)                                                                              OF    ---
 
-(details of unminuted meetings in 1993-1994 provided by Robin Bhattacharyya)
+(Details of unminuted meetings in 1993-1994 provided by Robin Bhattacharyya.)
 640   1993-10-11           Dr. I.B. Leader                  "Derived Sets"                                                                                          OCR   264  28
 641   1993-10-25           Mr. K.M. Buzzard                 "A Proof That You Can't Prove Everything"                                                               OCR   272  40
 641a  1993-11-01           Mr. M.A. Wainwright              (ten minute substitute talk on fallacies; scheduled speaker absent)                                     OCR   ---  23
@@ -957,7 +957,7 @@ mmmxx yyyy-mm-dd fff joint speaker                          title               
 700   2000-03-13 d         Prof. E.J. Hinch                 Annual Dinner                                                                                           ML    123
 700a  2000-06-22 c   Adams                                  Cricket Match (victorious)                                                                              SJC   124
 
-(there was no Secretary in 2000-2001, and minutes were not taken)
+(There was no Secretary in 2000-2001, and minutes were not taken.)
 701   2000-10-16           Dr. S.P. Bursill-Hall            "The Good, the Bad, and the Downright Stupid: Why you don't believe Copernicus"                         JP    ---
 702   2000-10-23           Dr. J.M.E. Hyland                "What is the Eckmann Hilton Argument?"                                                                  BHPR  ---
 703   2000-11-07           Dr. D.J. Wischik                 "How (not) to Crash the Internet"                                                                       JP    ---
@@ -967,7 +967,7 @@ mmmxx yyyy-mm-dd fff joint speaker                          title               
 707   2001-03-12 d         Dr. R.E. Hunt                    Annual Dinner                                                                                           ML    ---
 707a  2001-06-15 c   Adams                                  Cricket Match (victorious)                                                                              OF    ---
 
-(there was no Secretary in 2001-2002, and minutes were not taken)
+(There was no Secretary in 2001-2002, and minutes were not taken.)
 708   2001-10-15           Dr. S.P. Bursill-Hall            "And now for something completely different - when engineers did maths and Mathmos talked to God"       OCR   ---
 709   2001-10-29           Dr. T.W. Körner                  "From waves to wavelets: 2000 years in under an hour"                                                   OCR   ---
 710   2001-11-12           Ms. J.R. Gog                     "How to model your favourite disease"                                                                   OCR   ---
