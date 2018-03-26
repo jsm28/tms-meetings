@@ -793,7 +793,10 @@ def action_meetings_html(args):
         readme_text = f.read()
     readme_text = readme_text.replace('-', ndash)
     readme_list = readme_text.split('\n\n')
-    html_head += ('<p>%s\n</p>\n<p>%s\n</p>\n'
+    html_head += ('<p>%s\n</p>\n<p>%s</p>\n'
+                  '<p>The <a href="https://github.com/jsm28/tms-meetings">'
+                  'source code</a>\n'
+                  'for generating this version of the list is available.</p>\n'
                   % (html.escape(readme_list[0]), html.escape(readme_list[2])))
     html_foot = '\n</body>\n</html>\n'
     full_text = html_head + '\n'.join(past_list) + html_foot
