@@ -34,7 +34,7 @@ pers_titles_text_adj = { 'Dr. ': 'Dr ', 'Mr. ': 'Mr ', 'Mrs. ': 'Mrs ',
 pers_titles = ('Prof. ', 'Rev. ', 'Dr ', 'Hon. ', 'Col. ', 'Sir ',
                'Lord ', 'Mr ', 'Mrs ', 'Ms ', 'Miss ')
 roles = ('proponent', 'opponent', 'author', 'producer')
-meeting_types = ('talk', 'sporting event', 'dinner', 'debate',
+meeting_types = ('talk', 'talks', 'sporting event', 'dinner', 'debate',
                  'inaugural meeting', 'film night', 'panel discussion',
                  'opera', 'photograph', 'recreational', 'visit',
                  'general meeting', 'business meeting', 'discussion')
@@ -383,6 +383,12 @@ def meetings_from_xml(name):
                 note_xml = s.find('mnote')
                 note = note_xml.text if note_xml is not None else ''
                 sub.append(SubMeeting(desc, title, note, speakers))
+            if type == 'talk' and len(sub) != 1:
+                raise ValueError('meeting %s (talk) has multiple talks',
+                                 number)
+            if type == 'talks' and len(sub) <= 1:
+                raise ValueError('meeting %s (talks) lacks multiple talks',
+                                 number)
             venue = entry.find('venue').text
             venue = venue if venue else ''
             attendance_xml = entry.find('attendance')
@@ -645,6 +651,8 @@ def meetings_from_text(name):
                     speaker_list = []
                 cur_meeting.sub.append(SubMeeting(desc, title, note,
                                                   speaker_list))
+                if cur_meeting.type == 'talk' and len(cur_meeting.sub) > 1:
+                    cur_meeting.type = 'talks'
             else:
                 # New speaker for the previous title.
                 if not speaker_obj:
