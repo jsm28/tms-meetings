@@ -885,6 +885,7 @@ mmmxx yyyy-mm-dd fff joint speaker                          title               
 649   1994-04-30 d         Dr. I.B. Leader                  Annual Dinner                                                                                           PSR   ---  12
 649a  1994-06-16 c   Adams                                  Cricket Match (defeated)                                                                                SJC   ---
 
+(If you can improve or add to the information here on talks in 1994-1995, please let us know.)
 650   1994-10-10           Mr. K. Buecker                   "p-adic numbers"                                                                                        OCR   306  39
 651   1994-10-24           Dr. P.M.H. Wilson                "Euler nos & Arrangements of lines in the Plane"                                                        OCR   308  23
 652   1994-11-07           Dr. H. Osborn                    "Quantum Tunnelling"                                                                                    OCR   311  21
