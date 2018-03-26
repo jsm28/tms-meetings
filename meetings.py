@@ -8,6 +8,7 @@ import re
 import xml.etree.ElementTree
 
 
+nbsp = '\u00a0'
 Delta = '\u0394'
 pi = '\u03c0'
 ndash = '\u2013'
@@ -130,6 +131,14 @@ class Speaker(object):
             sp.append('        <role>%s</role>' % html.escape(self.role))
         return '      <speaker>\n%s\n      </speaker>' % '\n'.join(sp)
 
+    def html_text(self):
+        """HTML text for a Speaker object in the list of meetings."""
+        text = '%s %s %s' % (self.title, self.first, self.last)
+        text = text.replace(' ', nbsp)
+        if self.role:
+            text = '%s (%s)' % (text, self.role)
+        return html.escape(text)
+
 
 class SubMeeting(object):
     """A meeting title or description with zero or more speakers."""
@@ -162,6 +171,21 @@ class SubMeeting(object):
         if self.note:
             s.append('      <mnote>%s</mnote>' % html.escape(self.note))
         return '    <sub>\n%s\n    </sub>' % '\n'.join(s)
+
+    def html_text(self):
+        """HTML text for a SubMeeting object in the list of meetings."""
+        stext = ' and '.join([s.html_text() for s in self.speakers])
+        if self.title:
+            dtext = ldquo+self.title+rdquo
+        else:
+            dtext = self.desc
+        if self.note:
+            dtext = '%s (%s)' % (dtext, self.note)
+        dtext = html.escape(dtext)
+        if stext:
+            return '%s, %s' % (stext, dtext)
+        else:
+            return dtext
 
 
 class Meeting(object):
@@ -229,6 +253,61 @@ class Meeting(object):
                  % (html.escape(self.volume), html.escape(self.page)))
         return '  <meeting>\n%s\n  </meeting>' % '\n'.join(m)
 
+    def html_text(self):
+        """HTML text for a Meeting object in the list of meetings."""
+        if self.date == '':
+            datetext = '(unknown date)'
+        else:
+            year = self.date[0:4]
+            month = self.date[5:7]
+            months = { '01': 'January',
+                       '02': 'February',
+                       '03': 'March',
+                       '04': 'April',
+                       '05': 'May',
+                       '06': 'June',
+                       '07': 'July',
+                       '08': 'August',
+                       '09': 'September',
+                       '10': 'October',
+                       '11': 'November',
+                       '12': 'December',
+                       '??': '??' }
+            month = months[month]
+            day = self.date[8:]
+            day = day.lstrip('0')
+            datetext = '%s %s %s' % (day, month, year)
+        sub_text_list = [s.html_text() for s in self.sub]
+        if len(self.sub) > 1:
+            maintext = ('%s:\n<ul>\n%s\n</ul>\n'
+                        % (html.escape(datetext),
+                           '\n'.join(['<li>%s.</li>' % s
+                                      for s in sub_text_list])))
+        else:
+            maintext = '%s: %s.<br>\n' % (html.escape(datetext),
+                                          sub_text_list[0])
+        if self.joint:
+            jointtext = html.escape('Joint with: %s.'
+                                    % ' and '.join(self.joint))
+            jointtext = '<small>%s</small><br>\n' % jointtext
+        else:
+            jointtext = ''
+        if self.flags:
+            ftext = '%s; %s' % (self.type, '; '.join(self.flags))
+        else:
+            ftext = self.type
+        vtext = 'Meeting %s (%s)' % (self.number, ftext)
+        if self.venue:
+            vtext += ', %s' % self.venue
+        if self.attendance:
+            vtext += ', attendance %s' % self.attendance
+        vtext += '.'
+        vtext = '<small>%s</small>' % html.escape(vtext)
+        if self.page != '-':
+            vtext += ('<br>\n<small>Minutes: volume %s page %s.</small>'
+                      % (html.escape(self.volume), html.escape(self.page)))
+        text = maintext + jointtext + vtext
+        return '<li>%s</li>' % text
 
 class Note(object):
     """A textual note in the list of meetings."""
@@ -241,6 +320,10 @@ class Note(object):
     def xml_text(self):
         """The canonical XML text of a Note object."""
         return '  <note>%s</note>' % html.escape(self.text)
+
+    def html_text(self):
+        """HTML text for a Note object in the list of meetings."""
+        return '<p>(%s)</p>' % html.escape(self.text)
 
 
 def convert_text(text):
@@ -656,6 +739,68 @@ def action_speaker_dates(args):
         f.write(sorted_text)
 
 
+def action_meetings_html(args):
+    """Generate an HTML version of the list of meetings."""
+    meeting_list = meetings_from_xml('meetings.xml')
+    cur_year = 0
+    cur_text = ''
+    cur_in_ul = False
+    past_list = []
+    for m in meeting_list:
+        if isinstance(m, Note):
+            if 'did not meet' in m.text:
+                year = cur_year
+            else:
+                year = cur_year + 1
+        else:
+            if m.date == '' or '?' in m.date:
+                year = cur_year
+            else:
+                year_num = int(m.date[0:4])
+                month_num = int(m.date[5:7])
+                year = year_num if month_num >= 10 else year_num - 1
+        if year > cur_year:
+            if cur_in_ul:
+                cur_text += '\n</ul>'
+            if cur_text:
+                past_list.append(cur_text)
+            cur_text = ('<h2>%d'+ndash+'%d</h2>') % (year, year + 1)
+            cur_year = year
+            cur_in_ul = False
+        elif year != cur_year:
+            raise ValueError('year going backwards')
+        if isinstance(m, Note) and cur_in_ul:
+            cur_text += '\n</ul>'
+            cur_in_ul = False
+        elif isinstance(m, Meeting) and not cur_in_ul:
+            cur_text += '\n<ul>'
+            cur_in_ul = True
+        cur_text += '\n' + m.html_text()
+    if cur_in_ul:
+        cur_text += '\n</ul>'
+    past_list.append(cur_text)
+    html_head = ('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 '
+                 'Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">\n'
+                 '<html>\n'
+                 '<head>\n'
+                 '<meta http-equiv="Content-Type" content="text/html; '
+                 'charset=UTF-8">\n'
+                 '<title>Trinity Mathematical Society meetings</title>\n'
+                 '</head>\n'
+                 '<body>\n'
+                 '<h1>Trinity Mathematical Society meetings</h1>\n')
+    with open('README', 'r', encoding='utf-8') as f:
+        readme_text = f.read()
+    readme_text = readme_text.replace('-', ndash)
+    readme_list = readme_text.split('\n\n')
+    html_head += ('<p>%s\n</p>\n<p>%s\n</p>\n'
+                  % (html.escape(readme_list[0]), html.escape(readme_list[2])))
+    html_foot = '\n</body>\n</html>\n'
+    full_text = html_head + '\n'.join(past_list) + html_foot
+    with open('meetings.html', 'w', encoding='utf-8') as f:
+        f.write(full_text)
+
+
 def main():
     """Main program."""
     parser = argparse.ArgumentParser(description='Process list of meetings')
@@ -665,12 +810,14 @@ def main():
     parser.add_argument('action',
                         help='What to do',
                         choices=('text-to-xml', 'reformat-xml',
-                                 'speaker-counts', 'speaker-dates'))
+                                 'speaker-counts', 'speaker-dates',
+                                 'meetings-html'))
     args = parser.parse_args()
     action_map = { 'text-to-xml': action_text_to_xml,
                    'reformat-xml': action_reformat_xml,
                    'speaker-counts': action_speaker_counts,
-                   'speaker-dates': action_speaker_dates }
+                   'speaker-dates': action_speaker_dates,
+                   'meetings-html': action_meetings_html }
     action_map[args.action](args)
 
 
