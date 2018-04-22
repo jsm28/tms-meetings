@@ -344,6 +344,22 @@ def convert_text(text):
     return text
 
 
+def unconvert_text(text):
+    """Convert text (e.g. talk title) from list of meetings to form in
+    fixed-format text file."""
+    if text is None:
+        return text
+    text = text.replace(rsquo, "'")
+    text = text.replace(hellip, '...')
+    text = text.replace(pi, r'\pi')
+    text = text.replace(Delta, r'\Delta')
+    text = text.replace(mdash, ' - ')
+    text = text.replace(ldquo, '"')
+    text = text.replace(rdquo, '"')
+    text = text.replace(ndash, '-')
+    return text
+
+
 def meetings_from_xml(name):
     """Read the list of meetings from an XML file."""
     # This function does not always validate that all the XML contents
@@ -406,69 +422,71 @@ def meetings_from_xml(name):
     return meeting_list
 
 
+volumes = { 'I': '1', 'II': '2', 'III': '3', 'IV': '4', 'V': '5',
+            'VI': '6', 'VII': '7', 'VIII': '8', 'IX': '9', 'X': '10',
+            'XI': '11', 'XII': '12' }
+format_hdr = 'mmmxx yyyy-mm-dd fff joint speaker                          title                                                                                                   venue ppp aud'
+volume_hdr = 'VOLUME '
+joint_map = { '': (),
+              'Adams': ('Adams Society',),
+              'M&S': ('Magpie and Stump',),
+              'A/M&S': ('Adams Society', 'Magpie and Stump'),
+              'MRSTC': ('Mathematics Research Students'+rsquo+' Tea Club',),
+              'NP': ('New Pythagoreans',),
+              'TCMS': ('Trinity College Music Society',),
+              'TCNSS': ('Trinity College Natural Sciences Society',),
+              'TCSS': ('Trinity College Science Society',) }
+role_map = { 'prop': 'proponent',
+             'opp': 'opponent',
+             'author': 'author',
+             'producer': 'producer' }
+type_map = { 'c': 'sporting event',
+             'd': 'dinner',
+             'f': 'debate',
+             'i': 'inaugural meeting',
+             'm': 'film night',
+             'n': 'panel discussion',
+             'o': 'opera',
+             'p': 'photograph',
+             'r': 'recreational',
+             'v': 'visit' }
+flag_map = { 'b': 'non-election business',
+             'e': 'election of officers',
+             't': 'televised' }
+venue_map = { 'AHSR': 'Adrian House Seminar Room',
+              'BBCR': 'Blue Boar Common Room',
+              'BHPR': 'Butler House Party Room',
+              'CAI': 'Caius College',
+              'CAM': 'river Cam',
+              'CHR': 'Christ'+rsquo+'s College',
+              'DAMTP': 'DAMTP',
+              'EMM': 'Emmanuel College',
+              'Hall': 'Hall',
+              'JCR': 'Junior Combination Room',
+              'JP': 'Junior Parlour',
+              'LRT': 'Lecture-Room Theatre (I Great Court)',
+              'ML': 'Master'+rsquo+'s Lodge',
+              'OCR': 'Old Combination Room',
+              'OF': 'Old Field',
+              'OK': 'Old Kitchens',
+              'PSR': 'Private Supply Room',
+              'SJC': 'St John'+rsquo+'s College',
+              'WLT': 'Winstanley Lecture Theatre',
+              'WPR': 'Wolfson Party Room' }
+venue_map_suffix = collections.OrderedDict(
+    (('BB', '%s Blue Boar Court'),
+     ('BS', 'Room %s, 4A Bridge Street'),
+     ('B', '%s Bishop'+rsquo+'s Hostel'),
+     ('G', '%s Great Court'),
+     ('H', '%s Whewell'+rsquo+'s Court'),
+     ('K', '%s New Court'),
+     ('LR', 'Lecture Room %s (I Great Court)'),
+     ('MR', 'Centre for Mathematical Sciences MR%s'),
+     ('N', '%s Nevile'+rsquo+'s Court')))
+venue_bar_text = 'Q1 Great Court'
+venue_bar = 'the College Bar (Q1 Great Court, 1958'+ndash+'1998)'
 def meetings_from_text(name):
     """Read the list of meetings from a fixed-format text file."""
-    volumes = { 'I': '1', 'II': '2', 'III': '3', 'IV': '4', 'V': '5',
-                'VI': '6', 'VII': '7', 'VIII': '8', 'IX': '9', 'X': '10',
-                'XI': '11', 'XII': '12' }
-    format_hdr = 'mmmxx yyyy-mm-dd fff joint speaker                          title                                                                                                   venue ppp aud'
-    volume_hdr = 'VOLUME '
-    joint_map = { '': (),
-                  'Adams': ('Adams Society',),
-                  'M&S': ('Magpie and Stump',),
-                  'A/M&S': ('Adams Society', 'Magpie and Stump'),
-                  'MRSTC': ('Mathematics Research Students'+rsquo+' Tea Club',),
-                  'NP': ('New Pythagoreans',),
-                  'TCMS': ('Trinity College Music Society',),
-                  'TCNSS': ('Trinity College Natural Sciences Society',),
-                  'TCSS': ('Trinity College Science Society',) }
-    role_map = { 'prop': 'proponent',
-                 'opp': 'opponent',
-                 'author': 'author',
-                 'producer': 'producer' }
-    type_map = { 'c': 'sporting event',
-                 'd': 'dinner',
-                 'f': 'debate',
-                 'i': 'inaugural meeting',
-                 'm': 'film night',
-                 'n': 'panel discussion',
-                 'o': 'opera',
-                 'p': 'photograph',
-                 'r': 'recreational',
-                 'v': 'visit' }
-    flag_map = { 'b': 'non-election business',
-                 'e': 'election of officers',
-                 't': 'televised' }
-    venue_map = { 'AHSR': 'Adrian House Seminar Room',
-                  'BBCR': 'Blue Boar Common Room',
-                  'BHPR': 'Butler House Party Room',
-                  'CAI': 'Caius College',
-                  'CAM': 'river Cam',
-                  'CHR': 'Christ'+rsquo+'s College',
-                  'DAMTP': 'DAMTP',
-                  'EMM': 'Emmanuel College',
-                  'Hall': 'Hall',
-                  'JCR': 'Junior Combination Room',
-                  'JP': 'Junior Parlour',
-                  'LRT': 'Lecture-Room Theatre (I Great Court)',
-                  'ML': 'Master'+rsquo+'s Lodge',
-                  'OCR': 'Old Combination Room',
-                  'OF': 'Old Field',
-                  'OK': 'Old Kitchens',
-                  'PSR': 'Private Supply Room',
-                  'SJC': 'St John'+rsquo+'s College',
-                  'WLT': 'Winstanley Lecture Theatre',
-                  'WPR': 'Wolfson Party Room' }
-    venue_map_suffix = collections.OrderedDict(
-        (('BB', '%s Blue Boar Court'),
-         ('BS', 'Room %s, 4A Bridge Street'),
-         ('B', '%s Bishop'+rsquo+'s Hostel'),
-         ('G', '%s Great Court'),
-         ('H', '%s Whewell'+rsquo+'s Court'),
-         ('K', '%s New Court'),
-         ('LR', 'Lecture Room %s (I Great Court)'),
-         ('MR', 'Centre for Mathematical Sciences MR%s'),
-         ('N', '%s Nevile'+rsquo+'s Court')))
     cur_volume = None
     meeting_list = []
     cur_meeting = None
@@ -573,9 +591,8 @@ def meetings_from_text(name):
                                 break
                         if not venue_converted:
                             raise ValueError('unknown venue: %s' % line)
-                        if venue == 'Q1 Great Court' and date == '1979-04-23':
-                            venue = ('the College Bar (Q1 Great Court, 1958'
-                                     +ndash+'1998)')
+                        if venue == venue_bar_text and date == '1979-04-23':
+                            venue = venue_bar
                         if venue == 'Lecture Room  (I Great Court)':
                             venue = 'Lecture Rooms (I Great Court)'
                 if page == '---' or page == '':
@@ -668,6 +685,161 @@ def meetings_to_xml(meeting_list):
             '%s\n'
             '</meetings>\n'
             % '\n'.join([m.xml_text() for m in meeting_list]))
+
+
+def meetings_to_text(meeting_list):
+    """Return the legacy text form of the list of meetings.
+
+    This is for one-off validation that the conversion process from
+    text to XML does not lose information.  Thus, it is not necessary
+    for the results to be byte-identical to the original text file, or
+    to be fully validly formatted suitably for reading back in, just
+    similar enough for comparison.  Specifically, there are
+    differences in how some unminuted meetings are reflected in the
+    text file, and this output does not truncate too-long meeting
+    titles (so the output for those meetings is not actually valid
+    input for the text-to-XML conversion).
+
+    """
+    lines = []
+    cur_year = 0
+    cur_volume = '0'
+    for m in meeting_list:
+        done_newline = False
+        if isinstance(m, Note):
+            if 'did not meet' in m.text:
+                year = cur_year
+            else:
+                year = cur_year + 1
+        else:
+            if m.date == '' or '?' in m.date:
+                year = cur_year
+            else:
+                year_num = int(m.date[0:4])
+                month_num = int(m.date[5:7])
+                year = year_num if month_num >= 10 else year_num - 1
+        if year > cur_year:
+            done_newline = True
+            if cur_year != 0:
+                lines.append('')
+            cur_year = year
+        elif year != cur_year:
+            raise ValueError('year going backwards')
+        if isinstance(m, Meeting) and m.volume != cur_volume:
+            if not done_newline:
+                lines.append('')
+                done_newline = True
+            if cur_volume != '0':
+                lines.append('')
+            cur_volume = m.volume
+            vol_roman = ''
+            for k in volumes:
+                if volumes[k] == m.volume:
+                    vol_roman = k
+                    break
+            vol_txt = volume_hdr + vol_roman
+            lines.append(vol_txt)
+            lines.append('-' * len(vol_txt))
+            lines.append(format_hdr)
+        if isinstance(m, Note):
+            lines.append('(%s)' % unconvert_text(m.text))
+            continue
+        num = re.fullmatch(r'([0-9]+)(.*)', m.number)
+        if num:
+            num_main = num.group(1)
+            num_extra = num.group(2)
+        else:
+            num_main = ''
+            num_extra = ''
+        flags = ''
+        for t in type_map:
+            if m.type == type_map[t]:
+                flags += t
+                break
+        for f in flag_map:
+            if flag_map[f] in m.flags:
+                flags += f
+        flags = ''.join(sorted(flags))
+        joint = ''
+        for j in joint_map:
+            if tuple(m.joint) == joint_map[j]:
+                joint = j
+                break
+        sub = []
+        for s in m.sub:
+            if s.desc:
+                desc = s.desc
+            else:
+                desc = '"%s"' % s.title
+            if s.note:
+                desc = '%s (%s)' % (desc, s.note)
+            desc = unconvert_text(desc)
+            if s.speakers:
+                speakers = []
+                for sp in s.speakers:
+                    title = sp.title + ' '
+                    for k in pers_titles_text_adj:
+                        title = title.replace(pers_titles_text_adj[k], k)
+                    first = sp.first
+                    first = first.replace('. ', '.')
+                    first = first.replace('.St', '. St')
+                    first = first.replace('.v', '. v')
+                    sp_text = '%s%s %s' % (title, first, sp.last)
+                    if sp.role:
+                        role = sp.role
+                        for k in role_map:
+                            if role == role_map[k]:
+                                role = k
+                        sp_text += ' (%s)' % role
+                    speakers.append(sp_text)
+            else:
+                speakers = ['']
+            sub.append((speakers[0], desc))
+            for sp in speakers[1:]:
+                sub.append((sp, ''))
+        venue = ''
+        if m.venue:
+            mvenue = m.venue
+            if mvenue == venue_bar:
+                mvenue = venue_bar_text
+            if mvenue == 'Lecture Rooms (I Great Court)':
+                mvenue = 'Lecture Room  (I Great Court)'
+            for k in venue_map:
+                if mvenue == venue_map[k]:
+                    venue = k
+                    break
+            if not venue:
+                for k in venue_map_suffix:
+                    name_re = venue_map_suffix[k]
+                    name_re = name_re.replace('(', r'\(')
+                    name_re = name_re.replace(')', r'\)')
+                    name_re = name_re.replace('%s', '(.*)')
+                    vmatch = re.fullmatch(name_re, mvenue)
+                    if vmatch:
+                        venue = k + vmatch.group(1)
+                        break
+            if not venue:
+                raise ValueError('could not convert venue: %s' % mvenue)
+        page = m.page
+        if page == '-':
+            page = '---'
+        if page == '?':
+            page = '???'
+        if m.attendance:
+            attendance = m.attendance
+            if attendance == '?':
+                attendance = ' ??'
+            att_match = re.fullmatch('([0-9]+)(.*)', attendance)
+            if att_match:
+                attendance = '%3s%s' % (att_match.group(1), att_match.group(2))
+        else:
+            attendance = ''
+        lines.append(('%3s%-2s %-10s %-3s %5s %-32s %-103s %-5s %3s %s'
+                      % (num_main, num_extra, m.date, flags, joint, sub[0][0],
+                         sub[0][1], venue, page, attendance)).rstrip())
+        for s in sub[1:]:
+            lines.append(('%27s%-32s %-133s' % ('', s[0], s[1])).rstrip())
+    return '\n'.join(lines) + '\n'
 
 
 def action_text_to_xml(args):
@@ -812,6 +984,14 @@ def action_meetings_html(args):
         f.write(full_text)
 
 
+def action_meetings_text(args):
+    """Read the XML list of meetings and write it out in legacy text form."""
+    mlist = meetings_from_xml('meetings.xml')
+    new_text = meetings_to_text(mlist)
+    with open('meetings-new.txt', 'w', encoding='iso-8859-1') as f:
+        f.write(new_text)
+
+
 def main():
     """Main program."""
     parser = argparse.ArgumentParser(description='Process list of meetings')
@@ -822,13 +1002,14 @@ def main():
                         help='What to do',
                         choices=('text-to-xml', 'reformat-xml',
                                  'speaker-counts', 'speaker-dates',
-                                 'meetings-html'))
+                                 'meetings-html', 'meetings-text'))
     args = parser.parse_args()
     action_map = { 'text-to-xml': action_text_to_xml,
                    'reformat-xml': action_reformat_xml,
                    'speaker-counts': action_speaker_counts,
                    'speaker-dates': action_speaker_dates,
-                   'meetings-html': action_meetings_html }
+                   'meetings-html': action_meetings_html,
+                   'meetings-text': action_meetings_text }
     action_map[args.action](args)
 
 
