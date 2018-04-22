@@ -4,15 +4,16 @@ by Joseph Myers, November 2002 onwards; the list up to 1981 is
 reproduced from that in the front of the minutes book in REC.11.10 in
 the Wren Library by permission of Paul Taylor and the Wren Library.
 
-The main list is meetings.txt, with notes in notes.txt; *.title files
-provide full titles of talks whose titles are too long to fit in
-meetings.txt.  parselist is an old (2002/3) Perl script to do some
-processing of the list such as counting the numbers of talks by each
-speaker.  Conversion to an extensible format and replacement of
-parselist with Python code is pending.  The old/ directory contains
-transcripts of Paul Taylor's original lists, and a reformatted version
-of his list of talks, and a version of the list up to 2003 as provided
-to the Wren Library at that time.
+The main list is meetings.xml.  meetings.py supports some processing
+of the list such as counting the numbers of talks by each speaker and
+generating an HTML version of the list of meetings.  The old/
+directory contains transcripts of Paul Taylor's original lists, and a
+reformatted version of his list of talks, and a version of the list up
+to 2003 as provided to the Wren Library at that time, and the list in
+the form it had immediately before conversion from a fixed-width text
+format to XML as the master version of the list, and an old (2002/3)
+Perl script parselist that was used for processing that version of the
+list.
 
 Meeting numbers and page numbers in the minutes were last obtained
 from the Secretary for 2003-4.  Thus, subsequent meeting numbers
