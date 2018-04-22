@@ -28,9 +28,10 @@ pers_titles = ('Prof. ', 'Rev. ', 'Dr ', 'Hon. ', 'Col. ', 'Sir ',
                'Lord ', 'Mr ', 'Mrs ', 'Ms ', 'Miss ')
 roles = ('proponent', 'opponent', 'author', 'producer')
 meeting_types = ('talk', 'talks', 'sporting event', 'dinner', 'debate',
-                 'inaugural meeting', 'film night', 'panel discussion',
-                 'opera', 'photograph', 'recreational', 'visit',
-                 'general meeting', 'business meeting', 'discussion')
+                 'inaugural meeting', 'planning meeting', 'film night',
+                 'panel discussion', 'opera', 'photograph', 'recreational',
+                 'visit', 'general meeting', 'business meeting', 'discussion',
+                 'symposium')
 meeting_flags = ('non-election business', 'election of officers',
                  'televised')
 venues = ('',
