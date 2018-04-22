@@ -111,6 +111,7 @@ class Speaker(object):
         self.title = title
         self.first = first
         self.last = last
+        self.id = '%s, %s' % (last, first)
         if role and role not in roles:
             raise ValueError('unexpected role: %s' % role)
         self.role = role
@@ -125,13 +126,19 @@ class Speaker(object):
             sp.append('        <role>%s</role>' % html.escape(self.role))
         return '      <speaker>\n%s\n      </speaker>' % '\n'.join(sp)
 
-    def html_text(self):
+    def html_text(self, speaker_data):
         """HTML text for a Speaker object in the list of meetings."""
-        text = '%s %s %s' % (self.title, self.first, self.last)
-        text = text.replace(' ', nbsp)
+        name = '%s %s' % (self.first, self.last)
+        name = name.replace(' ', nbsp)
+        name = html.escape(name)
+        if self.id in speaker_data:
+            name = '<a href="%s">%s</a>' % (html.escape(speaker_data[self.id]),
+                                            name)
+        title = self.title.replace(' ', nbsp)
+        text = '%s%s%s' % (html.escape(title), nbsp, name)
         if self.role:
-            text = '%s (%s)' % (text, self.role)
-        return html.escape(text)
+            text = '%s (%s)' % (text, html.escape(self.role))
+        return text
 
 
 class SubMeeting(object):
@@ -166,9 +173,10 @@ class SubMeeting(object):
             s.append('      <mnote>%s</mnote>' % html.escape(self.note))
         return '    <sub>\n%s\n    </sub>' % '\n'.join(s)
 
-    def html_text(self):
+    def html_text(self, speaker_data):
         """HTML text for a SubMeeting object in the list of meetings."""
-        stext = ' and '.join([s.html_text() for s in self.speakers])
+        stext = ' and '.join([s.html_text(speaker_data)
+                              for s in self.speakers])
         if self.title:
             dtext = ldquo+self.title+rdquo
         else:
@@ -247,7 +255,7 @@ class Meeting(object):
                  % (html.escape(self.volume), html.escape(self.page)))
         return '  <meeting>\n%s\n  </meeting>' % '\n'.join(m)
 
-    def html_text(self):
+    def html_text(self, speaker_data):
         """HTML text for a Meeting object in the list of meetings."""
         if self.date == '':
             datetext = '(unknown date)'
@@ -271,7 +279,7 @@ class Meeting(object):
             day = self.date[8:]
             day = day.lstrip('0')
             datetext = '%s %s %s' % (day, month, year)
-        sub_text_list = [s.html_text() for s in self.sub]
+        sub_text_list = [s.html_text(speaker_data) for s in self.sub]
         if len(self.sub) > 1:
             maintext = ('%s:\n<ul>\n%s\n</ul>\n'
                         % (html.escape(datetext),
@@ -315,9 +323,31 @@ class Note(object):
         """The canonical XML text of a Note object."""
         return '  <note>%s</note>' % html.escape(self.text)
 
-    def html_text(self):
+    def html_text(self, speaker_data):
         """HTML text for a Note object in the list of meetings."""
         return '<p>(%s)</p>' % html.escape(self.text)
+
+
+def speakers_from_xml(name):
+    """Read the extra speaker information from an XML file."""
+    # This function does not always validate that all the XML contents
+    # use the expected tags and are otherwise understood.  Unexpected
+    # contents may produce errors in some cases and be ignored in
+    # others.  Writing the parsed contents back as XML and comparing
+    # the results suffices for validation of both contents and
+    # canonical formatting.
+    root = xml.etree.ElementTree.parse(name).getroot()
+    speaker_data = {}
+    for entry in root:
+        if entry.tag == 'speaker':
+            id = entry.find('id').text
+            link = entry.find('link').text
+            if id in speaker_data:
+                raise ValueError('duplicate information for: %s' % id)
+            speaker_data[id] = link
+        else:
+            raise ValueError('unexpected tag: %s' % entry.tag)
+    return speaker_data
 
 
 def meetings_from_xml(name):
@@ -382,6 +412,22 @@ def meetings_from_xml(name):
     return meeting_list
 
 
+def read_xml_data():
+    """Read all the data from XML files."""
+    meeting_list = meetings_from_xml('meetings.xml')
+    speaker_data = speakers_from_xml('speakers.xml')
+    known_speakers = set()
+    for m in meeting_list:
+        if isinstance(m, Meeting):
+            for s in m.sub:
+                for sp in s.speakers:
+                    known_speakers.add(sp.id)
+    for k in speaker_data.keys():
+        if k not in known_speakers:
+            raise ValueError('unknown speaker: %s' % k)
+    return meeting_list, speaker_data
+
+
 def meetings_to_xml(meeting_list):
     """Return the canonical XML text of the list of meetings."""
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -391,17 +437,36 @@ def meetings_to_xml(meeting_list):
             % '\n'.join([m.xml_text() for m in meeting_list]))
 
 
+def speakers_to_xml(speaker_data):
+    """Return the canonical XML text of the extra speaker information."""
+    xml_list = []
+    for k in sorted(speaker_data.keys()):
+        xml_list.append('  <speaker>\n'
+                        '    <id>%s</id>\n'
+                        '    <link>%s</link>\n'
+                        '  </speaker>'
+                        % (html.escape(k), html.escape(speaker_data[k])))
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<speakers>\n'
+            '%s\n'
+            '</speakers>\n'
+            % '\n'.join(xml_list))
+
+
 def action_reformat_xml(args):
-    """Read the XML list of meetings and write it out again."""
-    mlist = meetings_from_xml('meetings.xml')
-    xml_text = meetings_to_xml(mlist)
+    """Read the XML lists of speakers and meetings and write them out again."""
+    mlist, sdata = read_xml_data()
+    meetings_xml_text = meetings_to_xml(mlist)
     with open('meetings-new.xml', 'w', encoding='utf-8') as f:
-        f.write(xml_text)
+        f.write(meetings_xml_text)
+    speakers_xml_text = speakers_to_xml(sdata)
+    with open('speakers-new.xml', 'w', encoding='utf-8') as f:
+        f.write(speakers_xml_text)
 
 
 def action_speaker_counts(args):
     """Count the number of talks by each speaker."""
-    meeting_list = meetings_from_xml('meetings.xml')
+    meeting_list, speaker_data = read_xml_data()
     exclude = args.exclude
     if exclude is None:
         exclude = []
@@ -413,7 +478,7 @@ def action_speaker_counts(args):
             continue
         for sub in m.sub:
             for sp in sub.speakers:
-                name = '%s, %s' % (sp.last, sp.first)
+                name = sp.id
                 if name not in counts:
                     counts[name] = 0
                 counts[name] += 1
@@ -426,7 +491,7 @@ def action_speaker_counts(args):
 
 def action_speaker_dates(args):
     """List speakers by the range of dates over which they have spoken."""
-    meeting_list = meetings_from_xml('meetings.xml')
+    meeting_list, speaker_data = read_xml_data()
     exclude = args.exclude
     if exclude is None:
         exclude = []
@@ -444,7 +509,7 @@ def action_speaker_dates(args):
         date = datetime.date(year, month, day)
         for sub in m.sub:
             for sp in sub.speakers:
-                name = '%s, %s' % (sp.last, sp.first)
+                name = sp.id
                 if name in dates:
                     details = (dates[name][0], dates[name][1], m.date,
                                (date - dates[name][1]).days)
@@ -462,7 +527,7 @@ def action_speaker_dates(args):
 
 def action_meetings_html(args):
     """Generate an HTML version of the list of meetings."""
-    meeting_list = meetings_from_xml('meetings.xml')
+    meeting_list, speaker_data = read_xml_data()
     cur_year = 0
     cur_text = ''
     cur_in_ul = False
@@ -496,7 +561,7 @@ def action_meetings_html(args):
         elif isinstance(m, Meeting) and not cur_in_ul:
             cur_text += '\n<ul>'
             cur_in_ul = True
-        cur_text += '\n' + m.html_text()
+        cur_text += '\n' + m.html_text(speaker_data)
     if cur_in_ul:
         cur_text += '\n</ul>'
     past_list.append(cur_text)
