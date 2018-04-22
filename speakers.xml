@@ -13,6 +13,10 @@
     <link>https://en.wikipedia.org/wiki/B%C3%A9la_Bollob%C3%A1s</link>
   </speaker>
   <speaker>
+    <id>Gog, J. R.</id>
+    <link>https://en.wikipedia.org/wiki/Julia_Gog</link>
+  </speaker>
+  <speaker>
     <id>Gowers, W. T.</id>
     <link>https://en.wikipedia.org/wiki/Timothy_Gowers</link>
   </speaker>
@@ -33,8 +37,20 @@
     <link>https://en.wikipedia.org/wiki/John_Edensor_Littlewood</link>
   </speaker>
   <speaker>
+    <id>Mestel, A. J.</id>
+    <link>https://en.wikipedia.org/wiki/Jonathan_Mestel</link>
+  </speaker>
+  <speaker>
     <id>Milne, E. A.</id>
     <link>https://en.wikipedia.org/wiki/Edward_Arthur_Milne</link>
+  </speaker>
+  <speaker>
+    <id>Pedley, T. J.</id>
+    <link>https://en.wikipedia.org/wiki/Tim_Pedley</link>
+  </speaker>
+  <speaker>
+    <id>Peyton Jones, S.</id>
+    <link>https://en.wikipedia.org/wiki/Simon_Peyton_Jones</link>
   </speaker>
   <speaker>
     <id>Proctor, M. R. E.</id>
@@ -51,5 +67,9 @@
   <speaker>
     <id>Taylor, G. I.</id>
     <link>https://en.wikipedia.org/wiki/G._I._Taylor</link>
+  </speaker>
+  <speaker>
+    <id>Tong, D.</id>
+    <link>https://en.wikipedia.org/wiki/David_Tong_(physicist)</link>
   </speaker>
 </speakers>
