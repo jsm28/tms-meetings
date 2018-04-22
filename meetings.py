@@ -9,28 +9,21 @@ import xml.etree.ElementTree
 
 
 nbsp = '\u00a0'
-Delta = '\u0394'
-pi = '\u03c0'
 ndash = '\u2013'
 mdash = '\u2014'
 rsquo = '\u2019'
 ldquo = '\u201c'
 rdquo = '\u201d'
-hellip = '\u2026'
 joint_societies = ('Adams Society', 'Magpie and Stump',
                    'Mathematics Research Students'+rsquo+' Tea Club',
                    'New Pythagoreans', 'Trinity College Music Society',
                    'Trinity College Natural Sciences Society',
                    'Trinity College Science Society')
-# Titles are expected to come from this list, in order.  The text list
-# used full stops after every abbreviation; for the XML list, the
-# common British convention is used where such full stops are not used
-# for abbreviations ending with the last letter of the word
-# abbreviated.
+# Titles are expected to come from this list, in order.  The common
+# British convention is used where such full stops are not used for
+# abbreviations ending with the last letter of the word abbreviated.
 pers_titles_text = ('Prof. ', 'Rev. ', 'Dr. ', 'Hon. ', 'Col. ', 'Sir ',
                     'Lord ', 'Mr. ', 'Mrs. ', 'Ms. ', 'Miss ')
-pers_titles_text_adj = { 'Dr. ': 'Dr ', 'Mr. ': 'Mr ', 'Mrs. ': 'Mrs ',
-                         'Ms. ': 'Ms ' }
 pers_titles = ('Prof. ', 'Rev. ', 'Dr ', 'Hon. ', 'Col. ', 'Sir ',
                'Lord ', 'Mr ', 'Mrs ', 'Ms ', 'Miss ')
 roles = ('proponent', 'opponent', 'author', 'producer')
@@ -326,40 +319,6 @@ class Note(object):
         return '<p>(%s)</p>' % html.escape(self.text)
 
 
-def convert_text(text):
-    """Convert text (e.g. talk title) from list of meetings to full
-    Unicode form."""
-    if text is None:
-        return text
-    text = text.replace("'", rsquo)
-    text = text.replace('...', hellip)
-    text = text.replace(r'\pi', pi)
-    text = text.replace(r'\Delta', Delta)
-    text = text.replace(' - ', mdash)
-    while '"' in text:
-        text = text.replace('"', ldquo, 1)
-        text = text.replace('"', rdquo, 1)
-    text = re.sub(r'([0-9])-([0-9])', r'\1'+ndash+r'\2', text)
-    text = re.sub(r'([0-9])-\Z', r'\1'+ndash, text)
-    return text
-
-
-def unconvert_text(text):
-    """Convert text (e.g. talk title) from list of meetings to form in
-    fixed-format text file."""
-    if text is None:
-        return text
-    text = text.replace(rsquo, "'")
-    text = text.replace(hellip, '...')
-    text = text.replace(pi, r'\pi')
-    text = text.replace(Delta, r'\Delta')
-    text = text.replace(mdash, ' - ')
-    text = text.replace(ldquo, '"')
-    text = text.replace(rdquo, '"')
-    text = text.replace(ndash, '-')
-    return text
-
-
 def meetings_from_xml(name):
     """Read the list of meetings from an XML file."""
     # This function does not always validate that all the XML contents
@@ -422,262 +381,6 @@ def meetings_from_xml(name):
     return meeting_list
 
 
-volumes = { 'I': '1', 'II': '2', 'III': '3', 'IV': '4', 'V': '5',
-            'VI': '6', 'VII': '7', 'VIII': '8', 'IX': '9', 'X': '10',
-            'XI': '11', 'XII': '12' }
-format_hdr = 'mmmxx yyyy-mm-dd fff joint speaker                          title                                                                                                   venue ppp aud'
-volume_hdr = 'VOLUME '
-joint_map = { '': (),
-              'Adams': ('Adams Society',),
-              'M&S': ('Magpie and Stump',),
-              'A/M&S': ('Adams Society', 'Magpie and Stump'),
-              'MRSTC': ('Mathematics Research Students'+rsquo+' Tea Club',),
-              'NP': ('New Pythagoreans',),
-              'TCMS': ('Trinity College Music Society',),
-              'TCNSS': ('Trinity College Natural Sciences Society',),
-              'TCSS': ('Trinity College Science Society',) }
-role_map = { 'prop': 'proponent',
-             'opp': 'opponent',
-             'author': 'author',
-             'producer': 'producer' }
-type_map = { 'c': 'sporting event',
-             'd': 'dinner',
-             'f': 'debate',
-             'i': 'inaugural meeting',
-             'm': 'film night',
-             'n': 'panel discussion',
-             'o': 'opera',
-             'p': 'photograph',
-             'r': 'recreational',
-             'v': 'visit' }
-flag_map = { 'b': 'non-election business',
-             'e': 'election of officers',
-             't': 'televised' }
-venue_map = { 'AHSR': 'Adrian House Seminar Room',
-              'BBCR': 'Blue Boar Common Room',
-              'BHPR': 'Butler House Party Room',
-              'CAI': 'Caius College',
-              'CAM': 'river Cam',
-              'CHR': 'Christ'+rsquo+'s College',
-              'DAMTP': 'DAMTP',
-              'EMM': 'Emmanuel College',
-              'Hall': 'Hall',
-              'JCR': 'Junior Combination Room',
-              'JP': 'Junior Parlour',
-              'LRT': 'Lecture-Room Theatre (I Great Court)',
-              'ML': 'Master'+rsquo+'s Lodge',
-              'OCR': 'Old Combination Room',
-              'OF': 'Old Field',
-              'OK': 'Old Kitchens',
-              'PSR': 'Private Supply Room',
-              'SJC': 'St John'+rsquo+'s College',
-              'WLT': 'Winstanley Lecture Theatre',
-              'WPR': 'Wolfson Party Room' }
-venue_map_suffix = collections.OrderedDict(
-    (('BB', '%s Blue Boar Court'),
-     ('BS', 'Room %s, 4A Bridge Street'),
-     ('B', '%s Bishop'+rsquo+'s Hostel'),
-     ('G', '%s Great Court'),
-     ('H', '%s Whewell'+rsquo+'s Court'),
-     ('K', '%s New Court'),
-     ('LR', 'Lecture Room %s (I Great Court)'),
-     ('MR', 'Centre for Mathematical Sciences MR%s'),
-     ('N', '%s Nevile'+rsquo+'s Court')))
-venue_bar_text = 'Q1 Great Court'
-venue_bar = 'the College Bar (Q1 Great Court, 1958'+ndash+'1998)'
-def meetings_from_text(name):
-    """Read the list of meetings from a fixed-format text file."""
-    cur_volume = None
-    meeting_list = []
-    cur_meeting = None
-    with open(name, 'r', encoding='iso-8859-1') as f:
-        for line in f:
-            line = line.rstrip()
-            # Ignore blank lines, and underlining of volume numbers.
-            if line.rstrip('-') == '':
-                if line != '' and cur_meeting is not None:
-                    raise ValueError('unexpected underlining')
-                continue
-            # Ignore headers describing the format.
-            if line == format_hdr:
-                if cur_meeting is not None:
-                    raise ValueError('unexpected format header')
-                continue
-            if line.startswith(volume_hdr):
-                cur_volume = volumes[line[len(volume_hdr):]]
-                cur_meeting = None
-                continue
-            if line.startswith('('):
-                if not line.endswith(')'):
-                    raise ValueError('bad note line: %s' % line)
-                line = line[1:-1]
-                cur_meeting = None
-                meeting_list.append(Note(convert_text(line)))
-                continue
-            # Meeting or meeting continuation line.
-            line = line.ljust(178)
-            if len(line) != 178:
-                raise ValueError('line too long: %s' % line)
-            number = line[0:5].strip()
-            sp1 = line[5]
-            date = line[6:16].strip()
-            sp2 = line[16]
-            flags = line[17:20].rstrip()
-            sp3 = line[20]
-            joint = line[21:26].lstrip()
-            sp4 = line[26]
-            speaker = line[27:59].rstrip()
-            sp5 = line[59]
-            desc = line[60:163].rstrip()
-            sp6 = line[163]
-            venue = line[164:169].rstrip()
-            sp7 = line[169]
-            page = line[170:173].lstrip()
-            sp8 = line[173]
-            attendance = line[174:].strip()
-            if speaker == 'unminuted' and desc == '':
-                speaker = ''
-                desc = '(unminuted)'
-            if (sp1 != ' ' or sp2 != ' ' or sp3 != ' ' or sp4 != ' '
-                or sp5 != ' ' or sp6 != ' ' or sp7 != ' ' or sp8 != ' '):
-                raise ValueError('missing expected space in line: %s' % line)
-            if speaker.startswith(' '):
-                raise ValueError('speaker starts with space: %s' % line)
-            if desc.startswith(' '):
-                raise ValueError('description starts with space: %s' % line)
-            if number == '' and date == '':
-                # Continuation line.
-                continuation = True
-                if flags or joint or venue or page or attendance:
-                    raise ValueError('bad continuation line: %s' % line)
-            else:
-                # Start of the lines for a new meeting.
-                continuation = False
-                type = ''
-                flags_list = []
-                for f in flags:
-                    if f in type_map:
-                        if type != '':
-                            raise ValueError('multiple meeting types: %s'
-                                             % line)
-                        type = type_map[f]
-                    elif f in flag_map:
-                        flags_list.append(flag_map[f])
-                    else:
-                        raise ValueError('unknown flag: %s' % line)
-                if type == '':
-                    if (speaker
-                        or desc == '(no speaker present)'
-                        or desc == '(unminuted)'):
-                        type = 'talk'
-                    elif 'General Meeting' in desc:
-                        type = 'general meeting'
-                    elif 'Business Meeting' in desc:
-                        type = 'business meeting'
-                    elif desc.startswith('Discussion'):
-                        type = 'discussion'
-                    else:
-                        raise ValueError('unknown meeting type: %s' % line)
-                if venue != '':
-                    if venue in venue_map:
-                        venue = venue_map[venue]
-                    else:
-                        venue_converted = False
-                        for v in venue_map_suffix:
-                            if venue.startswith(v):
-                                venue_suffix = venue[len(v):]
-                                venue = venue_map_suffix[v] % venue_suffix
-                                venue_converted = True
-                                break
-                        if not venue_converted:
-                            raise ValueError('unknown venue: %s' % line)
-                        if venue == venue_bar_text and date == '1979-04-23':
-                            venue = venue_bar
-                        if venue == 'Lecture Room  (I Great Court)':
-                            venue = 'Lecture Rooms (I Great Court)'
-                if page == '---' or page == '':
-                    page = '-'
-                if page == '???':
-                    page = '?'
-                if attendance == '??':
-                    attendance = '?'
-                cur_meeting = Meeting(number, date, type, flags_list,
-                                      joint_map[joint], [], venue, attendance,
-                                      cur_volume, page)
-                meeting_list.append(cur_meeting)
-            if speaker:
-                speaker_title, speaker_name = get_title(speaker,
-                                                        pers_titles_text,
-                                                        pers_titles_text_adj)
-                if not speaker_title:
-                    raise ValueError('missing speaker title: %s' % line)
-                if speaker_name.endswith(')'):
-                    m = re.fullmatch(r'(.+) \(([^()]*)\)', speaker_name)
-                    if not m:
-                        raise ValueError('bad speaker: %s' % line)
-                    speaker_name = m.group(1)
-                    speaker_role = role_map[m.group(2)]
-                else:
-                    speaker_role = None
-                m = re.fullmatch(r'(.*\.) ([^.]*)', speaker_name)
-                if not m:
-                    raise ValueError('bad speaker: %s' % line)
-                speaker_first = m.group(1)
-                # Insert spaces between initials.
-                speaker_first = re.sub(r'([A-Z])\.(?=[A-Z])', r'\1. ',
-                                       speaker_first)
-                speaker_last = m.group(2)
-                speaker_obj = Speaker(speaker_title, speaker_first,
-                                      speaker_last, speaker_role)
-            else:
-                speaker_obj = None
-            if desc.endswith(' ..."'):
-                # Title too long for fixed-width format, full title in
-                # .title file.
-                titlefile = '%s.title' % cur_meeting.number
-                with open(titlefile, 'r', encoding='iso-8859-1') as ftitle:
-                    titlelines = ftitle.readlines()
-                if len(titlelines) != 1:
-                    raise ValueError('bad number of lines in %s' % titlefile)
-                tline = titlelines[0].strip()
-                sdesc = desc[1:-5]
-                if not tline.startswith(sdesc):
-                    raise ValueError('long title mismatch: %s' % line)
-                desc = '"%s"' % tline
-            if desc.endswith(')') and not desc.startswith('('):
-                m = re.fullmatch(r'(.+) \(([^()]*)\)', desc)
-                if not m:
-                    raise ValueError('bad note: %s' % line)
-                desc = m.group(1)
-                note = m.group(2)
-            else:
-                note = None
-            if desc.startswith('"') and desc.endswith('"'):
-                title = desc[1:-1]
-                desc = None
-            else:
-                title = None
-            desc = convert_text(desc)
-            title = convert_text(title)
-            note = convert_text(note)
-            if desc or title:
-                # New description/title (and so new speaker if any).
-                if speaker_obj:
-                    speaker_list = [speaker_obj]
-                else:
-                    speaker_list = []
-                cur_meeting.sub.append(SubMeeting(desc, title, note,
-                                                  speaker_list))
-                if cur_meeting.type == 'talk' and len(cur_meeting.sub) > 1:
-                    cur_meeting.type = 'talks'
-            else:
-                # New speaker for the previous title.
-                if not speaker_obj:
-                    raise ValueError('missing speaker name: %s' % line)
-                cur_meeting.sub[-1].speakers.append(speaker_obj)
-    return meeting_list
-
-
 def meetings_to_xml(meeting_list):
     """Return the canonical XML text of the list of meetings."""
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -685,169 +388,6 @@ def meetings_to_xml(meeting_list):
             '%s\n'
             '</meetings>\n'
             % '\n'.join([m.xml_text() for m in meeting_list]))
-
-
-def meetings_to_text(meeting_list):
-    """Return the legacy text form of the list of meetings.
-
-    This is for one-off validation that the conversion process from
-    text to XML does not lose information.  Thus, it is not necessary
-    for the results to be byte-identical to the original text file, or
-    to be fully validly formatted suitably for reading back in, just
-    similar enough for comparison.  Specifically, there are
-    differences in how some unminuted meetings are reflected in the
-    text file, and this output does not truncate too-long meeting
-    titles (so the output for those meetings is not actually valid
-    input for the text-to-XML conversion).
-
-    """
-    lines = []
-    cur_year = 0
-    cur_volume = '0'
-    for m in meeting_list:
-        done_newline = False
-        if isinstance(m, Note):
-            if 'did not meet' in m.text:
-                year = cur_year
-            else:
-                year = cur_year + 1
-        else:
-            if m.date == '' or '?' in m.date:
-                year = cur_year
-            else:
-                year_num = int(m.date[0:4])
-                month_num = int(m.date[5:7])
-                year = year_num if month_num >= 10 else year_num - 1
-        if year > cur_year:
-            done_newline = True
-            if cur_year != 0:
-                lines.append('')
-            cur_year = year
-        elif year != cur_year:
-            raise ValueError('year going backwards')
-        if isinstance(m, Meeting) and m.volume != cur_volume:
-            if not done_newline:
-                lines.append('')
-                done_newline = True
-            if cur_volume != '0':
-                lines.append('')
-            cur_volume = m.volume
-            vol_roman = ''
-            for k in volumes:
-                if volumes[k] == m.volume:
-                    vol_roman = k
-                    break
-            vol_txt = volume_hdr + vol_roman
-            lines.append(vol_txt)
-            lines.append('-' * len(vol_txt))
-            lines.append(format_hdr)
-        if isinstance(m, Note):
-            lines.append('(%s)' % unconvert_text(m.text))
-            continue
-        num = re.fullmatch(r'([0-9]+)(.*)', m.number)
-        if num:
-            num_main = num.group(1)
-            num_extra = num.group(2)
-        else:
-            num_main = ''
-            num_extra = ''
-        flags = ''
-        for t in type_map:
-            if m.type == type_map[t]:
-                flags += t
-                break
-        for f in flag_map:
-            if flag_map[f] in m.flags:
-                flags += f
-        flags = ''.join(sorted(flags))
-        joint = ''
-        for j in joint_map:
-            if tuple(m.joint) == joint_map[j]:
-                joint = j
-                break
-        sub = []
-        for s in m.sub:
-            if s.desc:
-                desc = s.desc
-            else:
-                desc = '"%s"' % s.title
-            if s.note:
-                desc = '%s (%s)' % (desc, s.note)
-            desc = unconvert_text(desc)
-            if s.speakers:
-                speakers = []
-                for sp in s.speakers:
-                    title = sp.title + ' '
-                    for k in pers_titles_text_adj:
-                        title = title.replace(pers_titles_text_adj[k], k)
-                    first = sp.first
-                    first = first.replace('. ', '.')
-                    first = first.replace('.St', '. St')
-                    first = first.replace('.v', '. v')
-                    sp_text = '%s%s %s' % (title, first, sp.last)
-                    if sp.role:
-                        role = sp.role
-                        for k in role_map:
-                            if role == role_map[k]:
-                                role = k
-                        sp_text += ' (%s)' % role
-                    speakers.append(sp_text)
-            else:
-                speakers = ['']
-            sub.append((speakers[0], desc))
-            for sp in speakers[1:]:
-                sub.append((sp, ''))
-        venue = ''
-        if m.venue:
-            mvenue = m.venue
-            if mvenue == venue_bar:
-                mvenue = venue_bar_text
-            if mvenue == 'Lecture Rooms (I Great Court)':
-                mvenue = 'Lecture Room  (I Great Court)'
-            for k in venue_map:
-                if mvenue == venue_map[k]:
-                    venue = k
-                    break
-            if not venue:
-                for k in venue_map_suffix:
-                    name_re = venue_map_suffix[k]
-                    name_re = name_re.replace('(', r'\(')
-                    name_re = name_re.replace(')', r'\)')
-                    name_re = name_re.replace('%s', '(.*)')
-                    vmatch = re.fullmatch(name_re, mvenue)
-                    if vmatch:
-                        venue = k + vmatch.group(1)
-                        break
-            if not venue:
-                raise ValueError('could not convert venue: %s' % mvenue)
-        page = m.page
-        if page == '-':
-            page = '---'
-        if page == '?':
-            page = '???'
-        if m.attendance:
-            attendance = m.attendance
-            if attendance == '?':
-                attendance = ' ??'
-            att_match = re.fullmatch('([0-9]+)(.*)', attendance)
-            if att_match:
-                attendance = '%3s%s' % (att_match.group(1), att_match.group(2))
-        else:
-            attendance = ''
-        lines.append(('%3s%-2s %-10s %-3s %5s %-32s %-103s %-5s %3s %s'
-                      % (num_main, num_extra, m.date, flags, joint, sub[0][0],
-                         sub[0][1], venue, page, attendance)).rstrip())
-        for s in sub[1:]:
-            lines.append(('%27s%-32s %-133s' % ('', s[0], s[1])).rstrip())
-    return '\n'.join(lines) + '\n'
-
-
-def action_text_to_xml(args):
-    """Convert the text list of meetings to XML."""
-    mlist = meetings_from_text('meetings.txt')
-    xml_text = meetings_to_xml(mlist)
-    with open('meetings.xml', 'w', encoding='utf-8') as f:
-        f.write(xml_text)
 
 
 def action_reformat_xml(args):
@@ -984,14 +524,6 @@ def action_meetings_html(args):
         f.write(full_text)
 
 
-def action_meetings_text(args):
-    """Read the XML list of meetings and write it out in legacy text form."""
-    mlist = meetings_from_xml('meetings.xml')
-    new_text = meetings_to_text(mlist)
-    with open('meetings-new.txt', 'w', encoding='iso-8859-1') as f:
-        f.write(new_text)
-
-
 def main():
     """Main program."""
     parser = argparse.ArgumentParser(description='Process list of meetings')
@@ -1000,16 +532,13 @@ def main():
                         help='Types of meetings to ignore for statistics')
     parser.add_argument('action',
                         help='What to do',
-                        choices=('text-to-xml', 'reformat-xml',
-                                 'speaker-counts', 'speaker-dates',
-                                 'meetings-html', 'meetings-text'))
+                        choices=('reformat-xml', 'speaker-counts',
+                                 'speaker-dates', 'meetings-html'))
     args = parser.parse_args()
-    action_map = { 'text-to-xml': action_text_to_xml,
-                   'reformat-xml': action_reformat_xml,
+    action_map = { 'reformat-xml': action_reformat_xml,
                    'speaker-counts': action_speaker_counts,
                    'speaker-dates': action_speaker_dates,
-                   'meetings-html': action_meetings_html,
-                   'meetings-text': action_meetings_text }
+                   'meetings-html': action_meetings_html }
     action_map[args.action](args)
 
 
