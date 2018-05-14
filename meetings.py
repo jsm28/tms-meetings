@@ -144,7 +144,7 @@ class Speaker(object):
 class SubMeeting(object):
     """A meeting title or description with zero or more speakers."""
 
-    def __init__(self, desc, title, note, speakers):
+    def __init__(self, desc, title, note, speakers, abstract):
         """Initialize a SubMeeting object."""
         # A title is implicitly quoted.  A description is not quoted,
         # but may contain quoted text.  A note implicitly follows
@@ -155,10 +155,12 @@ class SubMeeting(object):
         check_unicode(desc)
         check_unicode(title)
         check_unicode(note)
+        check_unicode(abstract)
         self.desc = desc
         self.title = title
         self.note = note
         self.speakers = speakers
+        self.abstract = abstract
 
     def xml_text(self):
         """The canonical XML text of a SubMeeting object."""
@@ -171,6 +173,9 @@ class SubMeeting(object):
             s.append('      <title>%s</title>' % html.escape(self.title))
         if self.note:
             s.append('      <mnote>%s</mnote>' % html.escape(self.note))
+        if self.abstract:
+            s.append('      <abstract>%s</abstract>'
+                     % html.escape(self.abstract))
         return '    <sub>\n%s\n    </sub>' % '\n'.join(s)
 
     def html_text(self, speaker_data):
@@ -185,9 +190,11 @@ class SubMeeting(object):
             dtext = '%s (%s)' % (dtext, self.note)
         dtext = html.escape(dtext)
         if stext:
-            return '%s, %s' % (stext, dtext)
-        else:
-            return dtext
+            dtext = '%s, %s' % (stext, dtext)
+        dtext += '.'
+        if self.abstract:
+            dtext += '<br>\nAbstract: %s' % html.escape(self.abstract)
+        return dtext
 
 
 class Meeting(object):
@@ -283,11 +290,11 @@ class Meeting(object):
         if len(self.sub) > 1:
             maintext = ('%s:\n<ul>\n%s\n</ul>\n'
                         % (html.escape(datetext),
-                           '\n'.join(['<li>%s.</li>' % s
+                           '\n'.join(['<li>%s</li>' % s
                                       for s in sub_text_list])))
         else:
-            maintext = '%s: %s.<br>\n' % (html.escape(datetext),
-                                          sub_text_list[0])
+            maintext = '%s: %s<br>\n' % (html.escape(datetext),
+                                         sub_text_list[0])
         if self.joint:
             jointtext = html.escape('Joint with: %s.'
                                     % ' and '.join(self.joint))
@@ -388,7 +395,11 @@ def meetings_from_xml(name):
                 title = title_xml.text if title_xml is not None else ''
                 note_xml = s.find('mnote')
                 note = note_xml.text if note_xml is not None else ''
-                sub.append(SubMeeting(desc, title, note, speakers))
+                abstract_xml = s.find('abstract')
+                abstract = (abstract_xml.text
+                            if abstract_xml is not None
+                            else '')
+                sub.append(SubMeeting(desc, title, note, speakers, abstract))
             if type == 'talk' and len(sub) != 1:
                 raise ValueError('meeting %s (talk) has multiple talks',
                                  number)
