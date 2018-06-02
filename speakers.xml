@@ -13,16 +13,44 @@
     <link>https://en.wikipedia.org/wiki/B%C3%A9la_Bollob%C3%A1s</link>
   </speaker>
   <speaker>
+    <id>Cates, M. E.</id>
+    <link>https://en.wikipedia.org/wiki/Michael_Cates</link>
+  </speaker>
+  <speaker>
+    <id>Davis, A.-C.</id>
+    <link>https://en.wikipedia.org/wiki/Anne-Christine_Davis</link>
+  </speaker>
+  <speaker>
     <id>Gog, J. R.</id>
     <link>https://en.wikipedia.org/wiki/Julia_Gog</link>
+  </speaker>
+  <speaker>
+    <id>Goldstein, R. E.</id>
+    <link>https://en.wikipedia.org/wiki/Raymond_E._Goldstein</link>
   </speaker>
   <speaker>
     <id>Gowers, W. T.</id>
     <link>https://en.wikipedia.org/wiki/Timothy_Gowers</link>
   </speaker>
   <speaker>
+    <id>Green, M. B.</id>
+    <link>https://en.wikipedia.org/wiki/Michael_Green_(physicist)</link>
+  </speaker>
+  <speaker>
+    <id>Grimmett, G. R.</id>
+    <link>https://en.wikipedia.org/wiki/Geoffrey_Grimmett</link>
+  </speaker>
+  <speaker>
+    <id>Gross, M. W.</id>
+    <link>https://en.wikipedia.org/wiki/Mark_Gross_(mathematician)</link>
+  </speaker>
+  <speaker>
     <id>Hardy, G. H.</id>
     <link>https://en.wikipedia.org/wiki/G._H._Hardy</link>
+  </speaker>
+  <speaker>
+    <id>Hyland, J. M. E.</id>
+    <link>https://en.wikipedia.org/wiki/Martin_Hyland</link>
   </speaker>
   <speaker>
     <id>Körner, T. W.</id>
@@ -49,12 +77,20 @@
     <link>https://en.wikipedia.org/wiki/Tim_Pedley</link>
   </speaker>
   <speaker>
+    <id>Perry, M. J.</id>
+    <link>https://en.wikipedia.org/wiki/Malcolm_Perry_(physicist)</link>
+  </speaker>
+  <speaker>
     <id>Peyton Jones, S.</id>
     <link>https://en.wikipedia.org/wiki/Simon_Peyton_Jones</link>
   </speaker>
   <speaker>
     <id>Proctor, M. R. E.</id>
     <link>https://en.wikipedia.org/wiki/Michael_Proctor_(academic)</link>
+  </speaker>
+  <speaker>
+    <id>Reid, M. A.</id>
+    <link>https://en.wikipedia.org/wiki/Miles_Reid</link>
   </speaker>
   <speaker>
     <id>Smith, C. A. B.</id>
@@ -71,5 +107,9 @@
   <speaker>
     <id>Tong, D.</id>
     <link>https://en.wikipedia.org/wiki/David_Tong_(physicist)</link>
+  </speaker>
+  <speaker>
+    <id>Zagier, D. B.</id>
+    <link>https://en.wikipedia.org/wiki/Don_Zagier</link>
   </speaker>
 </speakers>
