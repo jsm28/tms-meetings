@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <speakers>
   <speaker>
+    <id>Acheson, D. J.</id>
+    <link>https://en.wikipedia.org/wiki/David_Acheson_(mathematician)</link>
+  </speaker>
+  <speaker>
+    <id>Anderson, R. J.</id>
+    <link>https://en.wikipedia.org/wiki/Ross_J._Anderson</link>
+  </speaker>
+  <speaker>
     <id>Atiyah, M. F.</id>
     <link>https://en.wikipedia.org/wiki/Michael_Atiyah</link>
+  </speaker>
+  <speaker>
+    <id>Barrow, J. D.</id>
+    <link>https://en.wikipedia.org/wiki/John_D._Barrow</link>
+  </speaker>
+  <speaker>
+    <id>Berloff, N. G.</id>
+    <link>https://en.wikipedia.org/wiki/Natalia_Berloff</link>
   </speaker>
   <speaker>
     <id>Besicovitch, A. S.</id>
     <link>https://en.wikipedia.org/wiki/Abram_Samoilovitch_Besicovitch</link>
   </speaker>
   <speaker>
+    <id>Bird, S. M.</id>
+    <link>https://en.wikipedia.org/wiki/Sheila_Bird</link>
+  </speaker>
+  <speaker>
     <id>Bollobás, B.</id>
     <link>https://en.wikipedia.org/wiki/B%C3%A9la_Bollob%C3%A1s</link>
+  </speaker>
+  <speaker>
+    <id>Butterfield, J. N.</id>
+    <link>https://en.wikipedia.org/wiki/Jeremy_Butterfield</link>
+  </speaker>
+  <speaker>
+    <id>Buzzard, K. M.</id>
+    <link>https://en.wikipedia.org/wiki/Kevin_Buzzard</link>
   </speaker>
   <speaker>
     <id>Cates, M. E.</id>
@@ -19,6 +47,18 @@
   <speaker>
     <id>Davis, A.-C.</id>
     <link>https://en.wikipedia.org/wiki/Anne-Christine_Davis</link>
+  </speaker>
+  <speaker>
+    <id>Friz, P. K.</id>
+    <link>https://en.wikipedia.org/wiki/Peter_Friz</link>
+  </speaker>
+  <speaker>
+    <id>Ghahramani, Z.</id>
+    <link>https://en.wikipedia.org/wiki/Zoubin_Ghahramani</link>
+  </speaker>
+  <speaker>
+    <id>Gibbons, G. W.</id>
+    <link>https://en.wikipedia.org/wiki/Gary_Gibbons</link>
   </speaker>
   <speaker>
     <id>Gog, J. R.</id>
@@ -31,6 +71,10 @@
   <speaker>
     <id>Gowers, W. T.</id>
     <link>https://en.wikipedia.org/wiki/Timothy_Gowers</link>
+  </speaker>
+  <speaker>
+    <id>Green, B. J.</id>
+    <link>https://en.wikipedia.org/wiki/Ben_Green_(mathematician)</link>
   </speaker>
   <speaker>
     <id>Green, M. B.</id>
@@ -49,6 +93,14 @@
     <link>https://en.wikipedia.org/wiki/G._H._Hardy</link>
   </speaker>
   <speaker>
+    <id>Haynes, P. H.</id>
+    <link>https://en.wikipedia.org/wiki/Peter_H._Haynes</link>
+  </speaker>
+  <speaker>
+    <id>Hinch, E. J.</id>
+    <link>https://en.wikipedia.org/wiki/John_Hinch_(mathematician)</link>
+  </speaker>
+  <speaker>
     <id>Hyland, J. M. E.</id>
     <link>https://en.wikipedia.org/wiki/Martin_Hyland</link>
   </speaker>
@@ -61,8 +113,16 @@
     <link>https://en.wikipedia.org/wiki/Imre_Leader</link>
   </speaker>
   <speaker>
+    <id>Lickorish, W. B. R.</id>
+    <link>https://en.wikipedia.org/wiki/W._B._R._Lickorish</link>
+  </speaker>
+  <speaker>
     <id>Littlewood, J. E.</id>
     <link>https://en.wikipedia.org/wiki/John_Edensor_Littlewood</link>
+  </speaker>
+  <speaker>
+    <id>Mason, H. E.</id>
+    <link>https://en.wikipedia.org/wiki/Helen_Mason_(physicist)</link>
   </speaker>
   <speaker>
     <id>Mestel, A. J.</id>
@@ -71,6 +131,22 @@
   <speaker>
     <id>Milne, E. A.</id>
     <link>https://en.wikipedia.org/wiki/Edward_Arthur_Milne</link>
+  </speaker>
+  <speaker>
+    <id>Nickl, R.</id>
+    <link>https://en.wikipedia.org/wiki/Richard_Nickl</link>
+  </speaker>
+  <speaker>
+    <id>Norman, A. C.</id>
+    <link>https://en.wikipedia.org/wiki/Arthur_Norman_(computer_scientist)</link>
+  </speaker>
+  <speaker>
+    <id>Osborn, H.</id>
+    <link>https://en.wikipedia.org/wiki/Hugh_Osborn</link>
+  </speaker>
+  <speaker>
+    <id>Paternain, G. P.</id>
+    <link>https://en.wikipedia.org/wiki/Gabriel_Paternain</link>
   </speaker>
   <speaker>
     <id>Pedley, T. J.</id>
@@ -89,6 +165,10 @@
     <link>https://en.wikipedia.org/wiki/Michael_Proctor_(academic)</link>
   </speaker>
   <speaker>
+    <id>Rees, M. J.</id>
+    <link>https://en.wikipedia.org/wiki/Martin_Rees</link>
+  </speaker>
+  <speaker>
     <id>Reid, M. A.</id>
     <link>https://en.wikipedia.org/wiki/Miles_Reid</link>
   </speaker>
@@ -97,8 +177,20 @@
     <link>https://en.wikipedia.org/wiki/Cedric_Smith_(statistician)</link>
   </speaker>
   <speaker>
+    <id>Spiegelhalter, D. J.</id>
+    <link>https://en.wikipedia.org/wiki/David_Spiegelhalter</link>
+  </speaker>
+  <speaker>
     <id>Swinnerton-Dyer, H. P. F.</id>
     <link>https://en.wikipedia.org/wiki/Peter_Swinnerton-Dyer</link>
+  </speaker>
+  <speaker>
+    <id>Tao, T.</id>
+    <link>https://en.wikipedia.org/wiki/Terence_Tao</link>
+  </speaker>
+  <speaker>
+    <id>Tavaré, S.</id>
+    <link>https://en.wikipedia.org/wiki/Simon_Tavar%C3%A9</link>
   </speaker>
   <speaker>
     <id>Taylor, G. I.</id>
@@ -107,6 +199,22 @@
   <speaker>
     <id>Tong, D.</id>
     <link>https://en.wikipedia.org/wiki/David_Tong_(physicist)</link>
+  </speaker>
+  <speaker>
+    <id>Turok, N. G.</id>
+    <link>https://en.wikipedia.org/wiki/Neil_Turok</link>
+  </speaker>
+  <speaker>
+    <id>Vojnovic, M.</id>
+    <link>https://en.wikipedia.org/wiki/Milan_Vojnovic</link>
+  </speaker>
+  <speaker>
+    <id>Wiles, A. J.</id>
+    <link>https://en.wikipedia.org/wiki/Andrew_Wiles</link>
+  </speaker>
+  <speaker>
+    <id>Worster, M. G.</id>
+    <link>https://en.wikipedia.org/wiki/Grae_Worster</link>
   </speaker>
   <speaker>
     <id>Zagier, D. B.</id>
