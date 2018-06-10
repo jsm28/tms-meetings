@@ -16399,6 +16399,7 @@
         <last>Leader</last>
       </speaker>
       <title>Infinite Games</title>
+      <abstract>Suppose that we are playing a game, but the game might go on forever and so not end. How could we assign a winner or loser in that situation? This sounds like a silly question, but in fact it isn’t, and it leads to some very interesting phenomena.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16415,6 +16416,7 @@
         <last>Zsák</last>
       </speaker>
       <title>Embedding Structures with Distortion</title>
+      <abstract>There is a wide variety of structures that are equipped with a distance. A familiar example is three-dimensional Euclidean space: here the distance is the length of the straight line segment joining two points. In this example there is an additional feature: the presence of vector addition and scalar multiplication. There are examples, however, that do not possess such additional features, and it is an important question to determine whether such arbitrary structures can be embedded into ones with a vector structure like Euclidean space. This has consequences for large data, algorithms, compressed sensing, etc., some of which have emerged in unexpected and surprising ways.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16431,6 +16433,7 @@
         <last>Tehranchi</last>
       </speaker>
       <title>The Prices of Call Options</title>
+      <abstract>A call option is a basic example of a financial derivative. Black, Scholes and Merton published in 1973 a theory for ‘rational pricing’ of call options, for which the Nobel Prize was awarded in 1997. This talk will briefly explain this theory, and discuss how the pricing of call options has some interesting mathematical properties – touching on probability, convex analysis and even algebra.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16458,6 +16461,7 @@
         <last>Miller</last>
       </speaker>
       <title>Random Trees</title>
+      <abstract>A tree is a graph without any cycles. Since there are only a finite number of trees with n vertices, one can imagine picking such a tree at random just like one can pick a card from a deck at random. It turns out that random trees have many applications and are ubiquitous in modern probability theory. In this talk, I will describe some of the basics of random trees and how they are related to some very exciting recent mathematical developments.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16485,6 +16489,7 @@
         <last>Shuckburgh</last>
       </speaker>
       <title>From Flatland to Our Land—A Mathematician’s Journey Through our Changing Planet</title>
+      <abstract>Mathematics is central to our understanding of the world around us. We live in a vast dynamical system, the many dimensions of which can be interrogated with mathematical tools. In this talk I will consider our changing climate. I will describe the scientific evidence that tells us how and why our climate is changing, and what the future may hold. In this journey I will pause at various waypoints to describe in more detail some of the insight different branches of mathematics are providing. Diverse examples will include applying ideas from dynamical systems research to create novel strategies for measuring the ocean mixing processes that are critical to the flow of heat and carbon through the Earth system, through to employing statistical learning techniques to improve future predictions of Arctic sea ice, currently in perilous decline. Climate change is one of the greatest challenges facing humanity. Responding to the challenge requires robust scientific evidence to inform policies. Opportunities for mathematicians to contribute to this important issue abound.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
