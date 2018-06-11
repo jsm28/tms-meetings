@@ -16011,6 +16011,7 @@
         <last>Tong</last>
       </speaker>
       <title>The Quantum Hall Effect</title>
+      <abstract>Take a bunch of electrons, restrict them to move in a plane, and turn on a magnetic field. This gives rise to some of the most beautiful and surprising results in physics. I’ll give an overview of this subject and describe the deep connections with the mathematics of topology and knots.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16027,6 +16028,7 @@
         <last>Bollobás</last>
       </speaker>
       <title>Polynomials in Combinatorics and Topology</title>
+      <abstract>Although polynomials are not prominent in either combinatorics or topology, they are important tools in both. In the talk I shall introduce several polynomials with beautiful and surprising applications in combinatorics and topology. The talk will be accessible to freshmen but should be of interest to research students as well.</abstract>
     </sub>
     <venue>Centre for Mathematical Sciences MR2</venue>
     <attendance>?</attendance>
@@ -16043,6 +16045,7 @@
         <last>Batchelor</last>
       </speaker>
       <title>The Rewards of Thinking Coalgebraically</title>
+      <abstract>The theory of coalgebras is not taught in the undergraduate syllabus, nor yet in Part III or even as a graduate course, but not because of any great conceptual difficulty. Indeed most toddlers who grow up with at least one sibling and an aunt foolish enough to provide but a single box of chocolates for the two of them to share have a keen instinctive understanding of the essential idea. As an example of the advantages of thinking coalgebraically, I will talk about the enrichment of the category of algebras over coalgebras, and specifically the consequent benefits afforded to the concept of “maps between modules”.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16059,6 +16062,7 @@
         <last>Mestel</last>
       </speaker>
       <title>More Fun than a Barrel of Monkeys</title>
+      <abstract>Imagine millions of small monkeys in a barrel, all pressing and rubbing against each other. More simply, imagine a cylinder of fluid – water, ink, metal, blood or tar. Proverbially, the fun of all activities is to be measured against this yardstick. This talk will demonstrate why.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16075,6 +16079,7 @@
         <last>Sousi</last>
       </speaker>
       <title>Percolation and Random Walks</title>
+      <abstract>Consider the two dimensional lattice and keep every edge with probability p, independently over different edges. It is known that there exists a critical probability p_c so that for all p &gt; p_c there exists a unique infinite connected component. But how well connected is this infinite cluster? One way to evaluate this is by examining the rate of spread of a simple random walk on the cluster.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16091,6 +16096,7 @@
         <last>Leader</last>
       </speaker>
       <title>Cops and Robbers</title>
+      <abstract>Some cops are chasing a robber around a finite network. Moves alternate: the robber moves from where he is to an adjacent place, then all the cops move to adjacent places, and so on. For a given network, how many cops are needed to catch the robber?</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16112,6 +16118,7 @@
         <last>Forster</last>
       </speaker>
       <title>Infinitesimals</title>
+      <abstract>Think of infinitesimals as the mathematical equivalent of fat, sugar, and salt. They are evil, bad for your health, bad for the environment, bad for society, racist, sexist, ageist, class-ist (does that even exist?), cause cancer, lumbago, scrofulous, melancholy, quantum mechanics, and premature ageing. In any reasonable mathematical universe, they would be banned. The ancient Greeks knew how unhealthy they were, and banned them, thoroughly and soundly. Yet they kept coming back in western, European mathematics, and they proved to be something mathematicians couldn’t resist – sort of like Nutella. And for all that everyone knew they were completely and irredeemably paradoxical, they were essential to large parts of geometry, and by the Scientific Revolution they formed the foundation stone of contemporary, cutting edge new pure and applied mathematics. In the Enlightenment the house of cards started to collapse, threatening all of civilisation. They were finally, permanently expunged from mathematics in the earlier 19th century, never to return. A huge sigh of relief all around. Except … In the second half Dr Forster will sketch a couple of ways in which the twentieth century has been able to put infinitesimals on a secure footing.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16139,6 +16146,7 @@
         <last>von Glehn</last>
       </speaker>
       <title>Logic in other universes</title>
+      <abstract>When doing ordinary mathematics, we don’t usually think too hard about exactly what logical rules are being used. But sometimes using for example the law of excluded middle or the axiom of choice can have unexpected consequences. In this talk I will explore some alternatives of classical logic. There are other ‘mathematical universes’, or toposes, in which different logical axioms can hold. I will introduce some of the structures used to express this logic, and describe what mathematics can look like inside a topos.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16155,6 +16163,7 @@
         <last>Lister</last>
       </speaker>
       <title>Stretching, bending, twisting and coiling: how to build a fluid-mechanical sewing machine</title>
+      <abstract>Idlers at breakfast watching a stream of honey falling from a knife, may notice it buckle and coil as it reaches the toast. What happens if you move the toast (or the knife) steadily sideways? This talk will outline the mathematical description of the dynamics of a falling viscous thread, with possible diversions via chocolate fountains and Viennetta ice-cream.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16171,6 +16180,7 @@
         <last>Gog</last>
       </speaker>
       <title>Hunting for viral packaging signals</title>
+      <abstract>Influenza has a genome split into several segments, and this complicates virus particle assembly as each particle must have one of each of the segments. This means that each of the RNA segments must contain some signal, and that this signal ought to be fairly conserved. Is this enough to go and hunt them down using mathematics? The answer turns out to be yes. However, this required some creativity in algorithm design, drawing inspiration from a number of apparently unrelated problems. This hack seems to work, but leaves some interesting mathematical problems. I’ll also briefly talk about some of the other problems in influenza and infectious disease that interest me, and general joys and challenges of being a mathematician trying to research biology.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16187,6 +16197,7 @@
         <last>Sauerwald</last>
       </speaker>
       <title>Multiple Random Walks</title>
+      <abstract>Consider a simple random walk on a finite network. The expected time it takes for a single walk to visit all nodes is a well-studied quantity and has been computed for many topologies including paths, grids, random graphs and hypercubes. But how long does it take for two or more independently running random walks? This talk will explain why this may be an interesting question and present a few surprising results.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16204,6 +16215,7 @@
         <last>Dieleman</last>
       </speaker>
       <title>Deep learning for music recommendation and generation</title>
+      <abstract>The advent of deep learning has made it possible to extract high-level information from perceptual signals without having to specify manually and explicitly how to obtain it; instead, this can be learned from examples. This creates opportunities for automated content analysis of musical audio signals. In this talk, I will discuss how deep learning techniques can be used for audio-based music recommendation. I will also briefly discuss my ongoing work on music generation with WaveNet.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16220,6 +16232,7 @@
         <last>Pedley</last>
       </speaker>
       <title>Spherical squirmers—models for swimming micro-organisms: how a Tripos question led to a new field of research</title>
+      <abstract>In 1952, Sir James Lighthill (FT) introduced the simplest possible model of a swimming microorganism of finite size, intended as a model of a single-celled protozoan covered in beating cilia. The model consisted of a sphere, on the surface of which material points undergo small-amplitude oscillations. In 1971, Lighthill’s student, John Blake (FT), completed the calculations and in particular showed how to model the ‘metachronal’ wave patterns exhibited by beating cilia. In 1986 the speaker set a Part II Tripos question, to analyse an even simpler model consisting of a sphere whose surface moves tangentially with time-independent velocity: a steady spherical squirmer. This has led to a substantial body of research on the optimisation pf the swimming and nutrient uptake of individual squirmers (Eric Lauga, FT), and on the hydrodynamic interactions between pairs of steady squirmers and their influence on self-diffusion in suspensions. The final topic describes measurements and modelling of metachronal waves in Volvox, the only truly spherical multicelled ‘organism’, culminating in the prediction of the mean swimming speed and angular velocity of free-swimming Volvox. The predictions are compared with experimental observations. [FT ≡ Fellow of Trinity]</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16236,6 +16249,7 @@
         <last>Hunt</last>
       </speaker>
       <title>The Trinity College Clock, its accuracy and its pigeons</title>
+      <abstract>The Trinity Clock in Great Court is quite a prominent feature of the college, at least to look at. And it has a rather curious way of announcing the hours, once for Trinity and a second time for St John’s. It is always within a second or two of the correct time and yet it hardly ever requires adjustment. Does this mean that the mechanism is unaffected by the elements? What about temperature, pressure, humidity? And does the gravitational pull of the moon make any difference? The pendulum on the Trinity Clock has been instrumented to measure period and amplitude to great accuracy. The time is compared with UTC obtained from a GPS receiver. All of this data is streamed continuously to the web at http://www.trin.cam.ac.uk/clock/. The clock has become quite a sensitive pigeon detector!</abstract>
     </sub>
     <sub>
       <speaker>
@@ -16244,6 +16258,7 @@
         <last>Tickle</last>
       </speaker>
       <title>Dr Changelove (or how I learned to stop worrying and realise everything is a changepoint problem)</title>
+      <abstract>You don’t have to go further than Paul McCartney to find that it is, in fact, a changing world in which we live in. Due to recent efforts, particularly at Cambridge and Lancaster, understanding with respect to the changepoint problem is at a much more tolerable state from the perspective of the researcher. However, several key questions remain. How does one efficiently deal with multivariate data? Can new methodologies keep pace with the ever growing demands of industry? And, perhaps most importantly, why, no matter how hard we might shut our eyes to it, is everything a changepoint problem?</abstract>
     </sub>
     <sub>
       <speaker>
@@ -16252,6 +16267,7 @@
         <last>Riccio</last>
       </speaker>
       <title>The genetic and transcriptional diversity of C. elegans wild isolates</title>
+      <abstract>In 1963, Sydney Brenner, who spent 20 years of his career in Cambridge, established Caenorhabditis elegans as a model organism in biology. It is in C. elegans that many apoptotic genes were discovered. Later on, homologous genes in humans were found to also be involved in apoptosis. The work of Nobel Prize winners Andrew Fire and Craig Mello on RNA interference has also been conducted in this animal. Most of the work in C. elegans has been conducted in a strain isolated in Bristol many decades ago. Until recently, little was known about the natural habitat of this nematode and its genetic and phenotypic diversity. In this talk, I will present how we can use the natural genetic and phenotypic diversity of this animal to study the relationship between its phenotype and its genotype.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -16260,6 +16276,7 @@
         <last>Moss</last>
       </speaker>
       <title>Homotopy Type Theory</title>
+      <abstract>I will give an introduction to Homotopy Type Theory, which is a formal foundational system where the basic objects are spaces rather than sets and every function that one can define is automatically continuous. Among its advantages is that it provides a ‘synthetic’ version of homotopy theory convenient for computer-formalized proofs.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -16276,6 +16293,7 @@
         <last>Munro</last>
       </speaker>
       <title>Paradoxes in Fluid Dynamics</title>
+      <abstract>Applied mathematics tries to explain the world around us with mathematical models, but what do you do if the answer from your model just doesn’t make any sense? I’ll describe two paradoxes that plagued fluid dynamics for hundreds of years, explain what we learnt from their resolution, and show you how this new understanding is being applied to current research problems.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -16284,6 +16302,7 @@
         <last>Sahasrabudhe</last>
       </speaker>
       <title>Exponential Patterns in Arithmetic Ramsey Theory</title>
+      <abstract>If the integers are partitioned into finitely many pieces, what can be said about the arithmetic structure of the parts? Indeed, it is perhaps remarkable that anything interesting can be said about such general partitions. One of the first results along these lines was proved over 100 years ago by I. Schur, who proved that if the positive integers are partitioned into finitely many parts, then one of the parts must contain two integers x,y and their sum x+y. In this talk I’ll discuss a host of new results about exponential patterns that can be found in arbitrary finite partitions of the integers.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -16292,6 +16311,7 @@
         <last>Snyder</last>
       </speaker>
       <title>Finding structure in graph theory using high minimum degree</title>
+      <abstract>If H is a collection of graphs, we say that a graph G is H-free if it contains no copy of a graph in H as a subgraph. Many problems in extremal graph theory involve investigating the behaviour of various graph parameters, or determining the structure of H-free graphs for specific families H. It turns out that we can say quite a few fascinating things about the structure of graphs which forbid some finite collection of subgraphs and, in addition, have large minimum degree. In this talk I shall describe several results of this type, both old and new, and hopefully convey why they are interesting.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -16299,7 +16319,8 @@
         <first>V.</first>
         <last>Gruslys</last>
       </speaker>
-      <title>Tilings of Z^n</title>
+      <title>Tilings of ℤ^n</title>
+      <abstract>Let T be a finite subset of ℤ^2. We can view T as a tile consisting of |T| unit squares. Must it be possible to cover the plane by non-overlapping copies of T? (We allow translations, rotations and reflections of T.) The answer is, of course, no: just take a tile with a hole. However, if we replace every unit square of T by a unit cube, then we get a 3-dimensional analogue of T. We now ask: does T tile ℤ^3? Or, does T tile ℤ^n for some, possibly very large, n? We prove that the answer to the latter question is yes, confirming a conjecture of Chalcraft. This talk is based on joint work with Leader and Tan.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -16308,14 +16329,16 @@
         <last>Barrett</last>
       </speaker>
       <title>Group theory and highly connected networks</title>
+      <abstract>A well-designed computer network should allow quick and reliable communication between any two computers while keeping the number of computers any single computer is directly connected to small. Such networks are called expanders. The first construction of such networks due to was based on a deep property of certain groups, called Property T. In this talk I will define expanders and describe their links with group theory.</abstract>
     </sub>
     <sub>
       <speaker>
         <stitle>Dr</stitle>
         <first>C.</first>
-        <last>Drutu</last>
+        <last>Druțu</last>
       </speaker>
       <title>Geometric Group Theory</title>
+      <abstract>In a way, this academic year has been a Geometric Group Theory year, with a large scale research programme held from August to December 2016 at the Mathematical Sciences Research Institute in Berkeley, California, followed by a programme from January to June 2017 at the Newton Institute in Cambridge. These events have been particularly timely, as the area recorded a series of recent breakthrough results, ranging from the work of Ian Agol (who answers the remaining four of Thurston’s conjectures on the structure of 3-manifolds), to the work of Cheeger, Kleiner, Naor and Young (solving the Sparsest Cut Problem, and the related Goemans-Linial conjecture, in Theoretical computer science). So, what is Geometric Group Theory? In my talk I will try to overview this area, and convey its general philosophy of reformulating in geometric terms problems from diverse areas of mathematics and then solving them with a variety of tools.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16343,6 +16366,7 @@
         <last>Peyton Jones</last>
       </speaker>
       <title>Escape from the ivory tower: the Haskell journey</title>
+      <abstract>Haskell is my first baby, born slightly before my son Michael, who is now in his mid-20s. From somewhat academic beginnings as a remorselessly pure functional programming language, Haskell has evolved into a practical tool used for real applications and, amazingly, is still in a state of furious innovation. In this talk I’ll discuss Haskell’s birth and evolution, including some of the research and engineering challenges we faced in design and implementation. I’ll focus particularly on the ideas that have turned out, in retrospect, to be most important and influential, as well as sketching some current developments and making some wild guesses about the future. It has been a long journey, but it starts at Trinity College, where I was a maths undergraduate, and Arthur Norman first introduced me to the joy and beauty of functional programming.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -16359,6 +16383,7 @@
         <last>Gowers</last>
       </speaker>
       <title>A problem about triples of integers</title>
+      <abstract>I shall talk about a problem that sounds like a reasonably easy IMO-style question, but which, rather surprisingly, is still unsolved. I shall talk about some non-trivial partial results, which are joint work with Jason Long, that fall well short of what is believed to be true.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
