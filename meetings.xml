@@ -16693,4 +16693,16 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>928a</number>
+    <date>2018-06-15</date>
+    <type>sporting event</type>
+    <joint>Adams Society</joint>
+    <sub>
+      <desc>Cricket Match</desc>
+      <mnote>victorious</mnote>
+    </sub>
+    <venue>Old Field</venue>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
