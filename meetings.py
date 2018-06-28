@@ -1,7 +1,6 @@
 #! /usr/bin/python3
 
 import argparse
-import collections
 import datetime
 import html
 import re
