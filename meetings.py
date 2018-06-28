@@ -268,19 +268,19 @@ class Meeting(object):
         else:
             year = self.date[0:4]
             month = self.date[5:7]
-            months = { '01': 'January',
-                       '02': 'February',
-                       '03': 'March',
-                       '04': 'April',
-                       '05': 'May',
-                       '06': 'June',
-                       '07': 'July',
-                       '08': 'August',
-                       '09': 'September',
-                       '10': 'October',
-                       '11': 'November',
-                       '12': 'December',
-                       '??': '??' }
+            months = {'01': 'January',
+                      '02': 'February',
+                      '03': 'March',
+                      '04': 'April',
+                      '05': 'May',
+                      '06': 'June',
+                      '07': 'July',
+                      '08': 'August',
+                      '09': 'September',
+                      '10': 'October',
+                      '11': 'November',
+                      '12': 'December',
+                      '??': '??'}
             month = months[month]
             day = self.date[8:]
             day = day.lstrip('0')
@@ -316,6 +316,7 @@ class Meeting(object):
                       % (html.escape(self.volume), html.escape(self.page)))
         text = maintext + jointtext + vtext
         return '<li>%s</li>' % text
+
 
 class Note(object):
     """A textual note in the list of meetings."""
@@ -492,7 +493,7 @@ def action_speaker_counts(args):
                 if name not in counts:
                     counts[name] = 0
                 counts[name] += 1
-    sorted_speakers = sorted(counts.keys(), key=lambda s:(counts[s], s))
+    sorted_speakers = sorted(counts.keys(), key=lambda s: (counts[s], s))
     sorted_list = ['%7d %s' % (counts[s], s) for s in sorted_speakers]
     sorted_text = '\n'.join(sorted_list) + '\n'
     with open('speaker-counts.txt', 'w', encoding='utf-8') as f:
@@ -526,7 +527,7 @@ def action_speaker_dates(args):
                 else:
                     details = (m.date, date, m.date, 0)
                 dates[name] = details
-    sorted_speakers = sorted(dates.keys(), key=lambda s:(dates[s][3], s))
+    sorted_speakers = sorted(dates.keys(), key=lambda s: (dates[s][3], s))
     sorted_list = [('%7d %-25s %s - %s'
                     % (dates[s][3], s, dates[s][0], dates[s][2]))
                    for s in sorted_speakers]
@@ -611,10 +612,10 @@ def main():
                         choices=('reformat-xml', 'speaker-counts',
                                  'speaker-dates', 'meetings-html'))
     args = parser.parse_args()
-    action_map = { 'reformat-xml': action_reformat_xml,
-                   'speaker-counts': action_speaker_counts,
-                   'speaker-dates': action_speaker_dates,
-                   'meetings-html': action_meetings_html }
+    action_map = {'reformat-xml': action_reformat_xml,
+                  'speaker-counts': action_speaker_counts,
+                  'speaker-dates': action_speaker_dates,
+                  'meetings-html': action_meetings_html}
     action_map[args.action](args)
 
 
