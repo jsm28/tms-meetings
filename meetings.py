@@ -199,7 +199,7 @@ class SubMeeting(object):
 class Meeting(object):
     """The complete record for a meeting."""
 
-    def __init__(self, number, date, type, flags, joint, sub, venue,
+    def __init__(self, number, date, mtype, flags, joint, sub, venue,
                  attendance, volume, page):
         """Initialize a Meeting object."""
         self.number = number
@@ -208,9 +208,9 @@ class Meeting(object):
                                  date)):
             raise ValueError('bad date: %s' % date)
         self.date = date
-        if type not in meeting_types:
-            raise ValueError('bad meeting type: %s' % type)
-        self.type = type
+        if mtype not in meeting_types:
+            raise ValueError('bad meeting type: %s' % mtype)
+        self.type = mtype
         for f in flags:
             if f not in meeting_flags:
                 raise ValueError('unexpected meeting flag: %s' % f)
@@ -347,11 +347,11 @@ def speakers_from_xml(name):
     speaker_data = {}
     for entry in root:
         if entry.tag == 'speaker':
-            id = entry.find('id').text
+            speaker_id = entry.find('id').text
             link = entry.find('link').text
-            if id in speaker_data:
-                raise ValueError('duplicate information for: %s' % id)
-            speaker_data[id] = link
+            if speaker_id in speaker_data:
+                raise ValueError('duplicate information for: %s' % speaker_id)
+            speaker_data[speaker_id] = link
         else:
             raise ValueError('unexpected tag: %s' % entry.tag)
     return speaker_data
@@ -374,7 +374,7 @@ def meetings_from_xml(name):
             number = number if number else ''
             date = entry.find('date').text
             date = date if date else ''
-            type = entry.find('type').text
+            mtype = entry.find('type').text
             flags = [f.text for f in entry.findall('flag')]
             joint = [j.text for j in entry.findall('joint')]
             sub_xml = entry.findall('sub')
@@ -400,10 +400,10 @@ def meetings_from_xml(name):
                             if abstract_xml is not None
                             else '')
                 sub.append(SubMeeting(desc, title, note, speakers, abstract))
-            if type == 'talk' and len(sub) != 1:
+            if mtype == 'talk' and len(sub) != 1:
                 raise ValueError('meeting %s (talk) has multiple talks',
                                  number)
-            if type == 'talks' and len(sub) <= 1:
+            if mtype == 'talks' and len(sub) <= 1:
                 raise ValueError('meeting %s (talks) lacks multiple talks',
                                  number)
             venue = entry.find('venue').text
@@ -414,7 +414,7 @@ def meetings_from_xml(name):
                           else '')
             volume = entry.find('minutes/volume').text
             page = entry.find('minutes/page').text
-            meeting_list.append(Meeting(number, date, type, flags, joint,
+            meeting_list.append(Meeting(number, date, mtype, flags, joint,
                                         sub, venue, attendance, volume, page))
         elif entry.tag == 'note':
             meeting_list.append(Note(entry.text))
