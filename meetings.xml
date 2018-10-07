@@ -15648,6 +15648,7 @@
         <last>Leader</last>
       </speaker>
       <title>Tournaments</title>
+      <abstract>Throughout Cambridge, you will struggle to find a stronger believer in the beauty of pure mathematics than Imre Leader. During this talk on tournaments, he will illustrate just how combinatorics is more than simply a bag of clever tricks, but instead a wonderfully elegant and interconnected branch of mathematics.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>270</attendance>
@@ -15664,6 +15665,7 @@
         <last>Luk</last>
       </speaker>
       <title>Stability of Minkowski spacetime</title>
+      <abstract>General relativity is a theory of gravity described by the celebrated Einstein equations, which relate the geometry and matter content of spacetime. The Minkowski spacetime, the spacetime of special relativity, is a special solution to these equations. It depicts a vacuum spacetime with no curvature. A monumental result in mathematical physics, discovered in 1993, is the proof that Minkowski spacetime is dynamically stable in the framework of the evolution problem in general relativity. I will describe the theorem and some of the fascinating ideas behind it.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15680,6 +15682,7 @@
         <last>Louth</last>
       </speaker>
       <title>Inside the Black Box: from big data to quant trading algorithms</title>
+      <abstract>Dr. Richard Louth, a former Cambridge alumnus, will discuss the approach he takes when formulating Jump Trading’s predictive models, using statistics, probability, machine learning and other mathematical techniques. Moreover, Dr. Louth will talk about how they use one of the largest supercomputers in the world to take on the challenge of dissecting terabytes of data from financial exchanges. Furthermore, for those thinking about a career after Cambridge, he will also speak about why so many maths and science students go into quant trading and how your skills can be transferable to the world of quant trading.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15696,6 +15699,7 @@
         <last>Davis</last>
       </speaker>
       <title>The Accelerating Universe</title>
+      <abstract>Observations suggest the Universe had undergone periods of accelerated expansion during the course of its evolution. I will discuss modern ideas about the evolution of the early Universe from the big bang to the present time and consider a model of the late Universe which goes beyond the usual theories of gravity. Ways of testing this will be discussed. I will not assume knowledge of cosmology or general relativity, but the talk will contain some simple differential equations.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15712,6 +15716,7 @@
         <last>Gross</last>
       </speaker>
       <title>An Introduction to Tropical Geometry</title>
+      <abstract>Algebraic geometry is the study of solution sets to polynomial equations. Usually, one is interested in solving equations over algebraically closed fields such as the complex numbers, but these solutions sets can be quite hard to visualize. However, a recently discovered type of geometry, which is called “tropical geometry” for rather silly reasons, helps us visualize these solution sets and at the same time solve rather difficult problems in algebraic geometry via purely combinatorial arguments. I will give an introduction to some of the basic ideas of the subject.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15728,6 +15733,7 @@
         <last>Ray</last>
       </speaker>
       <title>Random Fractal Surfaces</title>
+      <abstract>How does a typical random surface or curve look like? How different are they from the “flat” surface we are familiar with? How are they related? These are some of the biggest questions in the field of random geometry these days and this will be the subject of this talk. There will be many nice pictures and simulations.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15766,6 +15772,7 @@
         <last>Antonakoudis</last>
       </speaker>
       <title>On Schmidt’s games, badly approximable numbers &amp; winning sets</title>
+      <abstract>Schmidt introduced a simple and powerful way to study certain important sets of real numbers, that although they exhibit remarkable rigidity features, they are ‘too thin’ to be detected using classical methods in analysis. The set of real numbers which badly approximable by rationals is an important example of such a set. In this talk, we will discuss Schmidt’s games, their applications and generalisations in geometry and dynamics.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15782,6 +15789,7 @@
         <last>Goldstein</last>
       </speaker>
       <title>Upside down and inside out: the biomechanics of cell sheet folding</title>
+      <abstract>Deformations of cell sheets are ubiquitous in early animal development, often arising from a complex and poorly understood interplay of cell shape changes, division, and migration. In this talk I will describe an approach to understanding such problems based on perhaps the simplest example of cell sheet folding: the “inversion” process of the algal genus Volvox, during which spherical embryos literally turn themselves inside out through a process hypothesized to arise from cell shape changes alone.  Through a combination of light sheet microscopy and elasticity theory a quantitative understanding of this process is now emerging.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15798,6 +15806,7 @@
         <last>Zagier</last>
       </speaker>
       <title>Sums of squares and sums of cubes</title>
+      <abstract>Prof. Zagier finished high school aged 13 and subsequently studied at MIT for three years, completing his bachelor’s and master’s degrees at the age of 16. He then received his Phd under Friedrich Hirzebruch aged 20 and was named professor when he was 24. He has been a scientific member of the MPIM in Bonn since its founding and has been one of its directors since 1995. Prof. Zagier’s main area of work is in number theory, but he has also done extensive work in seemingly unrelated areas. In collaboration with Benedict Gross he proved the Gross-Zagier formula which played an instrumental role in the solution of the Class Number Problem. He has also done work relating modular forms to string theory and black holes. Together with his former doctoral student Maxim Kontsevich he introduced the notion of ‘periods’ in a paper which features, among other things, L-functions and motives. He is perhaps best known for his “one-sentence proof of Fermat’s two squares theorem”. He is the winner of both the Cole Prize and the Von Staudt Prize.</abstract>
     </sub>
     <venue>Centre for Mathematical Sciences MR2</venue>
     <attendance>?</attendance>
@@ -15814,6 +15823,7 @@
         <last>Hyland</last>
       </speaker>
       <title>Why Euclid was a genius and (maybe) other stories</title>
+      <abstract>It is often said that we know very little about Euclid. But we do have (most of) his Elements – perhaps the most widely studied secular book of all time. I claim that it is the expression of a remarkable mathematical personality. There are two distinct proofs of Pythagoras’ Theorem in Euclid’s Elements. I believe that we can reconstruct Euclid’s thinking in giving these two proofs. When we do so, we see what is an unrecognised depth to Euclid: not only was he a remarkable geometer and arithmetician but he also had the instincts of a modern logician.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15830,6 +15840,7 @@
         <last>Thompson</last>
       </speaker>
       <title>Tissue Mechanics in Early Brain Development</title>
+      <abstract>Neuronal growth is essential for nervous system development and is also required for regeneration after nervous tissue injury. Recent in vitro studies suggest that neuronal growth can also be regulated by mechanical properties of the substrate; however, the role of mechanical cues in axon pathfinding in vivo, and the spatiotemporal dynamics of tissue mechanics during early nervous system development, are still largely unknown. I am investigating the role of tissue stiffness in axon guidance within the early embryo, using the Xenopus laevis optic tract as a model system. I find that the path of optic tract growth is correlated with stiffness gradients in the living brain, before growth stalls after reaching the softer region. This is consistent with a role for substrate mechanics in axon pathfinding.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15838,6 +15849,7 @@
         <last>Fortune</last>
       </speaker>
       <title>So Your Experiment Hasn’t Worked: How to Lie with Statistics</title>
+      <abstract>Lab work can be so hard sometimes. Is your discovery that your patented snake oil formula (available from your website for the low price of only $199 a bottle) can cure cancer being prevented from seeing the light of the day by science’s unreasonable demand for evidence? Well, worry no more! With a few simple statistical fallacies, you can quickly produce significant results, and even the most disappointing dataset can become a published paper.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15846,6 +15858,7 @@
         <last>Nelson</last>
       </speaker>
       <title>Smashing the Racket: Detecting Match-fixing in Tennis via In-play Betting Irregularities</title>
+      <abstract>An unfortunate consequence of the recent growth in tennis betting markets has been a heightened incentive for match-fixing – particularly at lower levels of the sport, where earnings are modest, and where the market for one match may dwarf the prize money for an entire tournament. Against this backdrop, an unscrupulous player may be tempted to profit from their position of influence by secretly agreeing to “throw” a particular match, with a complicit third party betting on the result. This talk summarises the results of a match-fixing study spanning over 5,000 in-play tennis betting markets. After developing a natural point-by-point probabilistic model, featuring novel mechanisms for selecting parameters robustly from the data, we demonstrate that the observed market trajectories correlate extremely closely with this model. We argue that substantial discrepancies represent a “red flag” that something is amiss – either an injury, or something more covert. We also provide visualisations of recent matches where the market evolved pathologically, and assess the evidence that these matches were fixed.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15854,6 +15867,7 @@
         <last>Pichon-Pharabod</last>
       </speaker>
       <title>Semantics</title>
+      <abstract>Programs never do what you want them to do. To figure out what a program means, if you are lucky, you just have to wade through long, tedious, imprecise, and ambiguous prose documents. If you’re unlucky, the meaning is left as an exercise to the reader. In this talk, I will discuss how to formally give meaning to programs using elementary mathematics: sets, functions, and inductive relations. I will show how this makes it possible to actually make sure programs do what we want them to do.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15862,6 +15876,7 @@
         <last>Forster</last>
       </speaker>
       <title>Axiom of Choice</title>
+      <abstract>The Trinity Mathematical Society has had a long-standing relationship with Dr. Thomas Forster, who has given us number of excellent talks and spoken at various debates. At the Symposium, he will be talking about that intriguing thing in mathematics called the Axiom of Choice.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15870,6 +15885,7 @@
         <last>Short</last>
       </speaker>
       <title>Mutations in Developmental Disorders</title>
+      <abstract>The majority of children with severe developmental disorders remain without a genetic diagnosis. Families often describe the road to reaching a diagnosis as an ‘odyssey’ lasting years and involving dozens of different medical professionals. The Deciphering Developmental Disorders (DDD) study has collected detailed clinical phenotypes and genome sequence data from 14,000 children with undiagnosed developmental disorders and their parents as an effort to quickly and definitively reach a genetic diagnosis. Using data from the first 4,000 DDD patients, my computational analyses have already generated hypotheses relating to specific variants in individual genomic functional elements. This work will contribute to an improved understanding of the role of the regulatory genome in developmental disorders and provides a scalable model for the interpretation of non-coding elements in rare disease cohorts.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15878,6 +15894,7 @@
         <last>Perry</last>
       </speaker>
       <desc>(Black Hole Information Paradox)</desc>
+      <abstract>Prof. Malcolm Perry has recently collaborated with Prof. Stephen Hawking (DAMTP) and Prof. Andrew Strominger (Harvard) on a paper, which is said to have made genuine progress in solving the black-hole information paradox. He may or may not speak about this in his talk.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15886,6 +15903,7 @@
         <last>Barrott</last>
       </speaker>
       <desc>(Mirror Symmetry)</desc>
+      <abstract>Mr. Barrott is currently working on mirror symmetry. He may or may not speak about this in his talk.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15894,6 +15912,7 @@
         <last>Reid</last>
       </speaker>
       <title>Finite Subgroups of SL(2,C) and SL(3,C) and their Role in Algebraic Geometry</title>
+      <abstract>Felix Klein classified the finite subgroups of SL(2,CC) around 1860; there are two infinite families corresponding to regular polygons in the plane, together with three exceptional groups of order 24, 48 and 120 that are “spinor” double covers of the symmetry groups of the regular polyhedra (the tetrahedron, octahedron and icosahedron). The finite subgroups of SL(3,CC) are also classified (and also SL(n,CC) for higher n), although the problem gets harder and it is not clear how to view the assortment of solutions with any pretence to elegance. The quotient spaces X = CC^2/G by Klein’s finite subgroups G in SL(2,CC) form a very remarkable family of isolated surface singularities, that were studied by Du Val during the 1930s (aided by Coxeter). Du Val’s work was central to the study of algebraic surfaces during the 1970s and 1980s, and played a foundational role in the study of algebraic 3-folds from the 1980s onwards. In the 1980s McKay observed that the representation theory of the group G is reflected in the geometry of the resolution of singularities of X. This correspondence has been generalised to 3-dimensions, with the same proviso concerning the nature of the problem and its solutions.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15922,6 +15941,7 @@
         <last>Bollobás</last>
       </speaker>
       <title>A Glimpse of the Mathematics of Bill Tutte, The Greatest Code-Breaker of WWII</title>
+      <abstract>Bill Tutte, who came up to Trinity to read Natural Sciences, specialising in chemistry, was the greatest codebreaker of WWII, and one of the founders of modern combinatorics. In this talk I shall say a little about his work as a codebreaker, and a little more about some of his revolutionary ideas in mathematics.</abstract>
     </sub>
     <venue>Centre for Mathematical Sciences MR2</venue>
     <attendance>?</attendance>
@@ -15950,6 +15970,7 @@
         <last>Green</last>
       </speaker>
       <title>The Scope of String Theory</title>
+      <abstract>This talk will explain why string theory is such a compelling approach to understanding the fundamental particles and the physical forces, even though it is not yet a complete theory and it has yet to make precise experimental predictions. It will give an overview of the theory, illustrating how it describes physics at ultra-short distances in a manner that is radically different from more conventional theories. I will illustrate how the structure of string theory is influencing our understanding of quantum gravity as well as having profound connections with aspects of modern mathematics. The talk will end with an overview of recent ideas, which suggest that the string theory may have applications in areas of physics far removed from the ones it was originally intended for.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15967,6 +15988,7 @@
         <last>Cates</last>
       </speaker>
       <title>Mathematical Models of Cellular Locomotion</title>
+      <abstract>Many types of cell in our bodies are not static but actively move around. The effects can be good, such as when immune cells search and destroy invading organisms, or bad, such as when cancer cells spread to distant parts of the body. Many biochemical circuits are implicated in cell movement, but cell fragments with no such circuits also move spontaneously — the cellular equivalent of a headless chicken. This observation suggests the presence of an autonomous “motility engine” whose operation is controlled, but not maintained, by the complex biochemical circuits present in real cells. I shall describe a simplified mathematical model for this engine, using ideas borrowed from the study of liquid crystalline materials, as found in every mobile phone and laptop screen.</abstract>
     </sub>
     <venue>Centre for Mathematical Sciences MR2</venue>
     <attendance>?</attendance>
@@ -15983,6 +16005,7 @@
         <last>Grimmett</last>
       </speaker>
       <title>Counting Walks</title>
+      <abstract>Paul Flory was a chemist who is known especially for his work on polymerization, and he has given mathematics a beautiful and as yet unsolved problem: how to count the number of so-called long-chain polymers. This problem, while easy to state, is part of a major challenge for mathematicians and physicists to understand singularities in two dimensions. I will attempt to communicate some of the vitality of the area, and to report some modest progress.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
