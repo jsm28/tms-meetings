@@ -16728,4 +16728,21 @@
     <venue>Old Field</venue>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>929</number>
+    <date>2018-10-12</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>B.</first>
+        <last>Bollobás</last>
+      </speaker>
+      <title>Distances: Problems, Results &amp; Conjectures</title>
+      <abstract>(The following abstract was for the originally announced title, “A Simple Proof of a Major Result”.) The solutions of highly rated problems that have remained unsolved for decades tend to be long and complicated. Although this is what we have come to expect, this is not always the case: occasionally a novel approach leads to a remarkably short and beautiful solution. In my talk I shall give a particularly striking example of a simple solution of a notoriously difficult problem emerging out of the blue.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
