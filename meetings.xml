@@ -16745,4 +16745,15 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>930</number>
+    <date>2018-10-22</date>
+    <type>film night</type>
+    <sub>
+      <title>Travelling Salesman</title>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
