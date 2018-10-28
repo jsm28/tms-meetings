@@ -15254,6 +15254,7 @@
         <last>Bursill-Hall</last>
       </speaker>
       <title>Pythagoras Never Existed. You Have Been Lied to, and All School Maths is False</title>
+      <abstract>Everyone in the Universe has heard of Pythagoras, and knows about the Theorem, and how the Pythagoreans discovered that root-two is irrational. And all of that is false: in fact, just about everything you have been told about ancient mathematics is wrong and rubbish. Hey: Welcome to Cambridge.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15270,6 +15271,7 @@
         <last>Sousi</last>
       </speaker>
       <title>A lost man will reach home, but a lost bird will be lost forever</title>
+      <abstract>Suppose you are lost while trying to get home. At every corner you decide to take a random direction independently of what you did previously. Will you ever get back home? The answer depends on which dimension you live in. What if you give a preference to roads you have used before. Does the answer change?</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15286,6 +15288,7 @@
         <last>Gog</last>
       </speaker>
       <title>Embarrassing diseases</title>
+      <abstract>The use of mathematical systems for modelling the spread of infectious disease has been around for quite a while now. Mathematical biologists have developed a world of intricate models including things like distribution of household sizes, population flows such as commute to work, airline transportation networks, seasonal and climate factors and what everyone had for breakfast. So we know in glorious detail how a decent pandemic ought to spread, right? Thing is, no one told influenza what it was supposed to do.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15302,6 +15305,7 @@
         <last>Baumann</last>
       </speaker>
       <title>The Quantum Origin of Structure in the Universe</title>
+      <abstract>Quantum fluctuations in the vacuum play an important role in fundamental physics. In this talk, I will show that these fluctuations get stretched to cosmic scales if the early universe experienced a period of inflationary expansion. Using little more than the quantum mechanics of a simple harmonic oscillator, I will compute this effect and explain how it provides the primordial seeds for all structure in the universe. I will show how these predictions compare to recent observations of the cosmic microwave background. Finally, I will speculate about the physical cause for the inflationary expansion.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15318,6 +15322,7 @@
         <last>Cranch</last>
       </speaker>
       <title>Which Real Numbers are Pleasant?</title>
+      <abstract>Every well-educated fresher has already been indoctrinated with the right answer to this question: reals are either algebraic or transcendental. Algebraic numbers are obviously fantastic. By contrast, the transcendental numbers are utterly hideous and deserve no attention whatsoever, with the two exceptions of pi and e (bless their little cotton socks). Contrary to this received opinion, I’ll explain why it should be a major goal of 21st-century mathematics to reclaim more of the reals for explicit use by mathematicians, and I’ll tell you about some difficult problems that need to be solved along the way.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15334,6 +15339,7 @@
         <last>Allanach</last>
       </speaker>
       <title>Possible Hints for Supersymmetry at the Large Hadron Collider</title>
+      <abstract>The Large Hadron Collider is about to start operation again at a higher energy at the beginning of 2015. I shall introduce the machine, particle physics and the discovery of the Higgs boson. Standard theory predicts that the quantum fluctuations should make the Higgs boson much heavier than it is observed to be, but a speculative theory of particle physics (supersymmetry) explains why the quantum fluctuations are small. This theory predicts a host of new particles for the LHC to find. There were a few small anomalies in LHC data already that can be interpreted as the production of certain supersymmetric particles. Such interpretations are ready for further experimental testing next year.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15350,6 +15356,7 @@
         <last>Berestycki</last>
       </speaker>
       <title>Emergence of symmetry in planar probability</title>
+      <abstract> will describe several simple and natural random systems which exist on the two-dimensional infinite square grid. Often there is a “critical point” for these systems. At this point, it has been predicted for more than 30 years that these systems acquire an unexpected symmetry: invariance under conformal transformations of the complex plane. I will explain what that means, discuss some examples, and try to convey a few ideas about remarkable progress which has taken place in the last 15 years to describe these objects rigorously, notably Schramm’s famous SLE random curves.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15388,6 +15395,7 @@
         <last>Gowers</last>
       </speaker>
       <title>Can interesting mathematics problems be solved systematically?</title>
+      <abstract>Solving a mathematics problem that is not a routine exercise can often feel more like an art than a science. Different people attack problems in different ways, and ideas can appear to spring into one’s mind from nowhere. I shall argue that solving problems is a much more systematic process than it appears, and shall also try to explain why, if that is the case, it has the features that make us think that it isn’t. For the bulk of the talk, I shall attempt, with help from the audience, to solve an Olympiad-style problem that I have not seen before, and to do so systematically rather than by waiting for a clever idea to appear out of the blue. The attempt is not guaranteed to succeed, but I hope that it will be informative whether or not it does.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15405,6 +15413,7 @@
         <last>Gog</last>
       </speaker>
       <desc>CUSU Shadowing Scheme: “Embarrassing Diseases”</desc>
+      <abstract>The use of mathematical systems for modelling the spread of infectious disease has been around for quite a while now. Mathematical biologists have developed a world of intricate models including things like distribution of household sizes, population flows such as commute to work, airline transportation networks, seasonal and climate factors and what everyone had for breakfast. So we know in glorious detail how a decent pandemic ought to spread, right? Thing is, no one told influenza what it was supposed to do.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15421,6 +15430,7 @@
         <last>Vojnovic</last>
       </speaker>
       <title>How to divide prize money?</title>
+      <abstract>The question of how to split a prize purse between position prizes in a contest has a long and rich history going all the way back to the work by Galton (1902). The economists’ approach to this question is to assume that contestants strategically invest efforts aiming at selfishly maximizing their payoffs, which combine in some way the value of winning a prize and the cost of production. How should a contest owner split a prize purse with the goal of maximizing the expected total effort in an equilibrium? What if the goal is to maximize the expected maximum individual effort?</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15453,6 +15463,7 @@
         <last>Wilton</last>
       </speaker>
       <title>The Banach-Tarski Paradox</title>
+      <abstract>The Banach-Tarski Paradox is the counter-intuitive fact that a sphere can be cut into finitely many pieces and reassembled into two copies of itself. Of course, you can’t do this in real life, but it’s more than just a curiosity. In fact, it’s the start of a beautiful mathematical story at the heart of modern group theory, geometry, logic and analysis. I’ll try to tell some of that story.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15469,6 +15480,7 @@
         <last>Vriend</last>
       </speaker>
       <title>Using mathematics in my journey to deserts and mountains</title>
+      <abstract>In this presentation, I will show you how applied mathematics plays an important role in the understanding of our natural environment. My research expertise covers granular materials and I have traveled to various places on this earth to investigate the behavior of snow avalanches in mountains and sand dunes in deserts. Our research group combines field experiments with laboratory experiments, in the GK Batchelor laboratory underneath the courtyard of CMS, and uses mathematical tools to model these observations. Our goal is to understand the dynamic behavior of granular flows and potentially even predict some outcomes of avalanches.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15477,6 +15489,7 @@
         <last>Fortune</last>
       </speaker>
       <title>All About That Bayes: Making Inference from Data</title>
+      <abstract>As you go through life, you reinterpret your beliefs about the world based on what you observe. When you perform a scientific experiment, you want to update your conclusions about the underlying system based upon the results. But how can we do this rigorously? Bayes theorem is a simple equation; you probably encountered it in high school. But it is also the foundation for an entire field of statistical inference. I will reintroduce the theorem, and discuss some applications.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15493,6 +15506,7 @@
         <last>Kirchhoff-Lukat</last>
       </speaker>
       <title>Generalised Geometry: Double the Fun</title>
+      <abstract>I will give an introduction to Generalised Geometry: This fairly new extension of differential geometry allows us to generalise and unify different structures on smooth and complex manifolds. String theory is a primary motivation for the study of generalised metrics; using these, it is possible to describe massless string states in terms of a single geometric object. Delving further into the theory, we find a structure that encompasses the concepts of Poisson, symplectic and complex geometry. In my talk, I hope to give an impression of this wealth of possibilities which generalised geometry offers to both mathematics and theoretical physics.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15501,6 +15515,7 @@
         <last>Nelson</last>
       </speaker>
       <title>Statistical modelling in tennis: a case study using world rankings</title>
+      <abstract>In recent years, statistical modelling has played an increasingly important role in the sports industry – from player evaluation systems and tactical decision tools used by team managers (as popularised by films such as Moneyball) to predictive models deployed by bookmakers and gamblers to forecast future results. In this talk I will demonstrate that simple statistical methods – combined with a healthy dose of pragmatism – can generate surprisingly powerful models for predicting tennis… and explain how a pure mathematician came to be working on them.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15541,6 +15556,7 @@
         <last>Low</last>
       </speaker>
       <title>The method of universal instances</title>
+      <abstract>Suppose you want to check some propositions P_1, P_2, P_3, … about a class C of mathematical objects. In this situation, a universal instance is an object A in the class C such that, for each n, P_n is true for A if and only if P_n is true for every object in the class C. Universal instances do not exist in general, but sometimes we can find exceptionally nice universal instances where it becomes much easier to check the propositions of interest. I will give some simple examples of this phenomenon, and time permitting, I may discuss general results.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15607,6 +15623,7 @@
         <last>Lauga</last>
       </speaker>
       <title>The mathematical life of microbes</title>
+      <abstract>While we all know that fluid dynamics allows planes to fly and boats to sail, it is less known that it also plays a crucial role in many biological processes. Here we will illustrate a particular biological phenomenon which actively uses the presence of a flowing liquid, namely how small organisms such as bacteria and algae use hydrodynamic forces to self-propel.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
