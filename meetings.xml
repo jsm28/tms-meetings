@@ -16773,4 +16773,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>931</number>
+    <date>2018-10-29</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>R. J.</first>
+        <last>Samworth</last>
+      </speaker>
+      <title>Stein’s Paradox</title>
+      <abstract>Stein’s paradox is one of the most striking results in Statistics. Although it appears to be a toy problem in mathematical statistics, it turns out to have profound implications for the analysis of modern, high-dimensional data. I will describe both the result and some of its consequences.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
