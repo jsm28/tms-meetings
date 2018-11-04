@@ -14860,6 +14860,7 @@
         <last>Bursill-Hall</last>
       </speaker>
       <title>God, as you know, is a Trinity man, but is She a mathmo?</title>
+      <abstract>This will be about how mathematics became the supreme way of knowing, but for all the wrong reasons … sufficiently wrong for you to think twice about telling the world you’re a mathmo, let alone a Trinity mathmo. It just might have been better to have come up to read sociology …</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14897,6 +14898,7 @@
         <last>Hunt</last>
       </speaker>
       <title>Maths problems in Engineering—handling infinity</title>
+      <abstract>I am an engineer who uses a lot of maths. One of the difficulties I encounter regularly is dealing with zero and infinity, because these are abstract concepts (nothing in the real world is infinite, and nothing that exists is zero). Mathematical models are comfortable with zero and infinity, for instance Hooke’s law for springs – the spring can extend to infinity, and the maths says that a bouncing ball will bounce an infinite number of times before stopping. As for zero, an infinite wire of finite mass has zero width. But there is more. Can we assume that a rail (on a train track) is infinitely long? This is a useful assumption for sound radiation. What about a power cable between its supports – can that be thought of as infinite? A lot hinges on the answers to the integral over sin and cos from 0 to infinity, which are 1 and 0 respectively. An engineer can prove these results very simply.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14913,6 +14915,7 @@
         <last>Körner</last>
       </speaker>
       <title>Thinking at Random</title>
+      <abstract>When we are at school we are told that you cannot get proofs by just throwing things down at random. However sometimes we are so stupid that choosing at random may be the only way to show that something happens.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14929,6 +14932,7 @@
         <last>Mestel</last>
       </speaker>
       <title>Carry on taking Fluids!</title>
+      <abstract>Thus was I instructed by my G.P. when I was a Trinity undergraduate all too many years ago. So I took his advice, and here’s some of the farrago that followed.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14945,6 +14949,7 @@
         <last>Bird</last>
       </speaker>
       <title>Do pharmacological interventions reduce drugs-related deaths? What statistical methods are there—and how can we use them to find out?</title>
+      <abstract>Powerful well-designed randomized controlled trials together with intelligence gleaned from the clinical follow-up of research cohorts of HIV-infected patients have transformed the life expectancy of HIV-infected persons from less than 10 years in the 1980s to the loss of 10 years from life-expectancy in the 21st century. By contrast, Scotland lost more lives to opiate-related deaths in the five years from 2006–2010 than to HIV /AIDS in 30 years. Why? To what extent do pharmacological or criminal justice interventions reduce opiate-related deaths? How do we find out…? Sheila describes discoveries in the heroin injectors’ story from 1980 to 2012, and how they were made.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14961,6 +14966,7 @@
         <last>Neale</last>
       </speaker>
       <title>Some unsung mathematical heroines</title>
+      <abstract>I’ll pick some interesting female mathematicians of the past, and talk a little about their lives and work in mathematics.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14988,6 +14994,7 @@
         <last>Bollobás</last>
       </speaker>
       <title>Ancient Problems Today</title>
+      <abstract>Whenever one thinks of problems that have occupied the attention of mathematicians for centuries, number theoretic problems spring to mind: Fermat’s Last Theorem, Goldbach’s Conjecture, and the Twin Primes Conjecture. But, as it happens, there are some problems of geometry which, in various incarnations, have been around for two millennia. In the talk I shall present a number of results about such problems, starting with results obtained in antiquity and the Middle Ages, continuing with theorems of Cauchy and Cayley, and ending with some recent results and unsolved problems. The talk will be accessible to freshmen, but will hold challenges for research students as well.</abstract>
     </sub>
     <venue>Centre for Mathematical Sciences MR2</venue>
     <attendance>?</attendance>
@@ -15021,6 +15028,7 @@
         <last>Goldstein</last>
       </speaker>
       <title>Synchronization of Cilia</title>
+      <abstract>From unicellular green algae to the lining of our respiratory systems are found hair-like appendages, known as cilia, whose coordinated beating results in transport of fluid essential for life. For decades there has been speculation about the origins of the synchronization seen in nature, but it is only recently that theory and experiments (mostly carried out here in DAMTP ) have combined to provide quantitative analysis of this problem. This talk will describe the fascinating stochastic nonlinear dynamics underlying the synchronization problem.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15037,6 +15045,7 @@
         <last>Atiyah</last>
       </speaker>
       <title>Mathematicians I have known</title>
+      <abstract>In April 2013 my wife and I opened a picture gallery of 70 mathematicians who had played a key part in our mathematical lives. My lecture will be based on this gallery and I will say a few words about a selection of these mathematicians. It is important to emphasize the human aspect of mathematics.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15053,6 +15062,7 @@
         <last>Tong</last>
       </speaker>
       <title>Magnetic Monopoles</title>
+      <abstract>A story of geometry and particle physics.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15069,6 +15079,7 @@
         <last>Mason</last>
       </speaker>
       <title>Our Active Sun</title>
+      <abstract>The Sun should be at the peak of its activity cycle, but actually it has been rather feeble. Several solar space observatories have been watching the Sun over the past few years: SoHO, Stereo, Hinode, SDO and IRIS . We now have high spatial and spectral resolution images of the Sun, with a high cadence. This talk will review what we have learnt about the active Sun, in particular what we know (and don’t yet know!) about solar active regions and flares, and how they might affect the Earth’s environment (via space weather).</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15093,6 +15104,7 @@
         <last>Narayanan</last>
       </speaker>
       <title>Bootstrap Percolation and Algebra</title>
+      <abstract>Bootstrap percolation is a cellular automaton used to describe the spread of an infection. I will talk about some very natural combinatorial questions arising from this model and how algebraic methods can be used to answer them. I’ll assume almost nothing in the way of background; the talk should be accessible to everyone.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15101,6 +15113,7 @@
         <last>Dutta</last>
       </speaker>
       <title>Stability of Predictive Control without Terminal Conditions</title>
+      <abstract>The stability of constrained finite horizon optimal control problem has been widely addressed in the literature in (1) state-space formulation and by (2) inclusion of terminal constraints, terminal cost, terminal control law. In my research, both these restrictions are removed i.e. stability is ensured for (1) input-output formulation and (2) without any of the three stabilizing ingredients. In this case, the predictive controller is certified by proving infinite feasibility of the problem through set invariance.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15109,6 +15122,7 @@
         <last>Jha</last>
       </speaker>
       <title>God is a Quantum Field Theorist</title>
+      <abstract>I’ll try and argue that much of our current understanding of the universe – from its origins to its most fundamental components – rests crucially on the framework of quantum field theories. After a general overview, time permitting, I’ll talk about the much dreaded concept of renormalization, the difficulty of introducing mass and the celebrated Higgs mechanism.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15117,6 +15131,7 @@
         <last>Goedecke</last>
       </speaker>
       <title>Doing a PhD: Academic Career Move or just Putting off the Real World?</title>
+      <abstract>I will hope to help you think about the following questions: Is doing a PhD in Maths the right choice for me? What should my motivation be? What other options are there? What are the challenges and difficulties of working towards a PhD? What can I do with a PhD afterwards? I’ll be happy to answer any questions you might have about the application process or about doing a PhD.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15125,6 +15140,7 @@
         <last>French</last>
       </speaker>
       <title>Counting your way to Quantum Groups</title>
+      <abstract>We will start by looking at how counting certain sequences of maps allows us to define a multiplication on the isomorphism classes of objects of a category with some conditions. From there, we will introduce some quantum groups and describe how the algebras obtained through counting give rise to these.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15133,6 +15149,7 @@
         <last>Lloyd</last>
       </speaker>
       <title>How to build an automatic Statistician</title>
+      <abstract>I will present the beginnings of an automatic statistician, which has the potential to aid in the exploratory analysis of data. Specifically, I will discuss a system which can build statistical models in an open-ended language of models and then describe them in natural language. I will briefly review the class of regression models which the system constructs and how their properties allow for a modular description generation algorithm. The talk will conclude with examples of the output of the system and a discussion of future research directions.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15141,6 +15158,7 @@
         <last>Sonnex</last>
       </speaker>
       <title>Dependent Type Theory</title>
+      <abstract>What is a mathematical proof as a mathematical object? How do we axiomatize mathematics so that computers can check our proofs, or construct their own (my research)? This talk answers these questions using Dependent Type Theory, and I will show how complex modern mathematics can be built out of this simple starting language (all checked by a computer too). At the end I will discuss some of the exciting recent developments in Homotopy Type Theory.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15149,6 +15167,7 @@
         <last>Grayling</last>
       </speaker>
       <title>Phase II Clinical Trial Designs: Then and Now</title>
+      <abstract>Over the past few decades, clinicians have been forced to deal with a revolution in the proposed procedures for the progression of a drug through phase II trials. Historically, a single-arm phase II design, in which all patients receive the experimental treatment, was employed as the principal way to determine whether to proceed to a randomised controlled phase III trial. However, single-arm trials are commonly associated with high type-I error rates, as well as biased estimated treatment effects. As a result, it has become increasingly clear that this classical phase II design performs poorly in predicting the likelihood of phase III success. Consequently, there has been much interest recently in the use of randomised phase II designs, and a more commonly accepted phase II development plan today has become to utilize a single-arm designed trial, followed by a pilot randomised study if the null hypothesis is rejected at the single-arm stage. In my talk, I will detail how the most common single-arm and randomised two-arm trials are optimally designed and the roles each play today, before discussing a simple way in which the expected sample size of the single-arm followed by randomised two-arm development plan may be reduced over current practice.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15157,6 +15176,7 @@
         <last>Peng</last>
       </speaker>
       <title>Viscous Peeling of an Elastic Sheet</title>
+      <abstract>When viscous fluid is injected in the gap between an elastic sheet and a rigid base plate, the sheet peels away from the base at a speed which depends on various factors. In this talk, I will describe how to model this problem mathematically using lubrication theory, and how to solve it using a matched asymptotic expansion. The method generalizes to yield over 50 different asymptotic solutions for spreading of viscous fluid under an elastic sheet.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -15197,6 +15217,7 @@
         <last>Tehranchi</last>
       </speaker>
       <title>Fun with Gaussian measures</title>
+      <abstract>The standard normal distribution is probably most famous for its starring role in the central limit theorem. This talk will explore useful and unexpected properties of normal distributions, also known as Gaussian measures, and how they arise in a variety of contexts. A few old open problems will also be discussed.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -15213,6 +15234,7 @@
         <last>Camina</last>
       </speaker>
       <title>Conjugacy Classes in finite groups</title>
+      <abstract>If we know the sizes of conjugacy classes in a finite group what does this tell us about the group? We will discuss this problem.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
