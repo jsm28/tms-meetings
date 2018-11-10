@@ -14497,6 +14497,7 @@
         <last>Bursill-Hall</last>
       </speaker>
       <title>Why Mathmos Rule the World: Always Have, Always Will</title>
+      <abstract>Bursill-Hall was educated – at least in some sense – in France, America, Canada, and England; most of his learning coming from dubious public houses in Devon and he ended up at Cambridge University, and has managed to avoid the workhouse or madhouse ever since. He has taught undergraduate courses in history of mathematics and most aspects of history of science at Cambridge and a few other places foolish enough to invite him to talk. It is not known where his ‘off’ button is, but chocolate usually shuts him up temporarily. He is currently 39 years old, and has been for many years.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14513,6 +14514,7 @@
         <last>Spiegelhalter</last>
       </speaker>
       <title>Numeracy and the Media: is it a Lost Cause?</title>
+      <abstract>I shall look at the portrayal of numbers in the news, with particular attention to risk stories of the ‘cats cause cancer’ variety, and the use of ghastly statistical graphics. After (with luck) getting some cheap laughs, I shall consider whether things are getting better or worse, and make a few tentative suggestions for how we all might help.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14529,6 +14531,7 @@
         <last>Acheson</last>
       </speaker>
       <title>What’s the Problem with Maths?</title>
+      <abstract>Why are so many people scared stiff of mathematics? Quite apart from anything else, the subject is full of wonderful surprises, and I will consider several of them, suitable for a wide spectrum of ages, and ranging from a piece of mathematical ‘conjuring’ to the question of whether mathematics can explain the legendary Indian Rope Trick.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14545,6 +14548,7 @@
         <last>Gog</last>
       </speaker>
       <title>Why Biologists Need Mathmos</title>
+      <abstract>It is impossible to think about physics without mathematics. What about biology? Here, Dr Gog will argue that the biologists need us mathematicians. The genome revolution has changed everything, and we are entering an amazing time. It does not matter if you think you are a pure or applied mathematician, there’s something going on here that you should keep an eye on…</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14561,6 +14565,7 @@
         <last>Green</last>
       </speaker>
       <title>The Sylvester-Gallai Theorem</title>
+      <abstract>The Sylvester-Gallai Theorem states that, given any set P of n points in the plane, not all on one line, there is a line passing through precisely two of them (and ‘ordinary line’). I will discuss the history of this theorem and a couple of proofs of it. After that I will hint at some more recent work which establishes that there must in fact be at least n/2 ordinary lines for all sufficiently large enough n. I’ll also discuss some examples of sets with few ordinary lines, which involve some quite interesting constructions involving elliptic curves. The talk will be accessible to Part IA students.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14577,6 +14582,7 @@
         <last>Osborn</last>
       </speaker>
       <title>Pulling Oneself Up By One’s Bootstraps in Theoretical Physics</title>
+      <abstract>Baron von Munchhausen escaped a swamp by pulling on his bootstraps. Sometimes it may be possible to derive results in physics or other areas from general principles with little apparent input. I will describe how such bootstrap methods were once all the rage, then fell out of fashion, but may be enjoying a resurgence.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14628,6 +14634,7 @@
         <last>Hyland</last>
       </speaker>
       <title>Understanding the Lambda Calculus: 40 Years in the Dark</title>
+      <abstract>The lambda calculus is the foundation for modern functional programming. The pure calculus first appeared in a paper by Alonzo Church in 1932. I encountered it 40 years later, but only 40 years after that did I begin to understand what it is. The story is indicative of the nature of abstraction in mathematics.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14644,6 +14651,7 @@
         <last>Worster</last>
       </speaker>
       <title>Marine Ice Sheets</title>
+      <abstract>Melting of the great ice sheets of Antarctica and Greenland has the potential to raise sea level significantly. Whereas many inland ice sheets are controlled by a balance between accumulation of snow at high altitudes and melting at low altitudes, marine ice sheets, which flow into the ocean, are controlled dynamically by the rate at which ice detaches from the submarine bedrock along which it flows to form floating ice shelves. Fundamental aspects of the flow of marine ice sheets can be understood using viscous fluid dynamics. I shall describe recent laboratory and mathematical studies of marine ice sheets, which are helping us to understand what controls them from collapse.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14660,6 +14668,7 @@
         <last>Pitts</last>
       </speaker>
       <title>Risk and Ruin</title>
+      <abstract>Mathematical models for premium income and claim payments are important in the assessment of risk in insurance. I will describe some current risk models, and illustrate the use of mathematical ideas and techniques in ruin theory.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14676,6 +14685,7 @@
         <last>Goedecke</last>
       </speaker>
       <title>Abstraction in Mathematics</title>
+      <abstract>The word abstraction often sounds daunting to many non-mathematicians, and probably also to some mathematicians. However, abstraction is all around us: not only in mathematics, but also in the way we form terms and concepts in our language. For example we all group together houses, schools, college chapels and skyscrapers under the word “building”. So if we know something that is common to all buildings (for example that they have to be maintained), then we know this for every building we meet without having to work it out anew in each case. Mathematics builds heavily on abstraction. Some even say that abstraction is the main ingredient in mathematics. I will present some examples of mathematical concepts that arise as abstractions of well-known situations which every undergraduate has met. My research area – category theory – can be called the most abstract area of mathematics. We will try to explore the point of view and underlying principles that drive category theorists to their very abstract way of thinking.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14700,6 +14710,7 @@
         <last>Wong</last>
       </speaker>
       <title>Even physicists use group theory!</title>
+      <abstract>An ex-IMO mathmo once explained to me that mathematical knowledge is divided into the good (pure), the bad (methods) and the ugly (physics). Obviously it was thought that cute ideas like group theory are purely recreational and have no place in the ugly business of modelling the real world. The reality is rather different. Theoretical physics is a quest for beauty, and symmetry is its guiding principle. In this talk, I’ll show you how group theory is used to solve mechanics problems where symmetry plays a role. This talk should be accessible to first years – I’ll assume that you vaguely recognise the words “group” and “vector space” but I’ll introduce representation theory from scratch in an intuitive way.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -14708,6 +14719,7 @@
         <last>Funakoshi</last>
       </speaker>
       <title>Simulating Quantum Mechanics on Computers</title>
+      <abstract>There are many physical situations which are heavily influenced by quantum mechanical effects, which we just can’t deal with analytically. This raises the question: while it might be (relatively) obvious how to do simulations involving classical physics, for example as with computational fluid dynamics, how might one go about simulating quantum mechanical systems on computers? I’ll begin by describing the path integral picture of quantum mechanics, and then demonstrate that by looking at the resulting formulae in the right way, we end up with various probabilistic methods of doing such computations.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -14716,6 +14728,7 @@
         <last>Manners</last>
       </speaker>
       <title>Finitary and Infinitary Mathematics, Regularity and the Crossover Between Combinatorics and Analysis</title>
+      <abstract>Szemeredi’s regularity lemma is a powerful tool in combinatorics, and has been described as a “structure theorem for graphs”. Both the statement and the proof can seem rather unenlightening—unless you see the analogy with some very well-known results in analysis and probability. More precisely, regularity is what you get when you take the proofs of these results and accidentally try to run them in a finite world. I’ll try to present this picture while finding time to say what regularity is good for, and maybe touch on the machinery of compactness and ultrafilters that does all this stuff for you.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -14724,6 +14737,7 @@
         <last>Batchelor</last>
       </speaker>
       <title>Making it Count: Looking Forward to a Life in Mathematics</title>
+      <abstract>Working with the Part III students and PhD students has been a terrific privilege. Getting to know some of them well, following their progress through PhD’s, or not, on into the working world, in academia or out, has given me a chance to observe what the employment options are in this difficult economic climate. Difficult, but exciting too, in that as a group, Cambridge mathematics students, undergraduates, Part III’s and PhD’s have considerable influence. It’s a time when using that potential to best advantage could make a real difference to the relationship between mathematics and other areas of technological research. Using that potential, making that difference, does require a bit of thought. I will talk about some of the trends I have seen, how they might develop, and invite you to start thinking.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -14732,6 +14746,7 @@
         <last>Wan</last>
       </speaker>
       <title>Tails of our ancestors</title>
+      <abstract>In the beginning… {insert favorite deity here} created the universe, and with it life started with tiny microscopic organisms. It soon transpired that locomotion in general, and swimming in particular, was a good idea. So these microorganisms evolved tails, which they moved around to propel themselves in their fluid environments. These tails are what Biologists call “cilia and flagella”, made up of microtubules and motor proteins, but to the logical eye of the mathematician these are fascinating, nonlinear structures which are subject to large-amplitude deformations and stochastic periodic actuation. We ask the question, how can one use the wisdom of mathematics, to better appreciate the wisdom of Nature?</abstract>
     </sub>
     <sub>
       <speaker>
@@ -14740,6 +14755,7 @@
         <last>Gillespie</last>
       </speaker>
       <title>Proof by Picture</title>
+      <abstract>In this talk I will try and show how pictures and diagrams are used to give insight into (and even proofs of) many theorems in mathematics. I will take a few examples of theorems from different areas (although mainly geometry) and demonstrate how their proof can be summarized by a simple picture. I want my talk to be accessible to everyone, so I intend to start very basic, but will hopefully have time to include some examples from fields such as knot theory and homotopy theory.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -14748,6 +14764,7 @@
         <last>Loesch</last>
       </speaker>
       <title>Programming Languages, Treated Formally</title>
+      <abstract>Ever since the first computer programs were written, programming errors have been a fundamental problem for developers as well as users. They cause computers to crash, medical equipment to malfunction and rockets to explode. To make sure that a program is free of error, one can run it to test if it behaves correctly. In practice however, programs have infinitely many possible inputs and behaviours. Alternatively one can try to formally verify by rigorous mathematics that a program is correct. To give this a sound basis, one has to formally define what a program (of a certain programming language) is and what it actually does. In my talk I will explain how this can be done and give an overview of the general research area.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -14756,6 +14773,7 @@
         <last>Civin</last>
       </speaker>
       <title>Noether, Bruhat, Morawetz</title>
+      <abstract>I will present a brief, non-technical overview of how the geometry of a physical system can be used to predict its evolution in time. In particular, I will focus on Einstein’s Field Equations which describe the physical phenomenon of gravitation. After a (very) short description and history of the general theory of relativity, I’ll go on to discuss the pivotal contributions of three mathematicians to this theory, namely Emmy Noether, Yvonne Fouret-Bruhat and Cathleen Morawetz.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -14764,6 +14782,7 @@
         <last>Low</last>
       </speaker>
       <title>The Humble Arrow in Mathematics</title>
+      <abstract>There are two prominent notions in mathematics denoted by an arrow: one is the idea of a mapping from one sort of thing to another, and the other is implication. Prima facie, these two notions seem rather unrelated, but in fact there is a deep connection between the two which manifests itself in several different ways. The fundamental idea came from the Brouwerian school of intuitionism and has since been developed from an informal principle into various rigorous equivalences, and it remains a topic of research even today.</abstract>
     </sub>
     <sub>
       <speaker>
@@ -14772,6 +14791,7 @@
         <last>Hunt</last>
       </speaker>
       <title>The remarkable accuracy of the Trinity College Clock</title>
+      <abstract>The Trinity Clock in Great Court is quite a prominent feature of the college, at least to look at. And it has a rather curious way of announcing the hours, once for Trinity and a second time for St John’s. It is always within a second or two of the correct time and yet it hardly ever requires adjustment. Does this mean that the mechanism is unaffected by the elements? What about temperature, pressure, humidity? And does the gravitational pull of the moon make any difference? The pendulum on the Trinity Clock has been instrumented to measure period and amplitude to great accuracy. The time is compared with UTC obtained from a GPS receiver. All of this data is streamed continuously to the web at http://www.trin.cam.ac.uk/clock/. If you thought that the physics of a pendulum was simple, then think again!</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14804,6 +14824,7 @@
         <last>Tavaré</last>
       </speaker>
       <title>Combinatorics and Cancer</title>
+      <abstract>It is difficult to follow the evolution of a cancer over large numbers of cell divisions. Instead of using direct measurements, it is possible to infer features of this evolution from indirect measurements such as patterns of mutations in the tumour. I will give an overview of two stochastic processes that arise in understanding tumour heterogeneity, the spatial structure of mutations in tumour cells. Time allowing, I will describe how Approximate Bayesian Computation can be used for inference in this setting. Biological context will be provided!</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14820,6 +14841,7 @@
         <last>Proctor</last>
       </speaker>
       <title>So Many Dynamos</title>
+      <abstract>Dynamo theory is concerned with the generation of magnetic fields by motion in electrically conducting fluids. This process, quite straightforward in a conventional generator, is more complex in homogeneous fluids. I will discuss various different mechanisms of dynamo action and their application to the magnetic fields of astrophysical bodies.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
