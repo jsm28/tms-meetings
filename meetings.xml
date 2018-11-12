@@ -16834,4 +16834,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>932</number>
+    <date>2018-11-12</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>A.</first>
+        <last>Iserles</last>
+      </speaker>
+      <title>Approximation on the Real Line</title>
+      <abstract>The purpose of the exercise is simple, to design an orthogonal basis in the space of square-integrable functions on the real line such that the linear map taking the basis to its derivatives is skew symmetric. Such bases possess numerous advantages in the computation of ODEs and PDEs. In this talk, based on a joint work with Marcus Webb, I will completely characterise all such orthogonal systems using Fourier analysis and the theory of orthogonal polynomials. The extension of this work to complex-valued skew-Hermitian ‘differentiation matrices’ is trivial but it leads to a beautiful outcome, an orthogonal system of rational functions designed (in a different context) almost a century ago by Malmquist and Takenaka and which exhibits some truly miraculous properties.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
