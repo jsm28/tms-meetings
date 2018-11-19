@@ -16851,4 +16851,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>933</number>
+    <date>2018-11-19</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>M. R. E.</first>
+        <last>Proctor</last>
+      </speaker>
+      <title>Rolls, Squares and Hexagons: pattern formation through instabilities</title>
+      <abstract>It is an experimental fact that when an extended system in a simple amorphous state becomes unstable, the new realised state is typically one exhibiting a pattern. It can be shown even for very complicated physical systems that the dynamical processes near the point in parameter space where stability is lost can be represented by a small number of ordinary differential equations. The form of these equations, and the interactions of any possible patterns that can result from the instability, is strongly influenced, and in many cases determined, by the symmetries of the system being studied. One the symmetry group is known, the different patterns can be identified with different representations of the group. I will discuss a number of examples of varying complexity.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
