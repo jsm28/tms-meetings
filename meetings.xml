@@ -16889,4 +16889,15 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>934</number>
+    <date>2018-11-26</date>
+    <type>recreational</type>
+    <sub>
+      <desc>Mathmo Call My Bluff</desc>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
