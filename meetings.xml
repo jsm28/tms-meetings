@@ -14008,6 +14008,7 @@
         <last>Leader</last>
       </speaker>
       <title>Van der Waerden’s Theorem</title>
+      <abstract>Suppose we are presented with a long string of beads. The beads come in two colours, red and blue, but there is not necessarily any ‘pattern’ to the way they are threaded on the string. Can we guarantee to find three equally-spaced beads of the same colour? For example, if the 5th, 7th and 9th beads were all blue then this would count. This question leads on to some beautiful mathematics.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14024,6 +14025,7 @@
         <last>Tong</last>
       </speaker>
       <title>Physics and the Integers</title>
+      <abstract>Leopold Kronecker once said “God made the integers, the rest is the work of man”. In this talk I will show that this statement is experimentally wrong. I will explain how the integers arise in Nature and explain that they are emergent objects, no more fundamental than the concept of smell. I will also comment on the yet-to-be-discovered laws of physics and provide some (admittedly circumstantial) evidence that they are not based on the integers. We are not living in the world of “The Matrix”. (Probably).</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14083,6 +14085,7 @@
         <last>Tao</last>
       </speaker>
       <title>The Universality Phenomenon</title>
+      <abstract>It is a remarkable phenomenon in nature and in mathematics that the statistical behaviour of large complex systems are often governed by _universal laws_ that, miraculously, are almost completely independent of the microscopic mechanics of such systems. Well known examples of such universal laws include the laws of thermodynamics, Benford’s law, and the central limit theorem; the zeroes of the zeta function are also conjectured to be governed by another universal law arising from random matrix theory. We will survey some of these laws, including some recent theoretical developments by several authors (including the speaker) that have rigorously established universality for some random matrix models.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -14099,6 +14102,7 @@
         <last>Cranch</last>
       </speaker>
       <title>Mythical beasts in algebra</title>
+      <abstract>For decades, mathematicians have motivated much work by referring to several deeply interesting algebraic objects which sadly fail to exist under the normal definitions. I will exhibit several of these, including the field with one element and the localisation of the integers at the infinite prime, and discuss what they might really mean. Not much familiarity is required with any algebraic objects which really do exist.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -14128,6 +14132,7 @@
         <last>Hyland</last>
       </speaker>
       <title>Quadratic algebras and operads</title>
+      <abstract>Algebras are vector spaces equipped with a multiplication (for example, the cross product in 3-space). Quadratic algebras are a special class of algebra with a duality theory involving the so-called dual numbers. The dual numbers give the algebra of differentiation. One can pass from algebras to suitable algebraic theories, called operads. There is a notion of a ‘quadratic operad’ with an analogous rich theory involving Lie algebras. Using examples, I shall try to explain some of this and its significance.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -14144,6 +14149,7 @@
         <last>Nickl</last>
       </speaker>
       <title>Gauss’ invention of the method of least squares and the normal distribution, and its impact on the mathematical foundations of statistics</title>
+      <abstract>Even after C.F. Gauss had published the Disquistiones Arithmeticae, that contain some of his most fundamental number-theoretical work, in 1801, he was known only to specialists in Europe. This changed drastically after he predicted, late in 1801, the position of the planet Ceres after it had ‘disappeared behind the sun’. Gauss immediately achieved fame throughout Europe. A technique that Gauss used in this prediction, as well as in much of his subsequent observational work, was the method of least squares to correct ‘intrinsic’ measurement errors in an efficient way. This method, in conjunction with the normal or ‘Gaussian’ distribution, has been a cornerstone of modern statistics ever since, reaching into the foundations of likelihood-based inference. I shall discuss the main mathematical and methodological ideas behind Gauss’ invention and trace some key aspects of its history into the 21st century, highlighting a variety of key statistical ideas that derive from it.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
