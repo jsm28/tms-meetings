@@ -13586,6 +13586,7 @@
         <last>Smith</last>
       </speaker>
       <title>Billiards and Beyond</title>
+      <abstract>We’ll discuss some of the surprising mathematics involved in playing billiards (albeit on some unusually shaped tables without pockets). There are connections to number theory, rainbows and electron transport in metals.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13602,6 +13603,7 @@
         <last>Lickorish</last>
       </speaker>
       <title>Knots and Links</title>
+      <abstract>The study of knots and links of curves in ordinary 3-dimensional space is an easily visualisable example of topology as ‘flexible geometry’. Knots are divided into various classes, tabulations are produced, yet (as with prime numbers) no real classification seems feasible. Even telling whether two knots are really different can be tricky.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13650,6 +13652,7 @@
         <last>Barrow</last>
       </speaker>
       <title>On Pictures in Mathematics</title>
+      <abstract>A look at the role of pictures and images in mathematics, from the first hand-illustrated manuscripts, graphs, and diagrams to the iconic modern images of the atomic bomb, the London Underground map, impossible figures, and the Mandelbrot set.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13677,6 +13680,7 @@
         <last>Swinnerton-Dyer</last>
       </speaker>
       <title>Rational points on cubic curves, or how to be famous without proving anything</title>
+      <abstract>This talk explains how the notorious Birch/Swinnerton-Dyer conjecture came about. In its simplest form, the conjecture gives information about the rational points on cubic curves.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13693,6 +13697,7 @@
         <last>Friz</last>
       </speaker>
       <title>From Lie groups to option pricing</title>
+      <abstract>Modern financial theory tells us that prices of options are given by expectations of the payoffs with respect to some pricing measure, typically written as infinite dimensional integrals of some functional against Wiener measure. The fast and accurate numerical evaluation of such integrals is an ongoing challenge. I will explain some recent ideas based on the Lie group structure of iterated integrals. The resulting “cubature” formulae can be traced back to no one less than Sir Isaac Newton.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -13709,6 +13714,7 @@
         <last>Proctor</last>
       </speaker>
       <title>Instability and pattern formation</title>
+      <abstract>When physical systems with many symmetries become unstable, the result is a pattern with fewer symmetries. But typically there are an infinite number of such patterns, and the selection between them is due to nonlinear effects. Many cases can be understood by means of ‘equivariant bifurcation theory’. I will give a brief discussion of this with some common examples of patterns that can be predicted on symmetry grounds.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13725,6 +13731,7 @@
         <last>Butterfield</last>
       </speaker>
       <title>Mixing physics and logic: is a quantum system an object?</title>
+      <abstract>The founding fathers of quantum theory debated whether the peculiar behaviour of quantum systems, such as their non-classical statistics, meant that they were not objects. In current philosophy of physics, the debate continues, using the tools of modern logic and metaphysics. This talk will review the state of play.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
