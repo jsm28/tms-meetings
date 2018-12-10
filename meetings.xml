@@ -13228,6 +13228,7 @@
         <last>Gowers</last>
       </speaker>
       <title>Finding large primes and factorizing large numbers: is there any alternative to a brute-force search?</title>
+      <abstract>Suppose you are given a number n and asked to determine whether it is prime. One time-honoured method is to see whether it is a multiple of 2, then of 3, then of 5, and so on, all the way up to the square root of n. This works fine for a number such as 147, but is not very practical if n has a hundred digits, say. A related problem, of great importance in cryptography, is to factorize a large integer that somebody gives you. Again, it can be done by simply searching through all the primes until you stumble on a factor, but again this takes far too long if the number is large. It is not at all obvious how one might go about finding faster approaches to these computational tasks. However, some very clever techniques have been discovered, and some of these are not especially hard to understand. This talk will present a few of them.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>200</attendance>
@@ -13244,6 +13245,7 @@
         <last>Thomason</last>
       </speaker>
       <title>Colours, Cycles and the odd Lollipop</title>
+      <abstract>The four colour problem (that the countries of any map can be coloured using only four colours so that no two countries with a common border have the same colour) has generated interest for a long time. Sixty years ago a couple of TMS members, Cedric Smith and William Tutte, made some striking contributions. These will be described, together with more recent developments, in this self-contained talk.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13260,6 +13262,7 @@
         <last>Shuckburgh</last>
       </speaker>
       <title>The mathematics of weather and climate</title>
+      <abstract>Many aspects of weather and climate can be understood by considering idealised models and using basic physical principles together with standard mathematical techniques used in all branches of applied mathematics. This talk will explore the mathematics behind the weather and climate by exploring two case studies which display rather different physics. The first is that of winter storms that hit the UK, and second is the El Nino phenomena which dominates the year-to-year variability of weather over much of the Pacific region. Understanding the physical mechanisms which drive these weather features and their sensitivity to changes allows us to make short-term forecasts and longer-term climate predictions.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13276,6 +13279,7 @@
         <last>Proctor</last>
       </speaker>
       <title>Convective and absolute instabilities in large domains</title>
+      <abstract>We are accustomed to thinking of the stability of a configuration of a physical system in black and white terms: either small disturbances grow or they decay. But there are many important situations where the system is ultimately stable, but which can act as a powerful amplifier for a long period of time. The situation is particularly important when the system has a long spatial extent, so that these non-instabilities (convective instabilities) can produce large amplitude structures which can be sustained by small amounts of noise. In contrast, when the system is absolutely unstable no noise is needed to sustain the structures. This dichotomy is related to the behaviour of linear dynamical systems with non-normal matrices.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13319,6 +13323,7 @@
         <last>Jane</last>
       </speaker>
       <title>The Ricci Flow and some other maths that looks good as pictures</title>
+      <abstract>The Ricci Flow has caused much activity and excitement over the last twenty five years. For surfaces embedded in three dimensions the situation is easily visualised; I will try to give a brief overview of some of the ideas in order that we have a little geometric intuition in the area. Then I will explain a method to investigate the effects the Ricci Flow has on the straight lines of our (not straight at all) space.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13335,6 +13340,7 @@
         <last>Tong</last>
       </speaker>
       <title>Quantum Geometry: What the String Saw</title>
+      <abstract>Big circles are the same as small, topology is ambiguous, and quantum geometry is pointless (because there aren’t any points).</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -13407,6 +13413,7 @@
         <last>Bollobás</last>
       </speaker>
       <title>Set Sums and Projections of Bodies</title>
+      <abstract>The sum S of k sets of integers A_1,A_2,…,A_k is defined as S=A_1+A_2+…+A_k={a_1+…+a_k:a_i∈A_i for every i}. For non-empty finite sets A_i, it is easily seen that the size |S| of the sum is at least |A_1|+…+|A_k|-k+1. There are similar classical inequalities for subsets of additive groups – indeed, such an equality was proved by Cauchy and rediscovered by Davenport. In the talk, aimed at first year undergraduates, we shall consider some related inequalities concerning the minima and maxima of set sums. For example, given |A_1+A_2|, |A_1+A_3| and |A_2+A_3|, what can we say about the sum of the three sets? As we shall see, these problems are intimately connected to inequalities involving the volumes of “canonical” projections of a body in R^k.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13423,6 +13430,7 @@
         <last>Turok</last>
       </speaker>
       <title>What Banged?</title>
+      <abstract>The last decade has seen huge advances in our understanding of the makeup and history of the universe. Some properties of the universe – its geometry and the nature of the primordial density inhomogeneities – are astonishingly simple. Other properties – like the existence of dark energy – are very hard to reconcile with standard cosmology. And the cosmic singularity from which everything emerged remains a deep mystery. I will discuss a radical new approach, the cyclic model, based on ideas from string theory and M theory, which explains the observations without invoking a period of cosmic inflation. I will describe how future observations could distinguish the inflationary and cyclic models.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13439,6 +13447,7 @@
         <last>Forster</last>
       </speaker>
       <title>Avoiding the Paradoxes by Typing</title>
+      <abstract>Russell and Whitehead famously avoided the paradoxes by regimenting sets (and languages) into disjoint levels in a system called Type Theory. Over the years this approach and the Zermelo-Fraenkel approach have diverged greatly; since the ZF approach is much better known there are now some interesting backwaters which invite closer attention than they usually get. This talk will be an introduction to the descendents of type theory and will try to make connections with other themes in the philosophy of mathematics.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13455,6 +13464,7 @@
         <last>Dunajski</last>
       </speaker>
       <title>Twistor Transform</title>
+      <abstract>Twistor Theory was originally proposed as a way to unify quantum mechanics with general relativity. Its status as a physical theory remains unclear but it found unexpected applications in pure mathematics.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
@@ -13482,6 +13492,7 @@
         <last>Green</last>
       </speaker>
       <title>Ramanujan and some of his mathematics</title>
+      <abstract>Every Trinity mathmo ought to know something about the story of the great Indian genius Srinivasa Ramanujan and how he came to Trinity to work with Hardy and Littlewood in the early 20th century. In this talk I hope, in addition, to emphasise some respects in which his work is still highly relevant today.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13498,6 +13509,7 @@
         <last>Gibbons</last>
       </speaker>
       <title>The angular sum of a triangle</title>
+      <abstract>If we take light rays as straight lines, and if light is bent by a gravitational field, then the angular sum of a triangle cannot equal 180 degrees. In this talk I will use the Gauss-Bonnet theorem to discuss the angular sum of triangles in the vicinity of black holes, and elsewhere in the universe.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13514,6 +13526,7 @@
         <last>Fisher</last>
       </speaker>
       <title>Local-to-global principles in number theory</title>
+      <abstract>An important source of problems in number theory is the study of Diophantine equations, i.e. systems of (usually polynomial) equations that must be solved in integers or rational numbers. One hope is that these “global” problems can be attacked by putting together “local” information, that is by looking at the problem one prime at a time (and over the reals). This works particularly well for quadratic forms, but generalisations are surprisingly hard to come by.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13530,6 +13543,7 @@
         <last>Gramacy</last>
       </speaker>
       <title>Designing Supercomputer Experiments</title>
+      <abstract>Computer experiments often require dense sweeps over input parameters to obtain a qualitative understanding of their response. However, such sweeps are unnecessary in regions where the response is easily predicted; well-chosen designs could allow a mapping of the response with far fewer simulation runs. I explore a modern approach that couples two standard regression models: Gaussian processes and treed partitioning. A Bayesian perspective yields an explicit measure of (nonstationary) predictive uncertainty that can be used to guide sampling. The methods will be illustrated through several examples, including a motivating example which involves the computational fluid dynamics of a NASA re-entry vehicle.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
