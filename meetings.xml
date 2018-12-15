@@ -13038,6 +13038,7 @@
         <last>Leader</last>
       </speaker>
       <title>Clueless voting</title>
+      <abstract>Our starting point is the following obviously silly question. Suppose that you want to vote in a yes/no poll on some issue, and you want your vote to be right, but you have no idea at all about the issue. What should you do?</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13070,6 +13071,7 @@
         <last>Norman</last>
       </speaker>
       <title>Computers, calculus and confusion</title>
+      <abstract>In some respects quite a lot of calculus is easy to automate in the form of computer programs. However when people have done that they always seem to end up with systems that can be caused to give nonsense results. This talk looks at some of the pitfalls and considers the underlying questions (a) are computers a natural cause of confusion? (b) is calculus a natural cause of confusion?</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13086,6 +13088,7 @@
         <last>Smith</last>
       </speaker>
       <title>Does Gödel’s Theorem matter to mathematicians?</title>
+      <abstract>Gödel famously showed that, in any theory in which you do enough arithmetic, there will be unprovable true sentences of arithmetic. Is this just a logical curiosity? Or does his Incompleteness Theorem impact on ‘ordinary’ mathematics?</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13113,6 +13116,7 @@
         <last>Bollobás</last>
       </speaker>
       <title>Thieves, hobbies and maps</title>
+      <abstract>In the talk we shall present some unusual proofs of several combinatorial results.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13129,6 +13133,7 @@
         <last>Vella</last>
       </speaker>
       <title>Life at interfaces</title>
+      <abstract>The physics of an air-water interface seems strange to those of us who are too big to stand still on water and too slow to run across it. In the “real world” there are many phenomena that seem counterintuitive but can be understood using mathematics… and a bit of physics. I will discuss some of these phenomena, how animals use them to their advantage and the mathematics that allows us humans to understand what they are doing.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13145,6 +13150,7 @@
         <last>Cranch</last>
       </speaker>
       <title>Spaces for the stable minded</title>
+      <abstract>Sometimes natural geometric questions in low dimensions can be hard. Despite being much harder to visualize, things can be easier with lots of dimensions. There are ways of replacing some difficult low-dimensional problems with easier high-dimensional ones. These ideas lead naturally to the construction of spectra, the abstract objects that many algebraic topologists really spend their time thinking about. This talk will be a quick tour of these ideas, with several pictures.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
@@ -13161,6 +13167,7 @@
         <last>Grimmett</last>
       </speaker>
       <title>Random triangles</title>
+      <abstract>Drop n points at random into a bounded subset of the plane, and find the area of the smallest triangle thus formed. This elementary problem involves the least arcane geometrical shape, but is related to a variety of questions of current mathematical interest including Poisson convergence, Kolmogorov complexity, and the Heilbronn triangle problem. It is linked also to a beautiful formula discovered by Morgan Crofton of Trinity College (Dublin) and published in the 9th edition of Encyclopedia Britannica in 1868.</abstract>
     </sub>
     <venue>Old Combination Room</venue>
     <attendance>?</attendance>
