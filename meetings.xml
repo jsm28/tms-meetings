@@ -16959,4 +16959,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>935</number>
+    <date>2019-01-28</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>A. C. L.</first>
+        <last>Ashton</last>
+      </speaker>
+      <title>Solitons: An Introduction</title>
+      <abstract>Solitons are a very special type of solution to some nonlinear, dispersive PDEs. I will discuss some of the history of solitons, as well as some of their remarkable properties. The talk should take us from canal boats to pseudospherical surfaces, with some mathematics in between.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
