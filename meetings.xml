@@ -16976,4 +16976,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>936</number>
+    <date>2019-02-04</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>D.</first>
+        <last>Tong</last>
+      </speaker>
+      <title>Are we living in the matrix?</title>
+      <abstract>Here is an interesting fact: no one knows how to write down a discretised version of the laws of physics in a manner that allows them to be simulated on a computer. The obstacle is known as the Nielsen-Ninomiya theorem. I will describe this result and some attempts to circumvent it.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
