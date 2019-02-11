@@ -16993,4 +16993,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>937</number>
+    <date>2019-02-11</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>I. B.</first>
+        <last>Leader</last>
+      </speaker>
+      <title>The Continuum Hypothesis</title>
+      <abstract>We’ll explore a statement known as the Continuum Hypothesis, which states that there are no ‘sizes’ of sets between the natural numbers and the reals — or, more precisely, that every uncountable subset of the reals bijects with the reals.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
