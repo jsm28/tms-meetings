@@ -17010,4 +17010,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>938</number>
+    <date>2019-02-18</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>H.</first>
+        <last>Fawzi</last>
+      </speaker>
+      <title>Sum-of-squares proofs</title>
+      <abstract>A polynomial that is a sum of squares of other polynomials can only take nonnegative values. This trivial observation is surprisingly powerful: many inequalities in mathematics have simple sum-of-squares proofs. I will discuss algorithms that can automatically search for sum-of-squares proofs for polynomial inequalities, and the extent to which they can be considered as “automatic proof machines”.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
