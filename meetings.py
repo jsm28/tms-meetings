@@ -140,10 +140,27 @@ class Speaker(object):
         return text
 
 
+class SubLink(object):
+    """A link to some extra document for a SubMeeting."""
+
+    def __init__(self, desc, href):
+        """Initialize a SubLink object."""
+        check_unicode(desc)
+        self.desc = desc
+        self.href = href
+
+    def xml_text(self):
+        """The canonical XML text of a SubLink object."""
+        s = []
+        s.append('        <linkdesc>%s</linkdesc>' % html.escape(self.desc))
+        s.append('        <href>%s</href>' % html.escape(self.href))
+        return '      <link>\n%s\n      </link>' % '\n'.join(s)
+
+
 class SubMeeting(object):
     """A meeting title or description with zero or more speakers."""
 
-    def __init__(self, desc, title, note, speakers, abstract):
+    def __init__(self, desc, title, note, speakers, abstract, links):
         """Initialize a SubMeeting object."""
         # A title is implicitly quoted.  A description is not quoted,
         # but may contain quoted text.  A note implicitly follows
@@ -160,6 +177,7 @@ class SubMeeting(object):
         self.note = note
         self.speakers = speakers
         self.abstract = abstract
+        self.links = links
 
     def xml_text(self):
         """The canonical XML text of a SubMeeting object."""
@@ -175,6 +193,8 @@ class SubMeeting(object):
         if self.abstract:
             s.append('      <abstract>%s</abstract>'
                      % html.escape(self.abstract))
+        for link in self.links:
+            s.append(link.xml_text())
         return '    <sub>\n%s\n    </sub>' % '\n'.join(s)
 
     def html_text(self, speaker_data):
@@ -193,6 +213,9 @@ class SubMeeting(object):
         dtext += '.'
         if self.abstract:
             dtext += '<br>\nAbstract: %s' % html.escape(self.abstract)
+        for link in self.links:
+            dtext += '<br>\n[<a href="%s">%s</a>]' % (html.escape(link.href),
+                                                      html.escape(link.desc))
         return dtext
 
 
@@ -399,7 +422,14 @@ def meetings_from_xml(name):
                 abstract = (abstract_xml.text
                             if abstract_xml is not None
                             else '')
-                sub.append(SubMeeting(desc, title, note, speakers, abstract))
+                links_xml = s.findall('link')
+                links = []
+                for link in links_xml:
+                    linkdesc = link.find('linkdesc').text
+                    href = link.find('href').text
+                    links.append(SubLink(linkdesc, href))
+                sub.append(SubMeeting(desc, title, note, speakers, abstract,
+                                      links))
             if mtype == 'talk' and len(sub) != 1:
                 raise ValueError('meeting %s (talk) has multiple talks',
                                  number)
