@@ -17132,4 +17132,102 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>940</number>
+    <date>2019-02-24</date>
+    <type>symposium</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>M. D.</first>
+        <last>Fortune</last>
+      </speaker>
+      <title>Designing Dementia Trials Embedded Within a Cohort</title>
+      <abstract>Clinical trial recruitment sounds like it should be a job for the medics, not the mathematicians. But what if you already have access to decades of data about your prospective participants, and want to select those who you wish to invite to take part based on mathematical predication of how their disease will progress? In many dementia trials, the focus is upon patients who are asymptomatic or at an early stage in the disease. We would like to choose trial participants who are likely to benefit from the treatment. However, if our recruitment is too selective, we may not be able to say anything about the effect of the treatment in the whole population. Any strategy needs to balance the pay-off between these two factors.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>O. Y.</first>
+        <last>Feng</last>
+      </speaker>
+      <title>Maximum likelihood estimation of a log-concave density</title>
+      <abstract>A density on R^d is said to be log-concave if its logarithm is a concave function, and the estimation of a unknown log-concave density based on i.i.d. observations represents a central problem in the area of non-parametric inference under shape constraints. In contrast to traditional smoothing techniques, the log-concave maximum likelihood estimator is a fully automatic estimator which does not require the choice of any tuning parameters and therefore has the potential to offer practitioners the best of the parametric and non-parametric worlds. I will discuss some recent theoretical results on the performance of this estimator, with a particular focus on its ability to adapt to structural features of the target density.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>C. P.</first>
+        <last>Turner</last>
+      </speaker>
+      <title>Introduction to Topological Phases of Matter</title>
+      <abstract>I will talk a little about how we traditionally classify states of matter, and then blow this out of the water by introducing the idea of a topological phase of matter. The idea is that even fairly innocuous interactions between particles can result in striking collective behaviours at low energies; this includes sensitivity to the topology of the surface that the system is built on, and emergent “anyonic” particle-like objects, exhibiting properties that are impossible for fundamental particles in our universe. These phases of matter have connections to many areas of ongoing research, from pure mathematical classification problems, through dreams of quantum computation and quantum error correction, to condensed matter experiments. I will try to give a brief overview of how all this arises through simple examples.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>K. P.</first>
+        <last>Kalinin</last>
+      </speaker>
+      <title>Networks of non-equilibrium condensates for global optimisation of spin Hamiltonians</title>
+      <abstract>The majority of optimisation problems are computationally impractical for conventional classical computers and known as NP-hard optimisation problems. Such problems deal with scheduling, the dynamic analysis of neural networks and financial markets, the prediction of new chemical materials, and machine learning. Incredibly, it is possible to reformulate these optimisation problems into the problem of finding the ground state of a particular spin Hamiltonian. In my talk I will address various physical platforms that can simulate such spin Hamiltonians in order to solve optimisation problems orders of magnitude faster than can be achieved on a classical computer. In particular, the spin Hamiltonians can be simulated experimentally with polariton condensates. These are effectively comprised of a “mix” of the states of light and matter, and can be explicitly mapped into problems such as the travelling salesman problem. Using such mappings, one can study physical systems experimentally and effectively “read out” the solution to an optimisation problem one wishes to solve. A possible speedup opens a path to global minimisation of large-scale, real-world problems not accessible by classical simulations.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Ms</stitle>
+        <first>Y. I.</first>
+        <last>Li</last>
+      </speaker>
+      <title>The non-equilibrium characteristics of active matter</title>
+      <abstract>Active matter consists of a large number of “active” particles, each of which is capable of consuming energy locally, causing them to move with deterministic or stochastic rules that break the time reversal symmetry. Examples of active matter are commonplace in biology: bird flocks, bacteria colonies, tumour growth, self-organising bio-polymers etc. As a result of this constant injection and dissipation of energy at the microscopic level, these systems are permanently driven away from equilibrium, where many familiar principles of statistical physics don’t apply. Recent progresses have enabled us to capture the collective behaviours of many complex biological systems in terms of simpler models, making it easier to trace the non-equilibrium nature of such systems. Specifically, the talk will focus on self-propelled bacteria with quorum sensing and population dynamics.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>A. J.</first>
+        <last>Chamolly</last>
+      </speaker>
+      <title>Why sperm doesn’t have fins</title>
+      <abstract>Have you never wondered? Alright, I forgive you. But, if you somehow did produce sperm with fins you’d soon realise that it’s actually an existential question — literally — as with such equipment you’d never have come to be. Lacking inertia, the physics of fluids on the microscale is vastly different from our everyday experience, and so sperm, bacteria and other microswimmers had to develop unique strategies to survive. I will present some surprising theorems, highlight how nature has adapted in response to them and how they challenge current designs for artificial microrobots. Expect wet jokes and dry puns.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>M. C.</first>
+        <last>Gomez</last>
+      </speaker>
+      <title>Elastic snap-through: from the Venus flytrap to jumping popper toys</title>
+      <abstract>Snap-through buckling is a type of instability in which an elastic object rapidly jumps from one state to another. Such instabilities are familiar from everyday life: children’s popper toys rapidly ‘pop’ and jump after being turned inside-out, while snap-through is harnessed to generate fast motions in applications ranging from soft robotics to artificial heart valves. In biology, snap-through has long been exploited to convert energy stored slowly into explosive movements: both the leaf of the Venus flytrap and the beak of the hummingbird snap-through to catch prey unawares. Despite the ubiquity of snap-through in nature and engineering, its dynamics is usually only understood qualitatively, with many examples reported of delay phenomena in which snap-through occurs much more slowly than would be expected for an elastic instability. To explain this discrepancy, it is commonly assumed that some dissipation mechanism (such as material viscoelasticity) must be causing the system to lose energy and slow down. In this talk we examine how viscoelasticity influences the snap-through dynamics of a simple truss-like structure. We present a regime diagram that characterises when the timescale of snap-through is governed by viscous or elastic effects, and relate this to the creep behaviour we see in jumping popper toys.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>M.</first>
+        <last>Leonhardt</last>
+      </speaker>
+      <title>Why is e^π√163 almost an integer?</title>
+      <abstract>e^π√163=262537412640768743.99999999999925 is very close to an integer. Coincidence? Not at all. In this talk, we will see how this is related to the j-function, a certain holomorphic function on the upper half plane. We will interpret the j-function as a function on the space of elliptic curves, and then see how symmetries of elliptic curves and of this space have far-reaching consequences — not only for e^π√163.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>O.</first>
+        <last>Janzer</last>
+      </speaker>
+      <title>A generalization of the off-diagonal Ramsey numbers</title>
+      <abstract>The Ramsey number R(s,t) stands for the smallest positive integer N such that whenever the edges of the complete graph on N vertices are 2-coloured with red and blue, then there is a red clique on s vertices or a blue clique on t vertices. In this talk, I will review the known results about this function, mentioning some famous open problems. I will also talk about how random graphs can be used to prove lower bounds on R(s,t). Then I will present a generalisation of this function and state a recent result of Gowers and myself, which is based on an unusual random graph construction.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>A. J.</first>
+        <last>Carlotti</last>
+      </speaker>
+      <title>Uniform Bounds for Non-negativity of the Diffusion Game</title>
+      <abstract>I will discuss a variant of the chip-firing game known as the diffusion game. In the diffusion game, we begin with some integer labelling of the vertices of a graph, interpreted as a number of chips on each vertex, and then for each subsequent step every vertex simultaneously fires a chip to each neighbour with fewer chips. In general, this could result in negative vertex labels. In this talk I will answer the following question: do there exist values f(n), for each n, such that whenever we have a graph on n vertices and an initial allocation with at least f(n) chips on each vertex, then the number of chips on each vertex will remain non-negative. I will also consider the possibility of a similar bound g(d) for each d, where d is the maximum degree of the graph.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
