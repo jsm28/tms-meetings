@@ -17354,4 +17354,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>941</number>
+    <date>2019-02-25</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>J.</first>
+        <last>Wolf</last>
+      </speaker>
+      <title>Addition, multiplication, and why they don’t get along</title>
+      <abstract>The sum-product conjecture, put forward by Erdős and Szemerédi in the 1980s, states that the set of all pairwise sums and the set of all pairwise products of a finite subset of the reals cannot simultaneously be close to minimal in size. Despite the simplicity of its statement and a significant amount of research effort devoted to its resolution, the conjecture remains open to this day. In this talk I will explain the motivation for the conjecture as well as some fascinating partial results.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
