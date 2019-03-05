@@ -17371,4 +17371,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>942</number>
+    <date>2019-03-04</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>P. M. H.</first>
+        <last>Wilson</last>
+      </speaker>
+      <title>Elliptical billiards and Poncelet trajectories</title>
+      <abstract>Given an elliptical billiard table, to any ball trajectory which doesn’t cross the line segment joining the two foci, there is an associated smaller confocal ellipse inscribed in the trajectory. A Poncelet trajectory is one which is closed after a finite number of bounces. We’ll see that if there is one such closed trajectory with n segments, then starting from every point on the outer ellipse, there is a similar closed trajectory with n segments and the same inscribed ellipse, and indeed all these trajectories have the same length. Analogous geometric properties hold more generally for any pair of conics in the plane, and in modern terminology the existence of analogous Poncelet polygons is related to the torsion points on an associated elliptic curve.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
