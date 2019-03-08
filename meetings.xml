@@ -17388,4 +17388,16 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>943</number>
+    <date>2019-03-08</date>
+    <type>general meeting</type>
+    <flag>election of officers</flag>
+    <sub>
+      <desc>Annual General Meeting</desc>
+    </sub>
+    <venue>Blue Boar Common Room</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
