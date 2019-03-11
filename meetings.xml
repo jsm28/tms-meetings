@@ -17400,4 +17400,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>944</number>
+    <date>2019-03-11</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>E. J.-M.</first>
+        <last>Lauga</last>
+      </speaker>
+      <title>How to Build Mathematical Models</title>
+      <abstract>Everybody knows what “Mathematics” is but ask around and you will quickly realise that nobody really knows what “Applied Mathematics” means. In this talk I will use research drawn from the world of physics and biology to convey what it means to be an applied mathematician. In particular, I will explain how one goes about building a mathematical model, what approximate solutions are and why sometimes you don’t have a choice and need to use a computer.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
