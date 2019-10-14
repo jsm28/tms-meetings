@@ -17417,4 +17417,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>945</number>
+    <date>2019-10-14</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>I. B.</first>
+        <last>Leader</last>
+      </speaker>
+      <title>Higher Dimensions</title>
+      <abstract>We are all used to thinking about shapes in 2 or 3 dimensions. But what about in 4 dimensions? Or even n dimensions, where n is large?</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
