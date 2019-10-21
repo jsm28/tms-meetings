@@ -17434,4 +17434,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>946</number>
+    <date>2019-10-21</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>R.</first>
+        <last>Bauerschmidt</last>
+      </speaker>
+      <title>The Universality Phenomenon</title>
+      <abstract>Many complex systems in mathematics and physics show universal behaviour, i.e., behaviour that is independent of the details of the system. I will illustrate this universality phenomenon in several examples, some well-understood, some still mysterious.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
