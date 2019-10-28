@@ -17451,4 +17451,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>947</number>
+    <date>2019-10-28</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>M.</first>
+        <last>Dafermos</last>
+      </speaker>
+      <title>Is classical physics deterministic?</title>
+      <abstract>We are all taught that quantum mechanics suffers from lack of determinism. But classical, i.e. non-quantum, physics is supposedly deterministic: complete knowledge of initial conditions in the present uniquely determine the future. This notion of determinism is often associated with the name of Laplace, and finds a mathematical realisation in the standard existence and uniqueness theorems for differential equations. But is it really true that the classical equations of mathematical physics uphold this notion? This talk will explore one of the most spectacular ways that Laplacian determinism can in fact fail.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
