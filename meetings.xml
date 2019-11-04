@@ -17468,4 +17468,15 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>948</number>
+    <date>2019-11-04</date>
+    <type>recreational</type>
+    <sub>
+      <desc>Pub Quiz</desc>
+    </sub>
+    <venue>Junior Parlour</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
