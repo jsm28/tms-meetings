@@ -17479,4 +17479,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>949</number>
+    <date>2019-11-11</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>R. E.</first>
+        <last>Goldstein</last>
+      </speaker>
+      <title>Coffee stains, cell receptors, and time crystals: lessons from the old literature</title>
+      <abstract>A paradox of our digital age is that while we can access the older literature more easily than ever before, all too often our focus is only on the latest postings to the arxiv. The purpose of this seminar is to illustrate, by means of a few key examples, the benefits than can come from reading the old literature. My goal here is to be mentorial, particularly toward younger scientists, to emphasise that the ability to ferret out the origins of ideas is an important skill. Besides being the right thing to do, it can make for more interesting papers and seminars, and can often reveal motivations that have been lost in time.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
