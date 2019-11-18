@@ -17496,4 +17496,21 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>950</number>
+    <date>2019-11-18</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>R. D.</first>
+        <last>Shah</last>
+      </speaker>
+      <title>High-dimensional data and the Lasso</title>
+      <abstract>How would you try to solve a linear system of equations with more unknowns than equations? Of course, there are infinitely many solutions, and yet this is the sort of the problem statisticians face with many modern datasets, arising in genetics, imaging, finance and many other fields. What’s worse, our equations are often corrupted by noisy measurements! In this talk I will introduce a statistical method called the Lasso that has been at the centre of the huge amount of research that has gone into solving these problems.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
