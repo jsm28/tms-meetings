@@ -17513,4 +17513,15 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>951</number>
+    <date>2019-11-25</date>
+    <type>recreational</type>
+    <sub>
+      <desc>Mathmo Call My Bluff</desc>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
