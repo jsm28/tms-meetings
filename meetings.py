@@ -13,7 +13,7 @@ mdash = '\u2014'
 rsquo = '\u2019'
 ldquo = '\u201c'
 rdquo = '\u201d'
-joint_societies = ('Adams Society', 'Magpie and Stump',
+joint_societies = ('Adams Society', 'Archimedeans', 'Magpie and Stump',
                    'Mathematics Research Students'+rsquo+' Tea Club',
                    'New Pythagoreans', 'Trinity College Music Society',
                    'Trinity College Natural Sciences Society',

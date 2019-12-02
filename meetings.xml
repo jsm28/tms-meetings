@@ -17524,4 +17524,22 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>952</number>
+    <date>2019-12-02</date>
+    <type>talk</type>
+    <joint>Archimedeans</joint>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>C.</first>
+        <last>Birkar</last>
+      </speaker>
+      <title>Some elements of algebraic geometry</title>
+      <abstract>Algebraic geometry occupies a central place in modern mathematics. It has deep connections with various parts of mathematics. It is also deeply related to mathematical physics and has found applications in a wide range of topics. In this talk I will introduce some basics of algebraic geometry and then discuss some applications.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
