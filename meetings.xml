@@ -17542,4 +17542,26 @@
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>953</number>
+    <date>2020-01-20</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>T.</first>
+        <last>Crawford</last>
+      </speaker>
+      <title>Using maths to clean-up our oceans</title>
+      <abstract>This talk will provide a more in-depth look at the content of the Numberphile video: where does river water go? Rivers are the major source of pollution in the oceans and if we are to clean them up, we first need to know where the majority of the pollution is concentrated. By creating a mathematical model for river outflows – verified by laboratory experiments and fieldwork – the goal is to be able to predict which areas are most susceptible to pollution from rivers and thus coordinate clean-up
+operations as effectively as possible.</abstract>
+      <link>
+        <linkdesc>Numberphile video</linkdesc>
+        <href>https://www.youtube.com/watch?v=5mGh0r3zC6Y</href>
+      </link>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
