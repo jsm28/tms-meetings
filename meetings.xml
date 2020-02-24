@@ -17564,4 +17564,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>954</number>
+    <date>2020-02-24</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>J. R.</first>
+        <last>Lister</last>
+      </speaker>
+      <title>The fluid-mechanics of CO2 sequestration</title>
+      <abstract> Atmospheric CO2 levels are rising rapidly due to anthropogenic emissions. One proposal to reduce emissions and mitigate climate change is to capture and compress the CO2 before emission, and pump it underground into deep porous rock formations such as old oil reservoirs. What happens next? Is this safe? I will describe some mathematical modelling of the resultant porous flows and illustrate the ideas with movies of analogue laboratory experiments and numerical simulations.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
