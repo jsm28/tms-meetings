@@ -17581,4 +17581,95 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>955</number>
+    <date>2020-03-07</date>
+    <type>symposium</type>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>A.</first>
+        <last>Ivašković</last>
+      </speaker>
+      <title>“I just want to be pure”: graded monads for program analysis</title>
+      <abstract>Functional programmers (especially the Haskell ones) are obsessed with making their functions pure, so they resemble mathematical (partial) functions. The most common way effectful code is written in Haskell is by using monads. In this talk, I will show how recent developments in the research of graded monads can be used to automatically verify useful properties of programs.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Ms</stitle>
+        <first>J.</first>
+        <last>Yan</last>
+      </speaker>
+      <title>An introduction to descent calculations on elliptic curves</title>
+      <abstract>The explicit rank of the group of rational points of an elliptic curve is a center of interest in computational number theory. This is because the ranks are closely related to explicit rational solutions to certain algebraic equations. One common method of obtaining an upper bound for the rank is via the descent calculation. This talk begins with an introduction to elliptic curves and descent calculation. We will explore how the descent calculation can bound the rank of elliptic curves. In the end, we will briefly discuss some generalisation of this method.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>T. G.</first>
+        <last>Marge</last>
+      </speaker>
+      <title>Gaussian Latent Tree Models and their Statistics</title>
+      <abstract>Signal processing strategies and statistics for identifying the presence of evolution in continuous signals is investigated. Consider a feature to be a function on the original signal which contains information about the signal. Under this framework, a model for multivariate Gaussian features observed across related signals is described. The model considers the possibility that some features in the signal are tree amenable while others are not. A model for identifying candidate features using wavelet transforms is also described. Tree amenability is then explored from the perspective of data thresholding. Because of the high type-1 and type-2 error rates of know tests for Gaussian tree amenability, a measure of how tree amenable a feature is has been developed. A methodology is proposed for reconstructing only the tree amenable components of a signal to improve interoperability of the model. Rigorous statistical methods are then defined to test for both tree amenability as well as general structure in the data. To test and better understand these methods, strategies are described to randomly generate tree amenable data.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>E.-P. J.</first>
+        <last>Räty</last>
+      </speaker>
+      <title>Intervals in the Hales-Jewett theorem</title>
+      <abstract>The Hales-Jewett theorem for alphabet of size 3 states that whenever the cube {1, 2, 3}^n is r-coloured there exists a monochromatic line for n large. Given a line l, the set of active coordinates of l is the set of those coordinates that are allowed to vary. In this talk I will consider the following question: given r, what is the smallest number t so that for any r-colouring of [3]^n (n large) there exists a monochromatic line whose active set of coordinates is an union of at most t intervals.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>S. N.</first>
+        <last>Alperin</last>
+      </speaker>
+      <title>Multiply-Charged Vortices in Nonconservative Quantum Hydrodynamics</title>
+      <abstract>It is well understood that in quantum fluidic systems, rotational flows are restricted to quantized vortex singularities. However, despite being predicted to have extraordinary scientific and technological potential, due to dynamical instabilities, quantized vortices of higher-than-unit topological charge have remained elusive. Here, I show that the steady-state fluxes inherent to nonconservative quantum fluids allow for the spontaneous formation of stable quantum vortices of high topological charge.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Ms</stitle>
+        <first>M.</first>
+        <last>Tătulea-Codrean</last>
+      </speaker>
+      <title>Locomotion: from basilisk lizards to bacteria</title>
+      <abstract>Swimming, flying, crawling, hopping, gliding, ballooning, cartwheeling… the list could go on. Nature displays an astonishing diversity when it comes to locomotion. In this talk, I will give some examples of interesting locomotion starting from the animal kingdom and ending with the swimming of bacteria, which is the topic of my research. Along the way, I will highlight the role of physics and mathematics in understanding locomotion, and I will refer to some recent research done on this topic.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>P.</first>
+        <last>Boyle-Smith</last>
+      </speaker>
+      <title>The importance of Diophantine equations in the Standard Model</title>
+      <abstract>Charges of particles have to be integers. A careful study reveals that for quantum field theory to be consistent, these charges must obey certain sets of polynomial equations. We’ll look at how this plays out beautifully in the Standard Model, and at appearances of discrete mathematics in other related contexts.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>G. T.</first>
+        <last>Fortune</last>
+      </speaker>
+      <title>Bubble Sucking Tadpoles and other Animals: Using Mathematical Models to Explain Biological Phenomena</title>
+      <abstract>All across the natural world, organisms perform strange behaviours in order to help them survive in their chosen ecological niche. In this talk, I will chose a couple of such behaviours and discuss the mathematics behind these phenomena. Through constructing simple reduced mathematical models, we are not only able to bring to the surface the key underlying physics but also explain a myrid of experimental observations.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
+  <meeting>
+    <number>955a</number>
+    <date>2020-03-07</date>
+    <type>dinner</type>
+    <sub>
+      <desc>Annual Dinner</desc>
+    </sub>
+    <venue>Old Kitchens</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
