@@ -17672,4 +17672,16 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>956</number>
+    <date>2020-03-12</date>
+    <type>general meeting</type>
+    <flag>election of officers</flag>
+    <sub>
+      <desc>Annual General Meeting</desc>
+    </sub>
+    <venue>Blue Boar Common Room</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
