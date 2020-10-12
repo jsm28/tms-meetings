@@ -55,7 +55,8 @@ venues = ('',
           'Private Supply Room',
           'St John'+rsquo+'s College',
           'Winstanley Lecture Theatre',
-          'Wolfson Party Room')
+          'Wolfson Party Room',
+          'Zoom')
 venues_re = ('.* Blue Boar Court',
              'Room .*, 4A Bridge Street',
              '.* Bishop'+rsquo+'s Hostel',
