@@ -17733,4 +17733,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>960</number>
+    <date>2020-11-02</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>S.</first>
+        <last>Sachdev</last>
+      </speaker>
+      <title>A simple model of entangled qubits: how it describes superconductors and black holes</title>
+      <abstract>Long-range, multi-particle quantum entanglement plays a fundamental role in our understanding of many modern quantum materials, including the copper-based high temperature superconductors. Hawking’s quantum information puzzle in the quantum theory of black holes also involves non-local entanglement. I will describe a simple model of randomly entangled qubits which has shed light on these distinct fields of physics.</abstract>
+    </sub>
+    <venue>Zoom</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
