@@ -17766,4 +17766,20 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>962</number>
+    <date>2020-11-16</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>K.</first>
+        <last>Ono</last>
+      </speaker>
+      <title>Why does Ramanujan, ‘The Man Who Knew Infinity’, Matter?</title>
+    </sub>
+    <venue>Zoom</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
