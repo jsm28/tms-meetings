@@ -17798,4 +17798,20 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>964</number>
+    <date>2021-02-01</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>J. N.</first>
+        <last>Butterfield</last>
+      </speaker>
+      <title>A Philosopher Looks at Multiverse Proposals</title>
+    </sub>
+    <venue>Zoom</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
