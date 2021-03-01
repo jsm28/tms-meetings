@@ -17846,4 +17846,20 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>967</number>
+    <date>2021-03-01</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>E.</first>
+        <last>Riehl</last>
+      </speaker>
+      <title>Categorifying cardinal arithmetic</title>
+    </sub>
+    <venue>Zoom</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
