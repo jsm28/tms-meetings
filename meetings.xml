@@ -17878,4 +17878,20 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>969</number>
+    <date>2021-03-15</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>H. J. R.</first>
+        <last>Wilton</last>
+      </speaker>
+      <title>Geometry without Calculus</title>
+    </sub>
+    <venue>Zoom</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
