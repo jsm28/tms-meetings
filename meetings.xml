@@ -17894,4 +17894,16 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>970</number>
+    <date>2021-03-17</date>
+    <type>general meeting</type>
+    <flag>election of officers</flag>
+    <sub>
+      <desc>Annual General Meeting</desc>
+    </sub>
+    <venue>Zoom</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
