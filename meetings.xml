@@ -17922,4 +17922,15 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>971a</number>
+    <date>2021-06-22</date>
+    <type>sporting event</type>
+    <joint>Adams Society</joint>
+    <sub>
+      <desc>Cricket Match</desc>
+    </sub>
+    <venue>Old Field</venue>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
