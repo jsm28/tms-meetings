@@ -17933,4 +17933,21 @@ operations as effectively as possible.</abstract>
     <venue>Old Field</venue>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>972</number>
+    <date>2021-10-11</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>I. B.</first>
+        <last>Leader</last>
+      </speaker>
+      <title>Tournaments</title>
+      <abstract>We’ll look at some interesting phenomena to do with tournaments: both knockout tournaments (like Wimbledon) and all-play-all tournaments (like the Premier League).</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
