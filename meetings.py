@@ -21,8 +21,6 @@ joint_societies = ('Adams Society', 'Archimedeans', 'Magpie and Stump',
 # Titles are expected to come from this list, in order.  The common
 # British convention is used where such full stops are not used for
 # abbreviations ending with the last letter of the word abbreviated.
-pers_titles_text = ('Prof. ', 'Rev. ', 'Dr. ', 'Hon. ', 'Col. ', 'Sir ',
-                    'Lord ', 'Mr. ', 'Mrs. ', 'Ms. ', 'Miss ')
 pers_titles = ('Prof. ', 'Rev. ', 'Dr ', 'Hon. ', 'Col. ', 'Sir ',
                'Lord ', 'Mr ', 'Mrs ', 'Ms ', 'Miss ')
 roles = ('proponent', 'opponent', 'author', 'producer')
@@ -37,6 +35,7 @@ venues = ('',
           'Adrian House Seminar Room',
           'the College Bar (Q1 Great Court, 1958'+ndash+'1998)',
           'Blue Boar Common Room',
+          'Brewhouse Marquee',
           'Butler House Party Room',
           'Caius College',
           'river Cam',
@@ -68,18 +67,16 @@ venues_re = ('.* Blue Boar Court',
              '.* Nevile'+rsquo+'s Court')
 
 
-def get_title(name, tlist, tlist_adj):
-    """Separate a person's title from their name following."""
-    title = ''
-    for t in tlist:
-        if name.startswith(t):
-            tx = t
-            if t in tlist_adj:
-                tx = tlist_adj[t]
-            title += tx
-            name = name[len(t):]
-    title = title.rstrip()
-    return (title, name)
+def check_title(title):
+    """Check a person's title is in the expected form."""
+    orig_title = title
+    if title != '':
+        title += ' '
+    for t in pers_titles:
+        if title.startswith(t):
+            title = title[len(t):]
+    if title != '':
+        raise ValueError('unexpected title: %s' % orig_title)
 
 
 def check_unicode(text):
@@ -105,10 +102,8 @@ class Speaker(object):
 
     def __init__(self, title, first, last, role):
         """Initialize a Speaker object."""
-        ctitle, cname = get_title(title+' ', pers_titles, {})
-        if ctitle != title:
-            raise ValueError('unexpected title: %s' % title)
-        self.title = title
+        self.title = title or ''
+        check_title(self.title)
         self.first = first
         self.last = last
         self.id = '%s, %s' % (last, first)
@@ -135,7 +130,10 @@ class Speaker(object):
             name = '<a href="%s">%s</a>' % (html.escape(speaker_data[self.id]),
                                             name)
         title = self.title.replace(' ', nbsp)
-        text = '%s%s%s' % (html.escape(title), nbsp, name)
+        if title:
+            text = '%s%s%s' % (html.escape(title), nbsp, name)
+        else:
+            text = name
         if self.role:
             text = '%s (%s)' % (text, html.escape(self.role))
         return text

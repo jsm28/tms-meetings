@@ -17950,4 +17950,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>973</number>
+    <date>2021-10-20</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle></stitle>
+        <first>A.</first>
+        <last>Liu</last>
+      </speaker>
+      <title>Algorithmic trading and quantitative finance</title>
+      <abstract>The world of quantitative finance and high frequency trading is often a bit mysterious. In my talk I will try to shed some light on this world, and Jump’s role within it. I will discuss how I approach designing predictive models within the context of trading, and how financial markets may be a bit more complicated than they initially seem. Furthermore, I will speak about quant trading as a career, and how the skillset of maths and science students can be transferable to the world of trading.</abstract>
+    </sub>
+    <venue>Brewhouse Marquee</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
