@@ -17983,4 +17983,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>975</number>
+    <date>2021-11-01</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>V. R.</first>
+        <last>Neale</last>
+      </speaker>
+      <title>Waring’s Problem</title>
+      <abstract>Waring’s problem is about writing numbers as sums of numbers of a certain type: cubes, fourth powers, … The second proof of Waring’s conjecture came soon after the first, in the first decades of the 20th century, when Hardy and Littlewood used their “circle method” to great effect. I’ll talk a little about Waring’s problem and how the Hardy-Littlewood circle method can be used to resolve it, and will hint (but no more!) at more modern developments.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
