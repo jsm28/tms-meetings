@@ -18000,4 +18000,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>976</number>
+    <date>2021-11-14</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>J.</first>
+        <last>Gjorgjieva</last>
+      </speaker>
+      <title>Understanding how networks in the brain grow and compute</title>
+      <abstract>The brain is comprised of many hundreds of thousands of neurons interconnected in a non-random fashion by an even large number of synaptic connections. How this non-random connectivity comes about when the organisms are born so that they can perform diverse computations and behaviors in adulthood remains unclear. I will discuss insights we have gained into the process using mathematical models that allow us to study the processes at different spatial and temporal scales.</abstract>
+    </sub>
+    <venue>Zoom</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
