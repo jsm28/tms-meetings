@@ -18017,4 +18017,14 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>977</number>
+    <date>2021-11-29</date>
+    <type>visit</type>
+    <sub>
+      <desc>Visit to the Wren Library</desc>
+    </sub>
+    <venue></venue>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
