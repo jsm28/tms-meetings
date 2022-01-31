@@ -18027,4 +18027,21 @@ operations as effectively as possible.</abstract>
     <venue></venue>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>978</number>
+    <date>2022-01-31</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof. Sir</stitle>
+        <first>W. T.</first>
+        <last>Gowers</last>
+      </speaker>
+      <title>Human-oriented automatic theorem proving</title>
+      <abstract>Automatic theorem proving is the branch of computer science that aims to program computers to prove mathematical theorems. There are several approaches to this challenge. I shall say a little about them, before describing the one that interests me the most, which is to think very hard about how humans come up with proofs, and then to try to get computers to come up with proofs in as similar a way as possible. I shall talk a bit about what can be done fairly easily with this approach and what seems to be more difficult. I shall also discuss a project that will soon be launched to try to make significant progress over the next few years.</abstract>
+    </sub>
+    <venue>Zoom</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
