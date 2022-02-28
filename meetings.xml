@@ -18078,4 +18078,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>981</number>
+    <date>2022-02-28</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>J. A.</first>
+        <last>Rasmussen</last>
+      </speaker>
+      <title>Knots and Graphs: from Tait to Thistlethwaite</title>
+      <abstract>At the end of the 19th century, Peter Guthrie Tait published some of the first conjectures on the mathematical theory of knots. I’ll discuss these conjectures and how they were finally vanquished more than 90 years later with help from graph theory and a new knot invariant introduced by Vaughn Jones.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
