@@ -18095,4 +18095,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>982</number>
+    <date>2022-03-14</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>R. D.</first>
+        <last>Camina</last>
+      </speaker>
+      <title>Coverings of groups</title>
+      <abstract>Suppose G is a group, a covering of G is a set of proper subgroups whose union is G. The study of coverings of groups has a long history. In 2017 I was asked a question about coverings of finite p-groups. We now have an answer. I will talk about how we reached this answer and how we were led to the infinite world of pro-p groups.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
