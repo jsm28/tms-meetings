@@ -18112,4 +18112,15 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>983</number>
+    <date>2022-03-16</date>
+    <type>dinner</type>
+    <sub>
+      <desc>Annual Dinner</desc>
+    </sub>
+    <venue></venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
