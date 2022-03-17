@@ -18123,4 +18123,16 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>984</number>
+    <date>2022-03-17</date>
+    <type>general meeting</type>
+    <flag>election of officers</flag>
+    <sub>
+      <desc>Annual General Meeting</desc>
+    </sub>
+    <venue>Blue Boar Common Room</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
