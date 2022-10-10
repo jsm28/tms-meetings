@@ -18147,4 +18147,21 @@ operations as effectively as possible.</abstract>
     <venue>St John’s College</venue>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>985</number>
+    <date>2022-10-10</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>B.</first>
+        <last>Bollobás</last>
+      </speaker>
+      <title>Mathematics with Minimum Raw Material</title>
+      <abstract>Prof. Bollobás will present some beautiful results and problems, which he hopes will be enjoyed by freshmen and Part III students alike.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
