@@ -18164,4 +18164,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>986</number>
+    <date>2022-10-17</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>M.</first>
+        <last>Dunajski</last>
+      </speaker>
+      <title>Four Facets of Geometry</title>
+      <abstract>The study of geometry is at least 2500 years old, and it is within this field that the concept of mathematical proof – deductive reasoning from a set of axioms – first arose. The lecture will present four areas of geometry – Euclidean, non-Euclidean, projective geometry in Renaissance art, and geometry of space-time inside a black hole.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
