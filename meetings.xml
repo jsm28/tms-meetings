@@ -18192,4 +18192,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>988</number>
+    <date>2022-10-31</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>M.</first>
+        <last>Dafermos</last>
+      </speaker>
+      <title>Penrose’s Incompleteness Theorem</title>
+      <abstract>Two years ago, Roger Penrose was awarded the Nobel Prize in Physics. The accompanying press release cites his 1965 paper ‘Gravitational collapse and space-time singularities’. On the surface, this is a very unusual citation for a Physics Nobel: Despite appearing in Physical Review Letters, this is a quintessentially mathematical paper, sketching the proof of a theorem, indeed, a theorem of pure geometry! Yet it is hard to exaggerate how profoundly this theorem influenced the way all of us-mathematicians, physicists and even the wider public-today understand general relativity. In this talk, I will try to introduce Penrose’s incompleteness theorem and its legacy.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
