@@ -18209,4 +18209,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>989</number>
+    <date>2022-11-07</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>B.</first>
+        <last>Löwe</last>
+      </speaker>
+      <title>Arithmetic and its Strange Models</title>
+      <abstract>Peano’s famous axioms for arithmetic characterise the natural numbers up to isomorphism by Dedekind’s categoricity theorem. But in modern mathematical terms, Peano’s axioms are not an axiomatisation. Their modern version allows for non-isomorphic models, so called “non-standard models of arithmetic” that have infinitely large numbers. Can we gain some understanding of these strange mathematical structures?</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
