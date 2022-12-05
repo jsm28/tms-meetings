@@ -18243,4 +18243,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>991</number>
+    <date>2022-12-05</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>U. L.</first>
+        <last>Tillmann</last>
+      </speaker>
+      <title>Topology and Data</title>
+      <abstract>The field of topological data analysis is still quite young. We will give an introduction, look at some applications, and discuss theoretical challenges. Beyond some basic linear algebra, little previous knowledge will be assumed.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
