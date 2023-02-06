@@ -18271,4 +18271,15 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>993</number>
+    <date>2023-02-06</date>
+    <type>talk</type>
+    <sub>
+      <desc>(no dongle for projector available)</desc>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR3</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
