@@ -18282,4 +18282,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>994</number>
+    <date>2023-02-20</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>R. J.</first>
+        <last>Samworth</last>
+      </speaker>
+      <title>Stein’s paradox</title>
+      <abstract>Stein’s paradox is one of the most striking results in Statistics. Although it appears to be a basic problem in mathematical statistics, it turns out to have profound implications for the analysis of modern, high-dimensional data. I will describe both the result and some of its consequences.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
