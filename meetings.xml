@@ -18299,4 +18299,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>995</number>
+    <date>2023-02-27</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>I.</first>
+        <last>Kontoyiannis</last>
+      </speaker>
+      <title>Entropy</title>
+      <abstract>After a brief historical overview of the origins of the notion of entropy in physics, we describe its explosive entry into mathematics in the 1940s and 50s, and outline some of the mathematical areas in which entropy plays a crucial role. Some examples of important recent problems where the entropy was instrumental in their solution will also be described.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
