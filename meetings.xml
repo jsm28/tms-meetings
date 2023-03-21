@@ -18316,4 +18316,14 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>996</number>
+    <date>2023-03-20</date>
+    <type>visit</type>
+    <sub>
+      <desc>Visit to the Wren Library</desc>
+    </sub>
+    <venue></venue>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
