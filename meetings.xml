@@ -18326,4 +18326,21 @@ operations as effectively as possible.</abstract>
     <venue></venue>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>997</number>
+    <date>2023-05-11</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>Q.</first>
+        <last>Zhao</last>
+      </speaker>
+      <title>Causal inference: From Mathematical Theory to Scientific Practice</title>
+      <abstract>I will give an introduction to causal inference, a young and active research area at the interface of mathematics, statistics, philosophy, computer science, and several biological and social disciplines. In the first half of the talk, I will give a number of motivating problems from these fields, including the problem of induction, the nature of scientific theory, agricultural experiments, identifying disease-causing rare genetic variants, the debate about smoking and lung cancer, experiments about telepathy, synthesizing evidence about the effectiveness of conservation actions, abstract constructs in psychology, and whether race could be regarded as a cause. In the second half of the talk, I will outline some successful approaches that have become widely adopted in scientific practice and try to demonstrate the breadth and richness of the mathematics involved.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
