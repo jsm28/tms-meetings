@@ -18355,4 +18355,15 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>999</number>
+    <date>2023-05-29</date>
+    <type>dinner</type>
+    <sub>
+      <desc>Annual Dinner</desc>
+    </sub>
+    <venue></venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
