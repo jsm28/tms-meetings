@@ -18366,4 +18366,15 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>999a</number>
+    <date>2023-06-15</date>
+    <type>sporting event</type>
+    <joint>Adams Society</joint>
+    <sub>
+      <desc>Cricket Match</desc>
+    </sub>
+    <venue>Old Field</venue>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
