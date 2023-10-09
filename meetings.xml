@@ -18377,4 +18377,20 @@ operations as effectively as possible.</abstract>
     <venue>Old Field</venue>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1000</number>
+    <date>2023-10-09</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>I. B.</first>
+        <last>Leader</last>
+      </speaker>
+      <title>Thinking in Higher Dimensions</title>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
