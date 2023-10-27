@@ -18404,4 +18404,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1002</number>
+    <date>2023-10-27</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>F.</first>
+        <last>Yip</last>
+      </speaker>
+      <title>History and Construction of Brownian Motion</title>
+      <abstract>Originating as a physical discovery in botany, Brownian motion has been a key piece of evidence for molecular theory. In modern times, it now plays a central role in the analysis of stochastic and partial differential equations, alongside financial modelling. We shall explore its rigorous mathematical underpinnings which empowers its rich applications in analysis and beyond.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
