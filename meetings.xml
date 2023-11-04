@@ -18421,4 +18421,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1003</number>
+    <date>2023-11-01</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>A.</first>
+        <last>Liu</last>
+      </speaker>
+      <title>Quantitative Research at Jump Trading</title>
+      <abstract>Learn about quantitative research at Jump Trading – a leading quantitative trading firm built upon cutting-edge research and machine learning, high-performance technology, and an entrepreneurial culture – from Jump QR Akuan Liu (Cambridge ’18).</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
