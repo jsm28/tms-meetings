@@ -18438,4 +18438,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1004</number>
+    <date>2023-11-06</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>A. J.</first>
+        <last>Liu</last>
+      </speaker>
+      <title>Persistent homology for understanding protein allostery</title>
+      <abstract>We know from statistical physics that we need ensembles in order to extract microscopic understanding of collective phenomena. We have designed networks to have properties inspired by protein allostery and by “flow allostery” exhibited by the brain vasculature. By analyzing an ensemble of networks designed to have the similar response, we find that the response is of a topological nature and can be characterized using persistent homology. Our analysis is generalizable to real proteins and produces similar results, suggesting that the characterization of protein allostery can be reduced to the measure of the topological significance of two properties.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
