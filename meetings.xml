@@ -18472,4 +18472,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1006</number>
+    <date>2023-11-20</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>Z. E.</first>
+        <last>Wyatt</last>
+      </speaker>
+      <title>Traveling Waves</title>
+      <abstract>A central idea in the study of both linear and nonlinear evolutionary PDEs is wave propagation. In this talk I will explain some interesting things we can learn from travelling wave solutions to some progressively more complex PDEs. Since we’re near the end of term, the analysis will be friendly, our functions will be well behaved, and I will also read you the best poem ever written about dynamics.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
