@@ -18539,4 +18539,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1010</number>
+    <date>2024-02-12</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>O.</first>
+        <last>Janzer</last>
+      </speaker>
+      <title>Ramsey numbers and generalized Ramsey numbers</title>
+      <abstract>An old result in Combinatorics states that in every sufficiently large group of people, there are either 100 people who all know each other, or 100 people who all don’t know each other. But how large does the group need to be to have this property? This innocent-looking question has puzzled mathematicians for decades. In this talk I will discuss this problem and some variants of it.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
