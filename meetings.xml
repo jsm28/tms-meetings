@@ -18556,4 +18556,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1011</number>
+    <date>2024-02-19</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>J. R.</first>
+        <last>Lister</last>
+      </speaker>
+      <title>Stretching, bending, twisting and coiling: the fluid-mechanical sewing machine</title>
+      <abstract>Idlers at breakfast watching a stream of honey falling from a knife, may notice it buckle and coil as it reaches the toast. What happens if you move the toast (or the knife) steadily sideways? This talk will outline the mathematical description of the dynamics of a falling viscous thread, with possible diversions via chocolate fountains and Viennetta ice-cream.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
