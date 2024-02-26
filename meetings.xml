@@ -18573,4 +18573,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1012</number>
+    <date>2024-02-26</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>T. A.</first>
+        <last>Fisher</last>
+      </speaker>
+      <title>Elliptic curves in geometry and arithmetic</title>
+      <abstract>Elliptic curves may be regarded as the first non-trivial curves, and admit a rich theory starting with the fact that they are both algebraic curves and groups. In this talk I will start by describing some classical problems in geometry and number theory, before explaining what they have to do with elliptic curves. I will also discuss what is known, and what is expected to be true, about ranks of elliptic curves over the rational numbers.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
