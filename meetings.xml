@@ -18601,7 +18601,7 @@ operations as effectively as possible.</abstract>
         <last>Yeo</last>
       </speaker>
       <title>Scenery reconstruction</title>
-      <abstract>Suppose that the vertices of an n-gon have each been coloured red or blue. You don't know the exact colouring and would like to find out. A nearby probability theorist agrees to help you, by performing a random walk on the n-gon, and reading out the list of colours they observe. Is this information enough for you to recover the true colouring, or at least the structure of the true colouring? We'll discuss aspects of this so-called “scenery reconstruction problem”, including the case of infinite graphs.</abstract>
+      <abstract>Suppose that the vertices of an n-gon have each been coloured red or blue. You don’t know the exact colouring and would like to find out. A nearby probability theorist agrees to help you, by performing a random walk on the n-gon, and reading out the list of colours they observe. Is this information enough for you to recover the true colouring, or at least the structure of the true colouring? We’ll discuss aspects of this so-called “scenery reconstruction problem”, including the case of infinite graphs.</abstract>
     </sub>
     <venue>Winstanley Lecture Theatre</venue>
     <attendance>?</attendance>
