@@ -18607,4 +18607,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1014</number>
+    <date>2024-03-12</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof. Sir</stitle>
+        <first>W. T.</first>
+        <last>Gowers</last>
+      </speaker>
+      <title>The hidden structure of sumsets</title>
+      <abstract>If A and B are sets of integers, the sumset A+B is defined to be the set of all integers x+y such that x is an element of A and y is an element of B. This deceptively simple definition opens the door to a large number of deep theorems and interesting open problems. I’ll talk about a few of them.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
