@@ -18624,4 +18624,22 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1015</number>
+    <date>2024-04-25</date>
+    <type>talk</type>
+    <joint>Archimedeans</joint>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>S. K.</first>
+        <last>Donaldson</last>
+      </speaker>
+      <title>Complex numbers, quaternions, octonions and singular spaces</title>
+      <abstract>In the first part of the talk I will discuss the 1958 algebro-geometric paper of Atiyah “On analytic surfaces with double points”, relating smoothings and resolutions of two-dimensional double point singularities. In the second part I will review the quaternion number system, differential-geometric hyperkahler structures on four-dimensional manifolds and the ALE spaces which connect with the first part. For the last part of the talk, I will introduce the octonion number system, the exceptional Lie group G{2} and the corresponding differential-geometric structures on seven-dimensional manifolds. I will discuss some parts of the 2001 paper of Atiyah and Witten “M-Theory dynamics on a manifold of G{2} holonomy”, and questions of current research interest concerning singularities of G_{2} structures.</abstract>
+    </sub>
+    <venue>Babbage Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
