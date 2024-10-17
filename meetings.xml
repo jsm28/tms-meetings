@@ -18665,4 +18665,15 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1018</number>
+    <date>2024-10-14</date>
+    <type>recreational</type>
+    <sub>
+      <desc>Social and Board Games</desc>
+    </sub>
+    <venue>Burrell’s Field Common Room</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
