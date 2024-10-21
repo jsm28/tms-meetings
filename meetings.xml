@@ -18676,4 +18676,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1019</number>
+    <date>2024-10-21</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>J. R.</first>
+        <last>Lister</last>
+      </speaker>
+      <title>Spreading Golden Syrup</title>
+      <abstract>If a tank containing 9000 m^3 of molasses collapses 50 m away from you, how fast do you need to run? What if it is 100 m away? I will solve this and other problems through an introduction to the equations of viscous flow, the lubrication approximation and self-similar solutions to nonlinear differential equations for events that start (or finish) with a catastrophe. Featuring golden syrup. No previous knowledge of fluids necessary.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
