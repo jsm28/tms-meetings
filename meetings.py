@@ -35,6 +35,7 @@ venues = ('',
           'Adrian House Seminar Room',
           'the College Bar (Q1 Great Court, 1958'+ndash+'1998)',
           'Babbage Lecture Theatre',
+          'Bar'
           'Blue Boar Common Room',
           'Brewhouse Marquee',
           'Burrell'+rsquo+'s Field Common Room',

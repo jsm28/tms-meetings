@@ -18693,4 +18693,15 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1020</number>
+    <date>2024-10-22</date>
+    <type>recreational</type>
+    <sub>
+      <desc>Jump Trading Pub Quiz</desc>
+    </sub>
+    <venue>Bar</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
