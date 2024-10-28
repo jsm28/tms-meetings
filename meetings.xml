@@ -18704,4 +18704,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1021</number>
+    <date>2024-10-28</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>I. B.</first>
+        <last>Leader</last>
+      </speaker>
+      <title>Tournaments</title>
+      <abstract>Most tournaments are of two types. There are all-play-all tournaments, like many chess tournaments or the group stages of football tournaments, and there are knockout tournaments where one loss eliminates you, like most tennis tournaments or the final stages of football tournaments. We will discuss some interesting things that happen in each of these two.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
