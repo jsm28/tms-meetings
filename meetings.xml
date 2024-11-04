@@ -18721,4 +18721,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1022</number>
+    <date>2024-11-04</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof. Sir</stitle>
+        <first>D. J.</first>
+        <last>Spiegelhalter</last>
+      </speaker>
+      <title>The Art of Uncertainty: How to Navigate Chance, Ignorance, Risk, and Luck</title>
+      <abstract>We all have to live with uncertainty about what is going to happen, what has happened, and why things turned out how they did. We attribute good and bad events as ‘due to chance’, label people as ‘lucky’, and (sometimes) admit our ignorance. I will show how to use the theory of probability to take apart all these ideas, and demonstrate how you can put numbers on your ignorance, and then measure how good those numbers are. Along the way we will look at three types of luck, and judge whether Derren Brown was lucky or unlucky when he was filmed flipping ten Heads in a row. [Professor Spiegelhalter’s latest book is The Art of Uncertainty, How to Navigate Chance, Ignorance, Risk and Luck (Penguin, 19 Sep 2024)!]</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
