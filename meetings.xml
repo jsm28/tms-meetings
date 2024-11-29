@@ -18783,4 +18783,16 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1026</number>
+    <date>2024-11-29</date>
+    <type>general meeting</type>
+    <flag>non-election business</flag>
+    <sub>
+      <desc>Extraordinary General Meeting</desc>
+    </sub>
+    <venue>Centre for Mathematical Sciences Core</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
