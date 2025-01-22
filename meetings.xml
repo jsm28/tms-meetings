@@ -18795,4 +18795,66 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1027</number>
+    <date>2025-01-22</date>
+    <type>talks</type>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>I.</first>
+        <last>Nath</last>
+      </speaker>
+      <title>From Finite to Infinite Random Graphs</title>
+      <abstract>In this talk, I will introduce the Rado graph, a countable graph with surprising properties, and explore what it can reveal about finite random graphs.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>V.</first>
+        <last>Velikov</last>
+      </speaker>
+      <title>Special Relativity in Olympiad Geometry</title>
+      <abstract>I will present a way of reformulating certain types of Euclidean geometry problems through the lens of special relativity.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>D. S. H.</first>
+        <last>Toh</last>
+      </speaker>
+      <title>Picturing Exact Sequences</title>
+      <abstract>Exact sequences represent information about maps of abelian groups and vector spaces. Following R. Vakil’s picturebook, I will explain how to visualise them, and present a proof-by-picture.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>J.</first>
+        <last>Huber</last>
+      </speaker>
+      <title>Combinatorial Game Theory</title>
+      <abstract>In this talk, I define a combinatorial game, investigate patterns in the group of games, and look at a first theorem which completely classifies a subgroup of the games – and if there’s enough time, we will play some games on the way.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>D.</first>
+        <last>Barnes</last>
+      </speaker>
+      <title>Convexity and Beer</title>
+      <abstract>Is there a convex body in ℝ³ such that every convex shape in ℝ² can be obtained by a plane cut?</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>H.</first>
+        <last>Jaspars</last>
+      </speaker>
+      <title>Squier’s Puzzle and Thompson’s Group</title>
+      <abstract>In this talk, I will introduce an elegant problem of C. Squier and demonstrate its solution through a brief foray into R. Thompson’s group F.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
