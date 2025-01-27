@@ -18857,4 +18857,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1028</number>
+    <date>2025-01-27</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>T. A.</first>
+        <last>Fisher</last>
+      </speaker>
+      <title>Local-to-global principles in number theory</title>
+      <abstract>One of the basic motivating problems in number theory is to decide whether a system of equations (usually polynomials) has any solutions in integers or rational numbers. Sometimes it is possible to show that such a Diophantine problem has no solutions by working modulo a prime, or a power of a prime, or by showing that there are no real solutions. In such cases we say that there is a local obstruction. In this talk I will give some examples and non-examples of situations where the absence of a local obstruction is sufficient to ensure that the original (global) problem is soluble.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
