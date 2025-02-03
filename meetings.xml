@@ -18874,4 +18874,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1029</number>
+    <date>2025-02-03</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>M. R.</first>
+        <last>Tehranchi</last>
+      </speaker>
+      <title>Fun with convexity</title>
+      <abstract>Convexity appears in a number of seemingly unrelated contexts, both in applications as well as in pure mathematics. This talk will survey some fun facts about convex functions and convex sets. Topics will include convex duality, convexity in economics, volumes of convex sets, and unsolved open problems.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
