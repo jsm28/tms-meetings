@@ -18908,4 +18908,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1031</number>
+    <date>2025-02-17</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>A.</first>
+        <last>Sarkovic</last>
+      </speaker>
+      <title>Picking a spanning tree at random</title>
+      <abstract>A spanning tree of a graph is a tree that includes all the vertices of the graph and whose edges are a subset of the graph’s edges. In this talk, I will describe a couple of algorithms for selecting a spanning tree uniformly at random from the set of all spanning trees of a graph.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
