@@ -18925,4 +18925,15 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1032</number>
+    <date>2025-02-24</date>
+    <type>recreational</type>
+    <sub>
+      <desc>Pizza &amp; Bubble Tea Social</desc>
+    </sub>
+    <venue>Burrell’s Field Common Room</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
