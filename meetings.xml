@@ -18936,4 +18936,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1033</number>
+    <date>2025-03-03</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>B. J.</first>
+        <last>Green</last>
+      </speaker>
+      <title>Besicovitch sets and the Kakeya Conjecture</title>
+      <abstract>In a preprint posted online on February 26th, Hong Wang and Josh Zahl announced a proof of the Kakeya Conjecture in 3 dimensions. I will explain what this means together with some of the history of the problem.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
