@@ -18953,4 +18953,15 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1034</number>
+    <date>2025-03-09</date>
+    <type>dinner</type>
+    <sub>
+      <desc>Annual Dinner</desc>
+    </sub>
+    <venue>Old Kitchens</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
