@@ -18964,4 +18964,20 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1035</number>
+    <date>2025-03-10</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>R.</first>
+        <last>Nickl</last>
+      </speaker>
+      <title>Bayesian inference for infinite dimensional nonlinear dynamical systems and ‘data assimilation’</title>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
