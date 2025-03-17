@@ -18980,4 +18980,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1036</number>
+    <date>2025-03-17</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>K. L. P.</first>
+        <last>Warburton</last>
+      </speaker>
+      <title>Understanding glacier stability</title>
+      <abstract>Glaciers are enormous examples of viscous flow in nature. Their poorly constrained boundary conditions lead to large uncertainty in sea level rise predictions. In this talk, I’ll present some classical and much more recent results that employ linear stability analysis to understand glacier evolution, measurement, and observations.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
