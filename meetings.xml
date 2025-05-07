@@ -19009,4 +19009,22 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1038</number>
+    <date>2025-05-07</date>
+    <type>talk</type>
+    <joint>Archimedeans</joint>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>N. J.</first>
+        <last>Hitchin</last>
+      </speaker>
+      <title>Gauge Theories and Algebraic Curves</title>
+      <abstract>Although Michael Atiyah was a big influence on my whole mathematical career, our collaboration in the 1970s and 80s was on instantons and monopoles, gauge theories in 4 and 3 dimensions. The talk will discuss the role of spectral curves for hyperbolic monopoles, introduced in his 1987 paper, and spectral curves for Higgs bundles, a gauge theory in 2 dimensions, where his 1955 paper, written when he was a PhD student, sheds light on some recent developments.</abstract>
+    </sub>
+    <venue>Babbage Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
