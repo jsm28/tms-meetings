@@ -19027,4 +19027,66 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1039</number>
+    <date>2025-05-14</date>
+    <type>talks</type>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>D.</first>
+        <last>Goel</last>
+      </speaker>
+      <title>Bertrand’s Postulate (or Why All of Maths is Cool)</title>
+      <abstract>I realized only too late in my (mathematical) life that All of Maths is Cool™. Here’s a taste of why I think that is. Alternative talk titles: why number theorists need analysis (and vice-versa), why you aren’t too cool for that bit of maths, more reasons why primes are awesome, etc.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>D.</first>
+        <last>Barnes</last>
+      </speaker>
+      <title>Best Axiom of Choice Consequence</title>
+      <abstract>We will talk about the best axiom of choice consequence. There are no prerequisites. It is not a hat problem.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>K.</first>
+        <last>Williams</last>
+      </speaker>
+      <title>Acute Sets in 𝒅 Dimensions</title>
+      <abstract>The aim of this talk is to present an original disproof of the Danzer-Grünbaum conjecture. This conjecture was previously resolved using the probabilistic method and also relatively recently with geometry. Our new approach uses elementary symmetric polynomials.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>H.</first>
+        <last>Jaspars</last>
+      </speaker>
+      <title>Continued Fractions and Ergodics</title>
+      <abstract>In this lecture, I will offer a sketch of a proof of a Khintchine’s theorem, and introduce some elementary ideas from ergodic theory.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>S.</first>
+        <last>Li</last>
+      </speaker>
+      <title>Szemerédi-Trotter and the Order of the Polynomial</title>
+      <abstract>Imagine combi-geo but with polynomials and probabilistic methods: this is incidence geometry. I’ll present the classic Szemerédi-Trotter Theorem on point-line incidences as well as some more modern algebraic techniques. Suitable for all puremos.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Ms</stitle>
+        <first>A.</first>
+        <last>Courtney</last>
+      </speaker>
+      <title>Squared Squares (and Rectangles!)</title>
+      <abstract>Squared squares are squares partitioned into smaller squares of distinct integer sizes. TMS’ own alum were the first to pursue them systematically. Alan Turing suggested they could be found by computers, and my project continues the work of Ian Gambini to discover some very cool new rectangles and push the pursuit of exhaustive searching for them.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR4</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
