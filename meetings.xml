@@ -19089,4 +19089,15 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1039a</number>
+    <date>2025-06-23</date>
+    <type>sporting event</type>
+    <joint>Adams Society</joint>
+    <sub>
+      <desc>Cricket Match</desc>
+    </sub>
+    <venue>St John’s College</venue>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
