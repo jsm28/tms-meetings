@@ -19100,4 +19100,20 @@ operations as effectively as possible.</abstract>
     <venue>St John’s College</venue>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1040</number>
+    <date>2025-10-15</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>H. S.</first>
+        <last>Reall</last>
+      </speaker>
+      <title>Black holes discovered by Trinity Fellows</title>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR3</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
