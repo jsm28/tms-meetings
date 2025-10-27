@@ -19132,4 +19132,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1042</number>
+    <date>2025-10-27</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>K. M.</first>
+        <last>Buzzard</last>
+      </speaker>
+      <title>Why formalise mathematics?</title>
+      <abstract>Formalisation is the art of teaching mathematical definitions and proofs to a computer. Why bother doing this? It’s far harder than writing LaTeX and it might not be immediately clear what the benefits are. In the talk I’ll explain how the idea of formalisation has really taken off over the last few years, who is doing it, what their motivations are, what the future might hold, and how you can help.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR3</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
