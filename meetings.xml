@@ -19166,4 +19166,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1044</number>
+    <date>2025-11-18</date>
+    <type>talk</type>
+    <joint>Imperial MathSoc</joint>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>J.</first>
+        <last>Muhle-Karbe</last>
+      </speaker>
+      <desc>(title not announced)</desc>
+    </sub>
+    <venue>Imperial College</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>

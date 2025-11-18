@@ -13,7 +13,8 @@ mdash = '\u2014'
 rsquo = '\u2019'
 ldquo = '\u201c'
 rdquo = '\u201d'
-joint_societies = ('Adams Society', 'Archimedeans', 'Magpie and Stump',
+joint_societies = ('Adams Society', 'Archimedeans', 'Imperial MathSoc',
+                   'Magpie and Stump',
                    'Mathematics Research Students'+rsquo+' Tea Club',
                    'New Pythagoreans', 'Trinity College Music Society',
                    'Trinity College Natural Sciences Society',
@@ -47,6 +48,7 @@ venues = ('',
           'DAMTP',
           'Emmanuel College',
           'Hall',
+          'Imperial College',
           'Junior Combination Room',
           'Junior Parlour',
           'Lecture-Room Theatre (I Great Court)',
