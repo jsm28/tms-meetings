@@ -19194,4 +19194,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1046</number>
+    <date>2025-12-01</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>E. J.-M.</first>
+        <last>Lauga</last>
+      </speaker>
+      <title>How to build models</title>
+      <abstract>You all know what “Mathematics” is … but what do “Applied Mathematicians” actually do all day? In this talk, I will use examples from physics and biology to show how mathematical models are built, what approximate solutions are, and why we sometimes have no choice but to rely on computers.</abstract>
+    </sub>
+    <venue>Winstanley Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
