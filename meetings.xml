@@ -19211,4 +19211,48 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1047</number>
+    <date>2026-01-28</date>
+    <type>talks</type>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>S.</first>
+        <last>Li</last>
+      </speaker>
+      <title>How to define tensor rank?</title>
+      <abstract>A tensor is something whose components transform like a tensor. Forget that. In linear algebra, we define the rank of a matrix in many different ways. Yet if we try to generalise each definition to higher dimensions, they start to differ. I will present combinatorial, geometric and analytic notions of tensor rank, and how they relate to one another.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Ms</stitle>
+        <first>R.</first>
+        <last>Baish</last>
+      </speaker>
+      <title>Separation logic</title>
+      <abstract>When can A and B each be true, but A and B be false? Why is this useful? Separation Logic is used for reasoning about exclusive ownership of resources, whether that’s computer memory locations or who booked which table at the pub. It's a vital tool for verifying software, and there’s an entire field of maths behind it.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>H.</first>
+        <last>Jaspars</last>
+      </speaker>
+      <title>Euler characteristics and −1/12</title>
+      <abstract>In this talk we will give a proof that 1 + 2 + … = −1/12 through group cohomology.</abstract>
+    </sub>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>L.</first>
+        <last>Yang</last>
+      </speaker>
+      <title>On the Infinitude of primes</title>
+      <abstract>In this talk we prove that there are infinitely many primes.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
