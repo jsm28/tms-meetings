@@ -19231,7 +19231,7 @@ operations as effectively as possible.</abstract>
         <last>Baish</last>
       </speaker>
       <title>Separation logic</title>
-      <abstract>When can A and B each be true, but A and B be false? Why is this useful? Separation Logic is used for reasoning about exclusive ownership of resources, whether that’s computer memory locations or who booked which table at the pub. It's a vital tool for verifying software, and there’s an entire field of maths behind it.</abstract>
+      <abstract>When can A and B each be true, but A and B be false? Why is this useful? Separation Logic is used for reasoning about exclusive ownership of resources, whether that’s computer memory locations or who booked which table at the pub. It’s a vital tool for verifying software, and there’s an entire field of maths behind it.</abstract>
     </sub>
     <sub>
       <speaker>
