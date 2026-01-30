@@ -19255,4 +19255,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1047</number>
+    <date>2026-01-30</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>N.</first>
+        <last>Kravitz</last>
+      </speaker>
+      <title>How to sort your socks while standing on one foot</title>
+      <abstract>You have a collection of socks of various colours. After washing your socks in the laundry, you remove them one at a time and place them in a line. Unfortunately, the socks of the same colour may not all appear together. I will describe how to remedy this situation by iteratively moving socks onto and off of your foot. Based on joint work with Colin Defant.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR3</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
