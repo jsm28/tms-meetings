@@ -19296,4 +19296,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1050</number>
+    <date>2026-02-23</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>J. A.</first>
+        <last>Thorne</last>
+      </speaker>
+      <title>How to prove Fermat’s Last Theorem</title>
+      <abstract>Many people know that the 1994 proof of Fermat’s Last Theorem by Andrew Wiles was the end of a centuries-long mathematical story. Not so many people know that it also marked the beginning of a period of rapid progress in our understanding of Langlands duality, a conjectural theory that, in retrospect, can be seen to underlie much of Wiles’s proof. In this talk, I will discuss some aspects of Wiles’s proof and how it fits into the mathematical landscape, both ancient and modern.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
