@@ -19330,4 +19330,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1052</number>
+    <date>2026-03-09</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>R. J.</first>
+        <last>Samworth</last>
+      </speaker>
+      <title>How should we do linear regression?</title>
+      <abstract>This will be a research talk, but one that I will try to make accessible to undergraduates. In the context of linear regression, the Gauss—Markov theorem gives some reassurance about the performance of the ordinary least squares (OLS) estimator even when the error distribution is non-Gaussian. However, it only compares the OLS estimator with other linear, unbiased estimators. We show how it is possible to improve on the OLS estimator when errors are non-Gaussian by constructing a data-driven convex loss function with respect to which empirical risk minimisation yields optimal asymptotic variance in the downstream estimation of the regression coefficients.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
