@@ -19347,4 +19347,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1053</number>
+    <date>2026-03-12</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>P.-S.</first>
+        <last>Loh</last>
+      </speaker>
+      <title>How a world-traveling combinatorialist invents win-win solutions to large-scale human problems. Just in time to survive AI</title>
+      <abstract>“Why are we learning this?” — the dreaded question often received by mathematics educators The speaker will share his story, which starts with Part III Maths (which he completed 21 years ago) and the International Mathematical Olympiad (where he was the USA national coach for 10 years). Now he travels to 100+ cities per year, observing the human condition firsthand, and then uses his combinatorics and problem-solving background to devise new solutions to practical problems that affect our whole society: disease control, education, and more generally, the survival of human civilization. The mathematical areas of graph theory and game theory feature as inspirations in his work. During the COVID lockdown, he invented an app (https://www.abc.net.au/news/2022-01-26/omicron-spread-what-is-the-future-of-contact-tracing/100770948) which addresses the incentive misalignment problem intrinsic in contact tracing: in the traditional approach, people are asked to isolate to protect others against infection, not to save themselves. He has also been working for a decade at the intersection of education and technology. His latest creation there is a new, highly-scalable ecosystem for teaching secondary school students how to invent their own solutions to unfamiliar (math) problems, powered by a unique incentive alignment structure that involves professionally trained actors and comedians collaborating with math stars (https://www.cnn.com/world/professor-po-shen-loh-actors-classrooms-spc). This comes just in time, as the rise of AI necessitates more advanced skills. Along the way, it also presents a novel solution to the bigger question of how to reasonably organize society in the post-AI age. This talk will be accessible to all backgrounds, including non-mathematicians. Mathematicians will notice several key places where mathematical insights played a major role in unlocking solutions. Everyone will be able to understand many of his main points of advice on how to thrive in the post-AI age.</abstract>
+    </sub>
+    <venue>Cockcroft Lecture Theatre</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
