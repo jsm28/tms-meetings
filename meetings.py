@@ -98,8 +98,9 @@ def check_unicode(text):
         raise ValueError('ASCII ellipsis: %s' % text)
     if ' -' in text:
         raise ValueError('ASCII dash: %s' % text)
-    if re.search(r'[0-9]-[0-9]', text):
-        raise ValueError('ASCII dash: %s' % text)
+    # False positives in URLs.
+    #if re.search(r'[0-9]-[0-9]', text):
+    #    raise ValueError('ASCII dash: %s' % text)
     if re.search(r'[0-9]-\Z', text):
         raise ValueError('ASCII dash: %s' % text)
 
