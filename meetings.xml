@@ -19364,4 +19364,16 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1054</number>
+    <date>2026-03-16</date>
+    <type>general meeting</type>
+    <flag>election of officers</flag>
+    <sub>
+      <desc>Annual General Meeting</desc>
+    </sub>
+    <venue>Burrell’s Field Common Room</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
