@@ -19387,4 +19387,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1056</number>
+    <date>2026-04-27</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>M. B.</first>
+        <last>Cashman</last>
+      </speaker>
+      <title>Breaking Enigma: Mathematics, Machines, Trinity Minds and Decisions</title>
+      <abstract>The breaking of Enigma combined mathematical insight, engineering ingenuity, and large-scale organisation under wartime pressure. Mike Cashman (Trinity 1972) explores  how the problem was understood and attacked, from early Polish work to the development of the Bombe spearheaded by Turing and Keen, with particular reference to Trinity code-breakers such as Gordon Welchman and Stuart Milner-Barry. It also reflects on the role of combining judgement, persistence, and collaboration together with intellectual insight in these achievements – and considers what we might learn from the example of Welchman (1925), Milner-Barry (1925), and also of Bill Tutte (1935) who played a different crucial role at Bletchley Park.</abstract>
+    </sub>
+    <venue>Old Combination Room</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
