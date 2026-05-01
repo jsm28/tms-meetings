@@ -19404,4 +19404,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1057</number>
+    <date>2026-05-01</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>B.</first>
+        <last>Bollobás</last>
+      </speaker>
+      <title>Upstairs, Downstairs</title>
+      <abstract>The lecture will contain a mixture of important results and playful questions in similar vein. The talk should be understandable to freshmen and of interest to all.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
