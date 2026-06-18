@@ -19443,4 +19443,15 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1058b</number>
+    <date>2026-06-18</date>
+    <type>sporting event</type>
+    <joint>Adams Society</joint>
+    <sub>
+      <desc>Cricket Match</desc>
+    </sub>
+    <venue>Old Field</venue>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
