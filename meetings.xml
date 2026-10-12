@@ -19454,4 +19454,21 @@ operations as effectively as possible.</abstract>
     <venue>Old Field</venue>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1059</number>
+    <date>2026-10-12</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>I. B.</first>
+        <last>Leader</last>
+      </speaker>
+      <title>Thinking in higher dimensions</title>
+      <abstract>We are all used to thinking about shapes in 2 or 3 dimensions. But what about in 4 dimensions? Or even n dimensions, where n is large?</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
