@@ -19471,4 +19471,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1060</number>
+    <date>2026-10-19</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>V. S.</first>
+        <last>Jog</last>
+      </speaker>
+      <title>Hypothesis testing: An information theory, CS theory, and statistics playground</title>
+      <abstract>Simple binary hypothesis testing is very easy to state: Given n independent samples drawn from one of two known distributions, P or Q, determine which one. This problem has been studied for over a century, and all that can be known about it is already known… or is it? This talk will explore how small tweaks to the problem statement—motivated by real-world applications—create variations for which answers to fundamental questions are still unknown. These variations are perfect playgrounds for interactions between information theory (the mathematics of information and communication), theoretical computer science, and statistics. To give you one sample point of what a mathematician’s research life looks like these days, I will also discuss how I use AI in my research group.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
