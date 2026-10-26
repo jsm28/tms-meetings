@@ -19488,4 +19488,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1061</number>
+    <date>2026-10-26</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>T. A.</first>
+        <last>Fisher</last>
+      </speaker>
+      <title>The class number one problem of Gauss</title>
+      <abstract>Class numbers arise in number theory when attempting to generalise the theorem on unique prime factorisation to sets of numbers other than the integers. I will talk about a conjecture of Gauss that was solved independently by two different methods in the 1960s, and explain how one of the approaches is related to still open questions about torsion points on elliptic curves.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
