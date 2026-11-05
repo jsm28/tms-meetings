@@ -19516,4 +19516,30 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1063</number>
+    <date>2026-11-05</date>
+    <type>panel discussion</type>
+    <sub>
+      <speaker>
+        <stitle>Prof. Sir</stitle>
+        <first>W. T.</first>
+        <last>Gowers</last>
+      </speaker>
+      <speaker>
+        <stitle>Dr</stitle>
+        <first>T. J.</first>
+        <last>Read</last>
+      </speaker>
+      <speaker>
+        <stitle>Mr</stitle>
+        <first>J.</first>
+        <last>Coxon</last>
+      </speaker>
+      <title>AI Safety Panel Discussion</title>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
