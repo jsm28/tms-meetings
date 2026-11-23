@@ -19565,4 +19565,21 @@ operations as effectively as possible.</abstract>
     <attendance>?</attendance>
     <minutes><volume>12</volume><page>?</page></minutes>
   </meeting>
+  <meeting>
+    <number>1066</number>
+    <date>2026-11-23</date>
+    <type>talk</type>
+    <sub>
+      <speaker>
+        <stitle>Prof.</stitle>
+        <first>R.</first>
+        <last>Santhanam</last>
+      </speaker>
+      <title>Complexity as Incompressibility</title>
+      <abstract>I will discuss Kolmogorov complexity (discovered independently by Kolmogorov, Solomonoff and Chaitin) and its resource-bounded variants, and use these notions to give a unified perspective on various fundamental questions, such as learning, the NP vs P problem, explicit constructions of combinatorial objects (such as Ramsey graphs and rigid matrices) and efficient provability. The basic underlying idea is to define the complexity of a finite object as the description length according to some standard description scheme. In this view, Compressibility = Structure = Simplicity, and Complexity = Randomness. I will explain why this view indicates the difficulty of resolving P vs NP and related complexity lower bound questions.</abstract>
+    </sub>
+    <venue>Centre for Mathematical Sciences MR2</venue>
+    <attendance>?</attendance>
+    <minutes><volume>12</volume><page>?</page></minutes>
+  </meeting>
 </meetings>
